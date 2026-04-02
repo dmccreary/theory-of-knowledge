@@ -1,0 +1,14 @@
+{
+  "sim_id": "deductive-inductive-comparison",
+  "diagram_name": "Deductive vs. Inductive Reasoning",
+  "chapter_number": 6,
+  "chapter_title": "Reasoning and Argumentation",
+  "chapter_dir": "06-reasoning-and-argumentation",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare deductive and inductive reasoning by examining their structures, strengths, limitations, and appropriate domains of application.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** deductive-inductive-comparison<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare deductive and inductive reasoning by examining their structures, strengths, limitations, and appropriate domains of application.\n\n**Instructional Rationale:** A side-by-side interactive comparison allows students to see the structural differences between the two reasoning types. The ability to toggle between examples across different domains reinforces that both reasoning types appear in every area of knowledge.\n\n**Visual elements:**\n- Two parallel columns: \"Deductive Reasoning\" (left) and \"Inductive Reasoning\" (right)\n- Each column shows: direction arrow (general→specific vs. specific→general), a sample argument broken into premises and conclusion, and a strength meter\n- A central comparison panel highlighting key differences: certainty level, direction, risk of error\n- A bottom panel showing where each type is most commonly used across Areas of Knowledge\n\n**Interactive controls:**\n- A dropdown to select example domains: \"Mathematics,\" \"Natural Sciences,\" \"History,\" \"Ethics\"\n- Each domain selection updates both columns with domain-appropriate examples\n- Hover over any component for a tooltip explanation\n- A \"Test Yourself\" button presenting a mixed argument for students to classify as deductive or inductive\n\n**Default state:** Mathematics domain selected. Deductive example: syllogism about geometric properties. Inductive example: pattern-based conjecture.\n\n**Color scheme:** Deductive column in teal, inductive column in amber, shared comparison panel in cream.\n\n**Responsive design:** Columns stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with createSelect() for domain switching, hover detection for tooltips, and createButton() for test mode."
+}

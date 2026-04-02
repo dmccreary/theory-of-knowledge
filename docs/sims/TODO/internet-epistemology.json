@@ -1,0 +1,14 @@
+{
+  "sim_id": "internet-epistemology",
+  "diagram_name": "The Epistemology of the Internet",
+  "chapter_number": 16,
+  "chapter_title": "TOK Assessment and Synthesis",
+  "chapter_dir": "16-tok-assessment-and-synthesis",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Critique",
+  "learning_objective": "Critique how the structural features of the internet shape epistemological processes including authority, evidence evaluation, and knowledge dissemination.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** internet-epistemology<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Critique\n**Learning Objective:** Critique how the structural features of the internet shape epistemological processes including authority, evidence evaluation, and knowledge dissemination.\n\n**Instructional Rationale:** An interactive infographic comparing pre-internet and internet-era epistemological dynamics allows students to visualize the structural shift rather than simply reading about it, deepening understanding of how medium shapes knowledge.\n\n**Visual elements:**\n- Split-screen layout: left side labeled \"Traditional Knowledge Ecosystem,\" right side labeled \"Internet Knowledge Ecosystem\"\n- Left side shows a hierarchical pyramid: Researchers → Peer Review → Publishers → Gatekeepers → Public\n- Right side shows a network graph: interconnected nodes of varying sizes representing individuals, platforms, algorithms, institutions, all connected non-hierarchically\n- Animated arrows showing information flow in each system\n- Overlay highlighting key differences: speed, authority, access, verification\n\n**Interactive controls:**\n- Toggle between \"Authority,\" \"Evidence,\" \"Access,\" and \"Speed\" views, each highlighting different aspects of both systems\n- Hover over any node or level to see a detailed explanation\n- A slider labeled \"Time\" that animates the transition from the traditional to the internet ecosystem\n- Click \"Case Study\" button to see a real-world example of how a knowledge claim travels through each system\n\n**Default state:** Both systems visible side by side. \"Authority\" view active.\n\n**Color scheme:** Traditional side = warm sepia tones, Internet side = cool teal and electric blue, Shared elements = amber highlights\n\n**Responsive design:** Canvas resizes to container width. On narrow screens, systems stack vertically.\n\nImplementation: p5.js with createSelect() for view toggle and createSlider() for time animation"
+}

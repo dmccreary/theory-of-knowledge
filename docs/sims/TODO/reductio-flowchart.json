@@ -1,0 +1,14 @@
+{
+  "sim_id": "reductio-flowchart",
+  "diagram_name": "Reductio Ad Absurdum Flowchart",
+  "chapter_number": 6,
+  "chapter_title": "Reasoning and Argumentation",
+  "chapter_dir": "06-reasoning-and-argumentation",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Demonstrate",
+  "learning_objective": "Demonstrate the reductio ad absurdum technique by tracing the logical steps from assumption through contradiction to conclusion.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** reductio-flowchart<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Demonstrate\n**Learning Objective:** Demonstrate the reductio ad absurdum technique by tracing the logical steps from assumption through contradiction to conclusion.\n\n**Instructional Rationale:** A step-by-step flowchart with animation helps students follow the counterintuitive logic of proof by contradiction. The ability to step forward and backward through the process supports careful analysis of each stage.\n\n**Visual elements:**\n- A vertical flowchart with four stages: (1) \"State the claim to prove,\" (2) \"Assume the opposite,\" (3) \"Derive a contradiction,\" (4) \"Conclude the assumption is false\"\n- Each stage is a rounded box with an arrow connecting to the next\n- A detail panel beside each active stage showing the worked example text\n- A contradiction indicator (flashing border) at stage 3\n\n**Interactive controls:**\n- \"Step Forward\" and \"Step Back\" buttons to move through the stages\n- A dropdown to select different examples: \"Largest prime number,\" \"Irrational square root of 2,\" \"Ethical universalizability (Kant)\"\n- Each example populates all four stages with domain-appropriate content\n- An \"Auto-Play\" button that animates through all stages with 3-second pauses\n\n**Default state:** Prime number example selected, stage 1 active.\n\n**Color scheme:** Stages in teal gradient (light to dark), contradiction stage border in coral, conclusion stage in amber.\n\n**Responsive design:** Flowchart scales vertically. Detail panel moves below stages on narrow screens.\n\nImplementation: p5.js with createButton() for navigation, createSelect() for example switching, and animated transitions between stages."
+}

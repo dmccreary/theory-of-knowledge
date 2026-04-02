@@ -1,0 +1,14 @@
+{
+  "sim_id": "intellectual-virtues-wheel",
+  "diagram_name": "Intellectual Virtues Wheel",
+  "chapter_number": 8,
+  "chapter_title": "Skepticism, Intellectual Virtues, and Knowledge Production",
+  "chapter_dir": "08-skepticism-and-intellectual-virtues",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Describe",
+  "learning_objective": "Describe the key intellectual virtues and how they relate to one another in responsible knowledge production.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** intellectual-virtues-wheel<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Describe\n**Learning Objective:** Describe the key intellectual virtues and how they relate to one another in responsible knowledge production.\n\n**Instructional Rationale:** A radial \"wheel\" diagram with each virtue as a segment helps students see intellectual virtues not as an isolated list but as an interconnected set of qualities that together define the good knower.\n\n**Visual elements:**\n- A central hub labeled \"The Good Knower\"\n- Radiating segments for each virtue: Intellectual Courage, Open-Mindedness, Intellectual Honesty, and others\n- Each segment includes a brief definition and a concrete example\n- Connecting lines between related virtues (e.g., honesty and courage often required together)\n\n**Interactive controls:**\n- Click a virtue to expand its segment with a detailed description, example, and its opposite vice\n- A \"Self-Assessment\" mode where students rate themselves on each virtue\n- Hover to see how each virtue connects to others\n\n**Default state:** All segments visible, none expanded.\n\n**Color scheme:** Hub in gold, segments in varying shades of teal and amber.\n\n**Responsive design:** Canvas resizes to fit container width.\n\nImplementation: p5.js with click-to-expand segments using createButton()"
+}

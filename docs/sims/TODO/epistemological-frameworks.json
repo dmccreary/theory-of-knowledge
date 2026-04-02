@@ -1,0 +1,14 @@
+{
+  "sim_id": "epistemological-frameworks",
+  "diagram_name": "Epistemological Frameworks Comparison",
+  "chapter_number": 3,
+  "chapter_title": "Evidence and Justification",
+  "chapter_dir": "03-evidence-and-justification",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** epistemological-frameworks<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy Level: Analyze (L4)\nBloom Verb: Compare, differentiate\n\nLearning Objective: Students will compare and differentiate between four major epistemological frameworks (Empiricism, Rationalism, Pragmatism, Social Constructionism) by examining how each framework evaluates the same knowledge claim differently.\n\nInstructional Rationale: Presenting frameworks side-by-side with a shared example claim shows students that the *same* piece of knowledge looks different depending on which framework you use. This supports the Analyze level by requiring students to identify how the frameworks' underlying assumptions lead to different conclusions.\n\nVisual elements:\n- Four large panels arranged in a 2×2 grid, one per framework\n- Each panel contains: framework name, key principle (one sentence), preferred evidence type, key philosopher(s), and an evaluation of the currently selected claim\n- A central shared space at the top displays the selected knowledge claim\n- Connecting lines between panels highlight points of agreement and disagreement\n\nInteractive elements:\n- Dropdown to select a knowledge claim to analyse:\n  1. \"Water boils at 100°C at sea level\"\n  2. \"Stealing is morally wrong\"\n  3. \"The angles of a triangle sum to 180°\"\n  4. \"Traditional medicine can treat certain ailments\"\n  5. \"AI systems can produce knowledge\"\n- When a claim is selected, each framework panel updates with its evaluation\n- Hover over each panel to expand the evaluation into a detailed explanation\n- Click on connecting lines between panels to see a pop-up explaining the agreement or tension\n- A \"Debate Mode\" toggle highlights contradictions between frameworks in red and agreements in green\n\nColour scheme:\n- Empiricism: steel blue (#4682B4)\n- Rationalism: medium purple (#9370DB)\n- Pragmatism: dark orange (#FF8C00)\n- Social Constructionism: sea green (#2E8B57)\n- Agreement lines: green (#228B22)\n- Tension lines: red (#CD5C5C)\n- Background: off-white (#FAFAFA)\n\nResponsive: 2×2 grid on wide screens; stacked vertical layout on narrow screens. Font sizes scale proportionally."
+}

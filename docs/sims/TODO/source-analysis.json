@@ -1,0 +1,14 @@
+{
+  "sim_id": "source-analysis",
+  "diagram_name": "Primary and Secondary Source Analysis",
+  "chapter_number": 11,
+  "chapter_title": "Human Sciences and History",
+  "chapter_dir": "11-human-sciences-and-history",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Evaluate",
+  "learning_objective": "Evaluate the reliability and perspective of primary and secondary sources by applying systematic criteria to historical evidence.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive diagram\n**sim-id:** source-analysis<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Evaluate\n**Learning Objective:** Evaluate the reliability and perspective of primary and secondary sources by applying systematic criteria to historical evidence.\n\n**Instructional Rationale:** An interactive source evaluation tool helps students practise the critical thinking skills historians use, making the abstract process of source evaluation concrete and repeatable.\n\n**Visual elements:**\n- A document viewer area displaying a source (text excerpt or image placeholder)\n- An evaluation panel with criteria: Author, Date, Audience, Purpose, Perspective, Limitations\n- A classification indicator: Primary or Secondary\n- A reliability meter that updates as students complete the evaluation\n\n**Interactive controls:**\n- Dropdown to select from 4-5 different sources (e.g., \"Soldier's Letter 1916,\" \"Historian's Analysis 2005,\" \"Government Census 1850,\" \"Oral History Interview 1998\")\n- Text fields for each evaluation criterion where students type their analysis\n- Radio buttons to classify the source as Primary or Secondary\n- \"Check Analysis\" button that reveals model answers for comparison\n\n**Default state:** First source displayed with empty evaluation fields.\n\n**Color scheme:** Document area in cream, evaluation panel in teal, reliability meter from coral (low) to gold (high).\n\n**Responsive design:** Canvas resizes to fit container width. Panels stack vertically on narrow screens.\n\nImplementation: p5.js with createSelect(), createInput(), createButton()"
+}

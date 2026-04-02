@@ -1,0 +1,14 @@
+{
+  "sim_id": "quant-qual-methods",
+  "diagram_name": "Quantitative vs. Qualitative Methods in Science",
+  "chapter_number": 10,
+  "chapter_title": "Natural Sciences and the Scientific Method",
+  "chapter_dir": "10-natural-sciences-and-scientific-method",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare quantitative and qualitative methods by identifying their strengths, limitations, and appropriate applications in scientific inquiry.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** quant-qual-methods<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare quantitative and qualitative methods by identifying their strengths, limitations, and appropriate applications in scientific inquiry.\n\n**Instructional Rationale:** A side-by-side interactive comparison allows students to explore concrete examples of each method type and see how they complement one another in real scientific investigations.\n\n**Visual elements:**\n- Two columns: \"Quantitative\" (left) and \"Qualitative\" (right)\n- Each column contains 4-5 example cards showing a research scenario\n- A center zone labeled \"Mixed Methods\" with arrows showing how both approaches combine\n- Color-coded strength indicators (precision, context, reproducibility, richness)\n\n**Interactive controls:**\n- Click any example card to expand a brief case study (2-3 sentences)\n- Toggle button to show/hide \"Strengths and Limitations\" for each method\n- Dropdown to filter examples by discipline (biology, chemistry, physics, earth science)\n\n**Default state:** Both columns visible with example cards collapsed.\n\n**Color scheme:** Quantitative = teal, Qualitative = amber, Mixed Methods = coral\n\n**Responsive design:** Canvas resizes to fit container width. Columns stack vertically on narrow screens.\n\nImplementation: p5.js with clickable regions and createSelect() for filtering"
+}

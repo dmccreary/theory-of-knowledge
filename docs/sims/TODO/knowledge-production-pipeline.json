@@ -1,0 +1,14 @@
+{
+  "sim_id": "knowledge-production-pipeline",
+  "diagram_name": "Knowledge Production Pipeline",
+  "chapter_number": 8,
+  "chapter_title": "Skepticism, Intellectual Virtues, and Knowledge Production",
+  "chapter_dir": "08-skepticism-and-intellectual-virtues",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Trace",
+  "learning_objective": "Trace the stages of knowledge production from initial inquiry through validation and dissemination.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** knowledge-production-pipeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Trace\n**Learning Objective:** Trace the stages of knowledge production from initial inquiry through validation and dissemination.\n\n**Instructional Rationale:** A pipeline or flowchart diagram helps students see knowledge production as a process with distinct stages, each with its own challenges and quality controls. This counters the common misconception that knowledge simply \"appears.\"\n\n**Visual elements:**\n- A horizontal pipeline with stages: \"Question/Problem\" → \"Investigation/Inquiry\" → \"Discovery/Creation\" → \"Validation\" → \"Dissemination\" → \"Application\"\n- At each stage, icons representing different AOKs show how they handle that stage differently\n- Feedback arrows from later stages back to earlier ones (e.g., validation failures returning to investigation)\n- Labels for potential failure points at each transition\n\n**Interactive controls:**\n- Click any stage to see a detailed breakdown with examples from three different AOKs\n- Toggle between \"Science Track,\" \"History Track,\" and \"Arts Track\" to see how the pipeline differs\n- Hover over failure points to see what can go wrong (e.g., flawed methodology, biased interpretation)\n\n**Default state:** Full pipeline visible with science track examples shown.\n\n**Color scheme:** Pipeline stages in gradient from teal to gold, failure points in coral.\n\n**Responsive design:** Canvas resizes to fit container width. Pipeline wraps to two rows on narrow screens.\n\nImplementation: p5.js with click-to-expand panels using createSelect() and createButton()"
+}

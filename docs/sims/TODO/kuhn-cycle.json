@@ -1,0 +1,14 @@
+{
+  "sim_id": "kuhn-cycle",
+  "diagram_name": "Kuhn's Cycle of Scientific Revolutions",
+  "chapter_number": 10,
+  "chapter_title": "Natural Sciences and the Scientific Method",
+  "chapter_dir": "10-natural-sciences-and-scientific-method",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Trace",
+  "learning_objective": "Trace the stages of Kuhn's model of scientific revolutions by identifying how paradigms form, enter crisis, and are replaced.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** kuhn-cycle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Trace\n**Learning Objective:** Trace the stages of Kuhn's model of scientific revolutions by identifying how paradigms form, enter crisis, and are replaced.\n\n**Instructional Rationale:** A cyclical diagram allows students to see scientific revolutions as a recurring process rather than a one-time event, reinforcing Kuhn's central insight about the structure of scientific change.\n\n**Visual elements:**\n- A circular flow diagram with five stages: \"Pre-Science\" → \"Normal Science\" → \"Anomalies / Crisis\" → \"Revolution\" → \"New Paradigm\" → (back to \"Normal Science\")\n- Each stage is a clickable node with a brief description\n- Historical examples placed alongside each stage (e.g., Copernican revolution mapped to the cycle)\n- Animated arrows showing the direction of flow\n\n**Interactive controls:**\n- Click each stage to expand a description and historical example\n- A timeline slider at the bottom to move through a specific historical revolution step by step\n- Dropdown to select which revolution to trace: Copernican, Chemical, Einsteinian, Plate Tectonics\n\n**Default state:** Full cycle visible with stages labeled, examples collapsed.\n\n**Color scheme:** Normal Science = teal, Crisis = coral, Revolution = amber, arrows = dark gray\n\n**Responsive design:** Canvas resizes to fit container width. Node positions recalculate on resize.\n\nImplementation: p5.js with animated transitions and createSelect() for revolution selector"
+}

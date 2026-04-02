@@ -1,0 +1,14 @@
+{
+  "sim_id": "cognitive-dissonance-model",
+  "diagram_name": "Cognitive Dissonance Resolution Strategies",
+  "chapter_number": 5,
+  "chapter_title": "Cognitive Biases",
+  "chapter_dir": "05-cognitive-biases",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate",
+  "learning_objective": "Differentiate between the strategies people use to resolve cognitive dissonance and evaluate which strategies preserve epistemic integrity.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** cognitive-dissonance-model<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate\n**Learning Objective:** Differentiate between the strategies people use to resolve cognitive dissonance and evaluate which strategies preserve epistemic integrity.\n\n**Instructional Rationale:** An interactive flowchart showing how dissonance arises and the multiple resolution paths allows students to trace the reasoning patterns and assess which paths lead to genuine knowledge revision versus psychological comfort.\n\n**Visual elements:**\n- Top: Two boxes representing conflicting beliefs or a belief-behavior conflict, with a lightning bolt icon between them representing dissonance\n- Middle: A \"discomfort zone\" area with a tension meter\n- Bottom: Four branching resolution paths:\n  1. Change the belief (most epistemically honest)\n  2. Change the behavior (aligns action with belief)\n  3. Add a justifying belief (reduces dissonance without resolving it)\n  4. Minimize importance (avoids the conflict)\n- Each path labeled with a real-world example\n\n**Interactive controls:**\n- A dropdown to select different dissonance scenarios: \"Environmental values vs. flying,\" \"Healthy eating values vs. junk food,\" \"Academic honesty values vs. copying homework\"\n- Click on each resolution path to see a detailed explanation and evaluation of its epistemic quality\n- A \"Rate the Strategy\" feature where students rank each resolution from \"most honest\" to \"least honest\"\n\n**Default state:** \"Environmental values vs. flying\" scenario selected. All four paths visible.\n\n**Color scheme:** Conflicting beliefs in coral, resolution paths in varying shades of teal (darkest for most epistemically honest, lightest for least), discomfort zone in amber.\n\n**Responsive design:** Flowchart stacks vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with click detection, createSelect() for scenario dropdown, and path highlighting."
+}

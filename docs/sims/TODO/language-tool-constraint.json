@@ -1,0 +1,14 @@
+{
+  "sim_id": "language-tool-constraint",
+  "diagram_name": "Language as Tool vs. Language as Constraint",
+  "chapter_number": 7,
+  "chapter_title": "Knowledge and Language",
+  "chapter_dir": "07-knowledge-and-language",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare and evaluate how the same linguistic feature can simultaneously function as a tool that enables knowledge and a constraint that limits it.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** language-tool-constraint<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare and evaluate how the same linguistic feature can simultaneously function as a tool that enables knowledge and a constraint that limits it.\n\n**Instructional Rationale:** A dual-perspective interactive visualization helps students see that language is not simply good or bad for knowledge but operates as both enabler and limiter simultaneously. This develops nuanced epistemological thinking.\n\n**Visual elements:**\n- A central vertical divider with \"Tool\" on the left (teal) and \"Constraint\" on the right (coral)\n- Three horizontal rows, each representing a linguistic feature: Vocabulary, Grammar, Categorization\n- Each cell contains a brief example showing how the feature enables knowledge (left) or constrains it (right)\n- Connecting lines between tool and constraint sides to show the duality\n\n**Interactive controls:**\n- Click on any cell to expand it into a detailed case study (3-4 sentences)\n- A slider labeled \"Perspective\" that smoothly transitions the visual emphasis from \"Language as Tool\" to \"Language as Constraint,\" dimming the opposite side\n- A \"Your Language\" text input where students can add their own examples\n\n**Default state:** Both sides equally visible, no cells expanded.\n\n**Color scheme:** Tool side in teal gradient, Constraint side in coral gradient, central divider in neutral gray.\n\n**Responsive design:** Canvas resizes to fit container width. On narrow screens, layout shifts to stacked.\n\nImplementation: p5.js with clickable regions and slider using createSlider()"
+}

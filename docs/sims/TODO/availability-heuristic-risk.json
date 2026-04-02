@@ -1,0 +1,14 @@
+{
+  "sim_id": "availability-heuristic-risk",
+  "diagram_name": "How the Availability Heuristic Distorts Risk Perception",
+  "chapter_number": 5,
+  "chapter_title": "Cognitive Biases",
+  "chapter_dir": "05-cognitive-biases",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare perceived risk (shaped by the availability heuristic) with actual statistical risk to identify where mental shortcuts distort judgment.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** availability-heuristic-risk<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare perceived risk (shaped by the availability heuristic) with actual statistical risk to identify where mental shortcuts distort judgment.\n\n**Instructional Rationale:** A side-by-side bar chart comparing perceived vs. actual risk makes the distortion produced by the availability heuristic immediately visible. Students can see the gap between intuition and data.\n\n**Visual elements:**\n- Two side-by-side vertical bar charts: \"Perceived Risk\" (left) and \"Actual Risk\" (right)\n- Each chart shows bars for 8 risks: shark attack, plane crash, terrorism, heart disease, car accident, falling, food poisoning, drowning\n- Bars color-coded by category: dramatic/media-heavy events in coral, everyday risks in teal\n- A \"gap indicator\" line connecting the same risk across both charts to highlight discrepancy\n- Title: \"What We Fear vs. What Actually Harms Us\"\n\n**Interactive controls:**\n- Hover over any bar to see the specific numbers (deaths per year, perceived ranking vs. actual ranking)\n- A toggle to sort by \"Perceived Risk\" or \"Actual Risk\" to see how the ordering changes\n- A slider to adjust the \"media coverage factor\" that visually inflates perceived risk bars, demonstrating how media availability distorts perception\n\n**Default state:** Both charts visible side by side, sorted by perceived risk.\n\n**Color scheme:** Coral for over-perceived risks, teal for under-perceived risks, amber for neutral.\n\n**Responsive design:** Charts stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with bar chart rendering, hover detection, createSlider() for media factor."
+}

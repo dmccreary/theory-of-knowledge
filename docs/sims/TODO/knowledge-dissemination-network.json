@@ -1,0 +1,14 @@
+{
+  "sim_id": "knowledge-dissemination-network",
+  "diagram_name": "Knowledge Dissemination Network",
+  "chapter_number": 8,
+  "chapter_title": "Skepticism, Intellectual Virtues, and Knowledge Production",
+  "chapter_dir": "08-skepticism-and-intellectual-virtues",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare different pathways of knowledge dissemination and evaluate how each pathway affects the reliability and accessibility of knowledge.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** knowledge-dissemination-network<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare different pathways of knowledge dissemination and evaluate how each pathway affects the reliability and accessibility of knowledge.\n\n**Instructional Rationale:** A network diagram showing knowledge flowing from production through various channels to different audiences helps students see dissemination as a system with bottlenecks, amplifiers, and filters — not a simple transfer.\n\n**Visual elements:**\n- Central node: \"Knowledge Produced\"\n- Branching pathways to different channels: Academic Publishing, Mass Media, Social Media, Education, Oral Tradition\n- Each pathway shows speed (arrow thickness), quality control (filter icons), and reach (audience size)\n- Nodes for potential distortion points along each pathway\n\n**Interactive controls:**\n- Click any pathway to see a case study of knowledge traveling that route\n- Slider for \"Time Period\" to show how dissemination networks have changed historically (pre-printing press, post-printing press, digital age)\n- Toggle to show/hide distortion points\n\n**Default state:** All pathways visible, digital age selected.\n\n**Color scheme:** Pathways in teal-to-amber gradient, distortion points in coral.\n\n**Responsive design:** Canvas resizes to fit container width.\n\nImplementation: p5.js with network layout and slider using createSlider() and createButton()"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "simulation-knowledge-cycle",
+  "diagram_name": "How Simulations Generate Knowledge",
+  "chapter_number": 14,
+  "chapter_title": "Knowledge, Technology, and Power",
+  "chapter_dir": "14-knowledge-technology-and-power",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess",
+  "learning_objective": "Assess the strengths and limitations of simulation-based knowledge by tracing the cycle from assumptions to outputs and validation.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** simulation-knowledge-cycle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess\n**Learning Objective:** Assess the strengths and limitations of simulation-based knowledge by tracing the cycle from assumptions to outputs and validation.\n\n**Instructional Rationale:** A cyclical diagram showing how simulations work — from assumptions through modeling to outputs and back to validation — helps students evaluate rather than uncritically accept simulation results.\n\n**Visual elements:**\n- A circular flow with four major stages: \"Assumptions & Parameters,\" \"Model Building,\" \"Simulation Output,\" and \"Validation Against Reality\"\n- At each stage, cards listing key questions (e.g., at Assumptions: \"What variables are included?\", \"What is simplified or excluded?\")\n- A \"confidence meter\" that rises or falls as students toggle different validation outcomes\n- A side panel showing a concrete example (e.g., a simple epidemic simulation)\n\n**Interactive controls:**\n- Click on each stage to expand key questions and examples\n- Toggle switches for \"Model includes variable X\" to see how adding/removing assumptions changes output\n- A \"Run Simulation\" button that animates the cycle with a simple SIR epidemic model\n- Slider for initial parameters (e.g., transmission rate) to show sensitivity to assumptions\n\n**Default state:** Full cycle visible with the epidemic example loaded, confidence meter at moderate level.\n\n**Color scheme:** Stages in graduated teal, question cards in cream, confidence meter in amber-to-green gradient.\n\n**Responsive design:** Canvas resizes to fit container width. Cycle diagram adjusts radius on narrow screens.\n\nImplementation: p5.js with createButton() for run control, createSlider() for parameters, and createCheckbox() for variable toggles"
+}

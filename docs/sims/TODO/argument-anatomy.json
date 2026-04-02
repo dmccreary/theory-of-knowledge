@@ -1,0 +1,14 @@
+{
+  "sim_id": "argument-anatomy",
+  "diagram_name": "Anatomy of an Argument",
+  "chapter_number": 6,
+  "chapter_title": "Reasoning and Argumentation",
+  "chapter_dir": "06-reasoning-and-argumentation",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Identify",
+  "learning_objective": "Identify the premises and conclusion in a logical argument and trace the inferential connection between them.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** argument-anatomy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Identify\n**Learning Objective:** Identify the premises and conclusion in a logical argument and trace the inferential connection between them.\n\n**Instructional Rationale:** An interactive argument dissector allows students to see the internal structure of arguments visually, reinforcing the distinction between premises and conclusions that is foundational to all later content in this chapter.\n\n**Visual elements:**\n- A text panel at the top displaying a complete argument in natural language\n- Below it, a structured breakdown: colored boxes for each premise (teal) and the conclusion (amber), connected by an arrow labeled \"therefore\"\n- A \"logic flow\" visualization showing premises feeding into the conclusion\n\n**Interactive controls:**\n- A dropdown selector to switch between 5 sample arguments of increasing complexity\n- A \"Drag and Label\" mode where students drag labels (\"Premise 1,\" \"Premise 2,\" \"Conclusion\") onto the correct parts of a new argument\n- A \"Build Your Own\" mode with text inputs for premises and conclusion\n- Indicator word highlights that glow when the student hovers over them\n\n**Default state:** The dolphins/mammals argument displayed with all components labeled.\n\n**Color scheme:** Premises in teal, conclusions in amber, indicator words highlighted in coral.\n\n**Responsive design:** Canvas resizes to fit container width. Text wraps appropriately on narrow screens.\n\nImplementation: p5.js with createSelect() for argument switching, drag-and-drop detection, and createInput() for build mode."
+}

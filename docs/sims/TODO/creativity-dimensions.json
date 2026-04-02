@@ -1,0 +1,14 @@
+{
+  "sim_id": "creativity-dimensions",
+  "diagram_name": "Dimensions of Creativity",
+  "chapter_number": 12,
+  "chapter_title": "The Arts as Knowledge",
+  "chapter_dir": "12-the-arts-as-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate",
+  "learning_objective": "Differentiate the four dimensions of creativity and identify how each contributes to artistic knowledge production.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive diagram\n**sim-id:** creativity-dimensions<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate\n**Learning Objective:** Differentiate the four dimensions of creativity and identify how each contributes to artistic knowledge production.\n\n**Instructional Rationale:** A radar chart or diamond diagram showing the four dimensions of creativity (originality, value, intentionality, transformation) allows students to analyze how different artistic works score differently on each dimension, making the abstract concept of creativity analytically tractable.\n\n**Visual elements:**\n- Four-axis radar chart with axes: Originality, Value, Intentionality, Transformation\n- A shaded polygon connecting the scores on each axis for a given artwork\n- Artwork selector with 4-5 preset examples (e.g., \"Duchamp's Fountain,\" \"Beethoven's 9th Symphony,\" \"Banksy street art,\" \"Traditional folk song,\" \"AI-generated art\")\n\n**Interactive controls:**\n- Dropdown to select different artworks and see how their creativity profile changes\n- Sliders for each dimension so students can create their own creativity profile for an artwork of their choice\n- A \"Compare\" button that overlays two profiles simultaneously\n\n**Default state:** \"Beethoven's 9th Symphony\" selected with a balanced polygon.\n\n**Color scheme:** Axes in dark grey, polygon fill in translucent teal, comparison polygon in translucent coral.\n\n**Responsive design:** Canvas resizes to fit container width. Chart scales proportionally.\n\nImplementation: p5.js with dropdown using createSelect() and sliders using createSlider()"
+}

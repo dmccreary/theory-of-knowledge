@@ -1,0 +1,14 @@
+{
+  "sim_id": "anatomy-of-proof",
+  "diagram_name": "Anatomy of a Mathematical Proof",
+  "chapter_number": 9,
+  "chapter_title": "Areas of Knowledge and Mathematical Methods",
+  "chapter_dir": "09-areas-of-knowledge-and-mathematics",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Illustrate",
+  "learning_objective": "Illustrate the logical structure of a mathematical proof by tracing how each step follows from axioms and definitions.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** anatomy-of-proof<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Illustrate\n**Learning Objective:** Illustrate the logical structure of a mathematical proof by tracing how each step follows from axioms and definitions.\n\n**Instructional Rationale:** Breaking a proof into its component steps with visual flow arrows helps students see that proof is not a mysterious act of genius but a chain of logical steps that anyone can follow and verify.\n\n**Visual elements:**\n- Euclid's proof of infinite primes displayed as a flowchart with numbered steps\n- Each step in a box, connected by arrows showing logical dependency\n- Color-coded labels: axioms in teal, definitions in amber, logical steps in cream, contradiction in coral\n- The conclusion highlighted with a gold border\n\n**Interactive controls:**\n- Hover over any step to see an explanation in plain English\n- A \"Proof Type\" selector to switch between three proofs: infinite primes (default), Pythagorean theorem, irrationality of sqrt(2)\n- A \"Hide Steps\" button for self-testing: hides random steps and asks students to fill in the logic\n\n**Default state:** Euclid's infinite primes proof fully displayed as a flowchart.\n\n**Color scheme:** Teal for axioms, amber for definitions, cream for logical steps, coral for contradiction, gold for conclusion.\n\n**Responsive design:** Canvas resizes to container width. Flowchart layout adjusts vertically on narrow screens.\n\nImplementation: p5.js with hover detection and createSelect() for proof selection."
+}

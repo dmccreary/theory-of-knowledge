@@ -1,0 +1,14 @@
+{
+  "sim_id": "human-sciences-history-map",
+  "diagram_name": "Human Sciences and History Methods Map",
+  "chapter_number": 11,
+  "chapter_title": "Human Sciences and History",
+  "chapter_dir": "11-human-sciences-and-history",
+  "library": "vis-network",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Relate",
+  "learning_objective": "Relate the methods and concepts of the human sciences and history, identifying shared challenges and complementary approaches.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: concept map\n**sim-id:** human-sciences-history-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Relate\n**Learning Objective:** Relate the methods and concepts of the human sciences and history, identifying shared challenges and complementary approaches.\n\n**Instructional Rationale:** A concept map showing the relationships between the key methods and challenges of both disciplines helps students see the connections and tensions between these two areas of knowledge, reinforcing the value of interdisciplinary inquiry.\n\n**Visual elements:**\n- Central node: \"Knowledge of Human Beings\"\n- Two main branches: \"Human Sciences\" and \"History\"\n- Sub-nodes for key methods (surveys, case studies, source analysis, archival research)\n- Cross-connections showing shared challenges (perspective, bias, interpretation)\n- Colour-coded clusters for each discipline with shared nodes highlighted\n\n**Interactive controls:**\n- Click on any node to see a brief definition (2-3 sentences)\n- Toggle to highlight shared concepts between the two disciplines\n- Zoom and pan controls\n- A \"Focus\" dropdown to centre the view on a specific concept cluster\n\n**Default state:** Full map visible with both branches expanded. Slight y-offset on horizontal edges (from 480 to 490) for label rendering.\n\n**Color scheme:** Human Sciences nodes in teal, History nodes in amber, shared nodes in coral, central node in gold.\n\n**Responsive design:** Canvas resizes to fit container width.\n\nImplementation: vis-network with click handlers and toggle controls"
+}

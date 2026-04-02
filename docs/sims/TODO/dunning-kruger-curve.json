@@ -1,0 +1,14 @@
+{
+  "sim_id": "dunning-kruger-curve",
+  "diagram_name": "The Dunning-Kruger Confidence Curve",
+  "chapter_number": 5,
+  "chapter_title": "Cognitive Biases",
+  "chapter_dir": "05-cognitive-biases",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Describe",
+  "learning_objective": "Describe how the relationship between confidence and competence changes as expertise develops, identifying the peak of overconfidence and the valley of disillusionment.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** dunning-kruger-curve<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Describe\n**Learning Objective:** Describe how the relationship between confidence and competence changes as expertise develops, identifying the peak of overconfidence and the valley of disillusionment.\n\n**Instructional Rationale:** The Dunning-Kruger curve is one of the most recognizable and misunderstood concepts in cognitive psychology. An interactive version allows students to explore each stage and connect it to their own learning experiences.\n\n**Visual elements:**\n- A line graph with \"Competence\" on the x-axis and \"Confidence\" on the y-axis\n- The classic Dunning-Kruger curve showing:\n  1. \"Mt. Stupid\" (peak of overconfidence at low competence)\n  2. \"Valley of Despair\" (confidence drops as awareness of complexity grows)\n  3. \"Slope of Enlightenment\" (confidence gradually rebuilds with genuine skill)\n  4. \"Plateau of Sustainability\" (calibrated confidence at high competence)\n- Each stage labeled with a description and example\n- A dotted diagonal \"ideal calibration\" line showing where confidence should equal competence\n\n**Interactive controls:**\n- Hover over any point on the curve to see a description, example, and the gap between confidence and competence at that stage\n- A dropdown to select different domains: \"Learning a Language,\" \"Learning to Code,\" \"Studying Philosophy,\" \"Playing a Sport\"\n- An animated dot that students can drag along the curve to explore each stage\n- A \"Where Am I?\" prompt inviting students to reflect on their own position in a chosen domain\n\n**Default state:** Curve displayed with all four stages labeled. \"Learning a Language\" domain selected.\n\n**Color scheme:** Curve in teal, overconfidence region highlighted in coral, ideal calibration line in amber.\n\n**Responsive design:** Graph scales proportionally. Labels reposition on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with curve rendering using bezier curves, hover detection, createSelect() for domain dropdown, draggable dot."
+}

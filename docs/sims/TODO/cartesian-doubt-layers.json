@@ -1,0 +1,14 @@
+{
+  "sim_id": "cartesian-doubt-layers",
+  "diagram_name": "Cartesian Doubt Progression",
+  "chapter_number": 8,
+  "chapter_title": "Skepticism, Intellectual Virtues, and Knowledge Production",
+  "chapter_dir": "08-skepticism-and-intellectual-virtues",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Illustrate",
+  "learning_objective": "Illustrate how Descartes systematically peeled away layers of belief through increasingly radical doubt.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** cartesian-doubt-layers<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Illustrate\n**Learning Objective:** Illustrate how Descartes systematically peeled away layers of belief through increasingly radical doubt.\n\n**Instructional Rationale:** A layered diagram shows Descartes's doubt progressing from mild (sensory deception) through moderate (dream argument) to extreme (evil demon), with the irreducible *cogito* at the core. This visual makes the progression memorable and shows the method's logic.\n\n**Visual elements:**\n- Concentric rings, outermost to innermost: \"Sensory Beliefs,\" \"Mathematical Beliefs,\" \"Beliefs about Physical World,\" and at the center, \"Cogito ergo sum\"\n- Each ring labeled with the skeptical argument that targets it\n- Rings peel away when clicked, revealing the next level of doubt\n- The central \"Cogito\" glows gold as the one indubitable truth\n\n**Interactive controls:**\n- Click each ring to \"doubt it away\" — it fades, and a brief explanation appears\n- A \"Reset\" button restores all layers\n- Hover over the center to see Descartes's argument for why it survives doubt\n\n**Default state:** All rings visible, outermost highlighted.\n\n**Color scheme:** Outer rings in progressively lighter shades of teal, center in gold.\n\n**Responsive design:** Canvas resizes to fit container width.\n\nImplementation: p5.js with click detection and animation using createButton()"
+}

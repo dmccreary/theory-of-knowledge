@@ -1,0 +1,58 @@
+{
+  "title": "Personal and Shared Knowledge",
+  "creator": "Dan McCreary",
+  "subject": "Theory of Knowledge",
+  "description": "An interactive infographic examining the bidirectional relationship between personal and shared knowledge. Students click example cards to see narratives about knowledge flow, add their own examples, and toggle mechanism labels on directional arrows.",
+  "date": "2026-04-02",
+  "educational": {
+    "gradeLevel": [
+      "11",
+      "12"
+    ],
+    "subjectArea": "Theory of Knowledge (IB Diploma Programme)",
+    "topic": "Personal and Shared Knowledge",
+    "learningObjectives": [
+      "Examine the two-directional relationship between personal and shared knowledge by tracing how knowledge moves between the individual and the community"
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Familiarity with the TOK distinction between personal and shared knowledge",
+      "Understanding of Areas of Knowledge"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 580
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration with categorization",
+    "keyQuestions": [
+      "Is any knowledge purely personal or purely shared?",
+      "What mechanisms transform personal knowledge into shared knowledge?",
+      "How does shared knowledge become personal for each individual?"
+    ],
+    "commonMisconceptions": [
+      "Personal and shared knowledge are completely separate categories",
+      "Knowledge only flows in one direction (from shared to personal)",
+      "Personal knowledge is less valid than shared knowledge"
+    ],
+    "assessmentOpportunities": [
+      "Student categorization of novel examples",
+      "Discussion of bidirectional flow mechanisms",
+      "Identification of edge cases that blur the boundary"
+    ]
+  },
+  "chapter": ""
+}

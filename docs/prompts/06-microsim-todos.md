@@ -1,0 +1,1 @@
+run the /microsim-utils program that converts the #### Diagram details and creates a JSON file in the @docs/sims/TODO directory   

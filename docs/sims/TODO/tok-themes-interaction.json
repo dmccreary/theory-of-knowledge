@@ -1,0 +1,14 @@
+{
+  "sim_id": "tok-themes-interaction",
+  "diagram_name": "Four TOK Themes Interaction Map",
+  "chapter_number": 4,
+  "chapter_title": "Knowledge and the Knower",
+  "chapter_dir": "04-knowledge-and-the-knower",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Illustrate",
+  "learning_objective": "Illustrate how the four TOK themes interact by identifying connections between them in a concrete example.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** tok-themes-interaction<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Illustrate\n**Learning Objective:** Illustrate how the four TOK themes interact by identifying connections between them in a concrete example.\n\n**Instructional Rationale:** An interactive concept map showing the four themes and their interconnections provides students with a mental model they can apply throughout the rest of the course. The scenario-based interaction makes abstract relationships concrete.\n\n**Visual elements:**\n- Four large nodes arranged in a diamond: Knower (top), Language (right), Technology (bottom), Politics (left)\n- Six connection lines (one between each pair) with brief interaction labels\n- A central area showing a selected scenario and how all four themes apply to it\n\n**Interactive controls:**\n- Click any connection to see a detailed example of how those two themes interact\n- Dropdown to select a scenario: \"Climate Change Debate,\" \"Social Media and Identity,\" \"Scientific Publishing,\" \"Indigenous Knowledge Systems\"\n- For each scenario, highlights show which theme connections are most active\n- Hover over any theme node to see its definition and core questions\n\n**Default state:** All four nodes and connections visible, \"Climate Change Debate\" scenario selected.\n\n**Color scheme:** Knower in teal, Language in amber, Technology in coral, Politics in sage green. Connections in light gray, highlighted connections in dark teal.\n\n**Responsive design:** Diamond reshapes to fit container width. Canvas resizes on window resize.\n\nImplementation: p5.js with click detection on nodes and edges, createSelect() for scenario dropdown."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "personal-shared-knowledge",
+  "diagram_name": "Personal and Shared Knowledge Interaction",
+  "chapter_number": 1,
+  "chapter_title": "Foundations of Knowledge",
+  "chapter_dir": "01-foundations-of-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Examine",
+  "learning_objective": "Examine the two-directional relationship between personal and shared knowledge by tracing how knowledge moves between the individual and the community.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** personal-shared-knowledge<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Examine\n**Learning Objective:** Examine the two-directional relationship between personal and shared knowledge by tracing how knowledge moves between the individual and the community.\n\n**Instructional Rationale:** An interactive diagram with bidirectional arrows and concrete examples helps students analyze the flow of knowledge rather than viewing personal and shared knowledge as static categories.\n\n**Visual elements:**\n- Left side: \"Personal Knowledge\" zone with a silhouette of a single person, containing example cards (e.g., \"Your memory of a family story,\" \"Your skill at playing guitar,\" \"Your intuitive sense of direction\")\n- Right side: \"Shared Knowledge\" zone showing overlapping circles representing communities (scientific, cultural, institutional), containing example cards (e.g., \"The periodic table,\" \"Traffic laws,\" \"Musical notation systems\")\n- Bidirectional arrows between the two zones, each labeled with a mechanism:\n  - Personal → Shared: \"Publication,\" \"Teaching,\" \"Cultural transmission\"\n  - Shared → Personal: \"Education,\" \"Reading,\" \"Apprenticeship\"\n\n**Interactive controls:**\n- Click on any example card to see a short narrative (2-3 sentences) explaining how that piece of knowledge moves between personal and shared domains\n- A \"Add Your Own\" text input where students can type a knowledge example and categorize it\n- Toggle button to show/hide the mechanism labels on arrows\n\n**Responsive design:** Layout shifts from side-by-side to stacked on narrow screens. Canvas resizes to fit container width.\n\n**Color scheme:** Personal knowledge zone in warm teal, shared knowledge zone in cream/amber, arrows in contrasting coral.\n\nImplementation: p5.js with clickable regions and text input using createInput()"
+}

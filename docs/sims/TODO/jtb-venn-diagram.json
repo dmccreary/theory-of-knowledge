@@ -1,0 +1,14 @@
+{
+  "sim_id": "jtb-venn-diagram",
+  "diagram_name": "Justified True Belief Venn Diagram",
+  "chapter_number": 2,
+  "chapter_title": "Theories of Truth and Knowledge",
+  "chapter_dir": "02-theories-of-truth-and-knowledge",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** jtb-venn-diagram<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: Classify, interpret\n\nLearning Objective: Students will classify examples of belief into the correct region of a Venn diagram showing the overlap of Belief, Truth, and Justification, identifying which examples qualify as knowledge under the JTB definition.\n\nInstructional Rationale: A Venn diagram with draggable examples makes the abstract JTB criteria concrete. Students must actively reason about each example rather than passively reading, supporting the Understand/classify objective.\n\nVisual elements:\n- Three overlapping circles labelled \"Belief,\" \"Truth,\" and \"Justification\"\n- The central overlap of all three is labelled \"Knowledge (JTB)\" and highlighted in gold\n- Surrounding the diagram are 6-8 draggable example cards (e.g., \"You believe 2+2=4 and can prove it\" → Knowledge; \"You believe a false rumour with evidence\" → Justified false belief; \"You guess correctly without evidence\" → True belief without justification)\n\nInteractive elements:\n- Drag example cards into the appropriate region of the Venn diagram\n- On drop, the system provides feedback: correct placement turns the card green, incorrect turns it red with an explanation\n- A \"New Examples\" button generates a fresh set of examples\n- A score tracker shows how many correct placements out of total\n\nLayout: Venn diagram centred on canvas, example cards arranged along the bottom. Responsive to container width.\n\nColour scheme:\n- Belief circle: light blue (#ADD8E6)\n- Truth circle: light green (#90EE90)\n- Justification circle: light coral (#F08080)\n- Knowledge overlap: gold (#FFD700)\n- Background: white"
+}

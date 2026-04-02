@@ -1,0 +1,14 @@
+{
+  "sim_id": "translation-loss",
+  "diagram_name": "What Is Lost in Translation",
+  "chapter_number": 7,
+  "chapter_title": "Knowledge and Language",
+  "chapter_dir": "07-knowledge-and-language",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate",
+  "learning_objective": "Differentiate between the layers of meaning (denotation, connotation, cultural context, sound/rhythm) and analyze which layers survive translation and which are lost.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** translation-loss<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate\n**Learning Objective:** Differentiate between the layers of meaning (denotation, connotation, cultural context, sound/rhythm) and analyze which layers survive translation and which are lost.\n\n**Instructional Rationale:** A layered visualization showing concentric rings of meaning helps students understand that translation is not all-or-nothing but involves selective loss across different dimensions of meaning.\n\n**Visual elements:**\n- A central circle labeled with a word (e.g., \"Saudade\") surrounded by concentric rings\n- Inner ring: Denotation (dictionary meaning) — labeled \"Translates well\"\n- Second ring: Connotation (emotional associations) — labeled \"Partially translates\"\n- Third ring: Cultural context (shared cultural knowledge) — labeled \"Difficult to translate\"\n- Outer ring: Sound, rhythm, aesthetic quality — labeled \"Rarely translates\"\n- Color gradient from solid teal (inner) to fading/transparent (outer) to visually represent diminishing translatability\n\n**Interactive controls:**\n- A dropdown to select different untranslatable words (saudade, hygge, wabi-sabi, schadenfreude, ubuntu)\n- Each selection updates the rings with specific content for that word\n- Hover over any ring to see a detailed explanation of what is gained or lost at that level\n- A \"Compare\" button that shows two words side by side\n\n**Default state:** \"Saudade\" selected, all rings visible.\n\n**Color scheme:** Inner rings in solid teal, outer rings fading to transparent. Hover highlights in amber.\n\n**Responsive design:** Canvas resizes to fit container width. Concentric circles scale proportionally.\n\nImplementation: p5.js with dropdown using createSelect() and hover detection"
+}

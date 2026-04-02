@@ -1,0 +1,14 @@
+{
+  "sim_id": "sampling-methods",
+  "diagram_name": "Sampling Methods Comparison",
+  "chapter_number": 11,
+  "chapter_title": "Human Sciences and History",
+  "chapter_dir": "11-human-sciences-and-history",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare different sampling methods and evaluate how each affects the representativeness of research findings.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive diagram\n**sim-id:** sampling-methods<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare different sampling methods and evaluate how each affects the representativeness of research findings.\n\n**Instructional Rationale:** An interactive visualisation of different sampling techniques helps students see concretely how the choice of method determines which individuals are included, making the abstract concept of representativeness tangible.\n\n**Visual elements:**\n- A population grid of 200 coloured dots representing individuals with varied demographics (colour-coded by age, income, or region)\n- Four sampling modes: Random, Stratified, Convenience, and Snowball\n- When a mode is selected, the simulation animates which dots get selected and displays the resulting sample composition\n\n**Interactive controls:**\n- Dropdown selector to choose sampling method: Random, Stratified, Convenience, Snowball\n- \"Draw Sample\" button that animates the selection process\n- A bar chart below showing the demographic breakdown of the sample compared to the population\n- Slider for sample size (10 to 50)\n\n**Default state:** Population grid visible with Random sampling selected and a sample of 25.\n\n**Color scheme:** Population dots in varied teal, amber, coral shades. Selected dots highlighted with a gold border.\n\n**Responsive design:** Canvas resizes to fit container width. Grid and chart stack vertically on narrow screens.\n\nImplementation: p5.js with createSelect(), createButton(), createSlider()"
+}

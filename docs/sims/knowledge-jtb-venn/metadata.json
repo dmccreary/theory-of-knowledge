@@ -1,0 +1,57 @@
+{
+  "title": "JTB Venn Diagram - Justified True Belief",
+  "creator": "Dan McCreary",
+  "subject": "Theory of Knowledge",
+  "description": "Interactive Venn diagram showing how knowledge emerges from the intersection of belief, truth, and justification in the classical JTB analysis of knowledge.",
+  "date": "2026-04-02",
+  "educational": {
+    "gradeLevel": [
+      "11",
+      "12"
+    ],
+    "subjectArea": "Epistemology / Theory of Knowledge",
+    "topic": "Justified True Belief (JTB) Analysis of Knowledge",
+    "learningObjectives": [
+      "Explain how knowledge emerges from the intersection of belief, truth, and justification"
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic understanding of knowledge claims",
+      "Familiarity with the distinction between opinion and knowledge"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 570
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": false
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Interactive exploration with hover tooltips and quiz mode",
+    "keyQuestions": [
+      "Why is a lucky guess not considered knowledge?",
+      "What happens when you have justification and truth but not belief?",
+      "Can you think of a real-world example where all three conditions are met?"
+    ],
+    "commonMisconceptions": [
+      "Confusing belief with truth — students may assume that believing something makes it true",
+      "Thinking justification alone is sufficient for knowledge",
+      "Overlooking that the JTB model has known limitations (Gettier cases)"
+    ],
+    "assessmentOpportunities": [
+      "Quiz mode tests students' ability to match scenarios to the correct epistemic region",
+      "Ask students to create their own examples for each region"
+    ]
+  },
+  "chapter": ""
+}

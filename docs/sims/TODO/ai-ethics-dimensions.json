@@ -1,0 +1,14 @@
+{
+  "sim_id": "ai-ethics-dimensions",
+  "diagram_name": "Ethical Dimensions of AI",
+  "chapter_number": 14,
+  "chapter_title": "Knowledge, Technology, and Power",
+  "chapter_dir": "14-knowledge-technology-and-power",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Appraise",
+  "learning_objective": "Appraise the ethical trade-offs involved in AI deployment by weighing competing values such as efficiency, transparency, fairness, and autonomy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** ai-ethics-dimensions<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Appraise\n**Learning Objective:** Appraise the ethical trade-offs involved in AI deployment by weighing competing values such as efficiency, transparency, fairness, and autonomy.\n\n**Instructional Rationale:** A radar chart or multi-axis diagram allows students to see that AI ethics is not a single issue but a multi-dimensional space of competing values, where improving one dimension may create tension with another.\n\n**Visual elements:**\n- A radar/spider chart with five axes: \"Transparency,\" \"Fairness,\" \"Accountability,\" \"Privacy,\" and \"Autonomy\"\n- Each axis scaled from 0 (low) to 10 (high)\n- Pre-loaded scenarios (e.g., \"Medical Diagnosis AI,\" \"Criminal Sentencing AI,\" \"Social Media Algorithm\") with different ethical profiles\n- A shaded polygon connecting the scores on each axis, making the ethical profile visually apparent\n\n**Interactive controls:**\n- Dropdown to select different AI scenarios and see their ethical profiles\n- Sliders on each axis so students can design their own \"ideal\" ethical profile\n- A \"Compare\" button to overlay two scenarios for comparison\n- Text panel explaining the trade-offs for the selected scenario\n\n**Default state:** \"Social Media Algorithm\" scenario loaded, showing its characteristic profile (high efficiency, low transparency, moderate fairness).\n\n**Color scheme:** Axes in neutral gray, scenario polygons in translucent teal and amber for comparison, labels in dark text.\n\n**Responsive design:** Canvas resizes to fit container width. Radar chart scales proportionally.\n\nImplementation: p5.js with createSelect() for scenario selection and createSlider() for axis values"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "debunking-vs-prebunking",
+  "diagram_name": "Debunking vs. Prebunking Effectiveness",
+  "chapter_number": 15,
+  "chapter_title": "Misinformation and the Information Age",
+  "chapter_dir": "15-misinformation-and-the-information-age",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare the effectiveness of debunking and prebunking strategies by observing how each approach affects belief change in a simulated population.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** debunking-vs-prebunking<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare the effectiveness of debunking and prebunking strategies by observing how each approach affects belief change in a simulated population.\n\n**Instructional Rationale:** An interactive simulation showing how misinformation spreads through a population — and how debunking and prebunking interventions alter that spread — makes abstract research findings tangible and allows students to experiment with different intervention strategies.\n\n**Visual elements:**\n- A network of 50 nodes (people) connected by edges (social connections)\n- Nodes colored by belief state: teal (accurate belief), coral (misinformed), amber (inoculated/prebunked)\n- A \"misinformation source\" node that pulses and spreads false content along edges\n- A timeline at the bottom showing the progression of spread\n- Counters showing the percentage of population in each belief state\n\n**Interactive controls:**\n- A \"Start Spread\" button to begin the misinformation cascade\n- A \"Debunk\" button that sends a correction from a single node (slow, partial effect)\n- A \"Prebunk\" button that inoculates a percentage of the population before spread begins\n- A slider for \"Prebunk Coverage\" (0% to 100% of population)\n- A \"Reset\" button to restart the simulation\n- Speed control slider for animation pace\n\n**Default state:** Network displayed with all nodes teal. Misinformation source visible but inactive.\n\n**Color scheme:** Teal for accurate beliefs, coral for misinformed, amber for inoculated, gray for edges.\n\n**Responsive design:** Network scales to fit container. Controls stack below on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with force-directed graph layout, state machine for spread simulation, createButton() and createSlider() controls."
+}

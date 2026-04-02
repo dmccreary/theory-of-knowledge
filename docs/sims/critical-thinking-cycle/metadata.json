@@ -1,0 +1,43 @@
+{
+  "title": "Critical Thinking Cycle",
+  "description": "Interactive cyclical diagram guiding students through five stages of critical thinking — questioning assumptions, evaluating evidence, recognizing bias, considering alternatives, and drawing conclusions — applied to different types of knowledge claims.",
+  "creator": "Dan McCreary",
+  "date": "2026-04-02",
+  "subject": [
+    "Theory of Knowledge",
+    "Critical Thinking",
+    "Epistemology",
+    "Knowledge Claims",
+    "Bias Recognition"
+  ],
+  "type": "Interactive Diagram",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "contributor": [
+    "Claude Code"
+  ],
+  "identifier": "https://dmccreary.github.io/theory-of-knowledge/sims/critical-thinking-cycle/",
+  "publisher": "Theory of Knowledge Intelligent Textbook",
+  "educationalLevel": "High School (IB Diploma Programme)",
+  "learningResourceType": "simulation",
+  "audience": "Students, Educators",
+  "version": "1.0.0",
+  "bloomLevel": [
+    "Apply"
+  ],
+  "concepts": [
+    "Critical Thinking",
+    "Questioning Assumptions",
+    "Evidence Evaluation",
+    "Bias Recognition",
+    "Alternative Perspectives",
+    "Drawing Conclusions",
+    "Knowledge Claims"
+  ],
+  "prerequisites": [
+    "Basic understanding of knowledge claims",
+    "Familiarity with types of bias"
+  ],
+  "library": "p5.js"
+}

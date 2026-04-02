@@ -1,0 +1,14 @@
+{
+  "sim_id": "hermeneutic-circle",
+  "diagram_name": "The Hermeneutic Circle",
+  "chapter_number": 13,
+  "chapter_title": "Ethics and Values in Knowledge",
+  "chapter_dir": "13-ethics-and-values-in-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Illustrate",
+  "learning_objective": "Illustrate how the hermeneutic circle operates by tracing the movement between understanding the parts and understanding the whole of a text or cultural practice.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** hermeneutic-circle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Illustrate\n**Learning Objective:** Illustrate how the hermeneutic circle operates by tracing the movement between understanding the parts and understanding the whole of a text or cultural practice.\n\n**Instructional Rationale:** A circular, animated diagram shows the iterative nature of interpretation in a way that static text cannot. By letting students step through the circle with a concrete example, they experience the part-whole dynamic firsthand.\n\n**Visual elements:**\n- A large circle with two arcs: one labeled \"Understanding the Parts\" and the other \"Understanding the Whole\"\n- Arrows showing continuous movement between part and whole\n- A central text panel displaying a sample text (e.g., a short poem or historical excerpt)\n- Highlighted segments showing which \"part\" is currently being interpreted\n- A sidebar showing the evolving interpretation of the \"whole\" as each part is considered\n\n**Interactive controls:**\n- \"Next Part\" button to step through the parts of the sample text one at a time\n- After each part, the \"Whole Interpretation\" panel updates to show how the overall understanding changes\n- A dropdown to select between 3 sample texts: a poem, a historical document excerpt, and a short philosophical passage\n- A \"Reset\" button to start over with the current text\n\n**Default state:** Poem selected, first part highlighted, initial whole interpretation displayed.\n\n**Color scheme:** Circle arcs in teal and amber, highlighted part in coral, interpretation panel in cream.\n\n**Responsive design:** Circle and text panel stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with circular arc drawing, text rendering, createSelect() for text dropdown, and createButton() for stepping controls."
+}

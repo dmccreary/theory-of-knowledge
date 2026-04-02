@@ -1,0 +1,14 @@
+{
+  "sim_id": "theory-law-model",
+  "diagram_name": "Theory, Law, and Model Relationships",
+  "chapter_number": 10,
+  "chapter_title": "Natural Sciences and the Scientific Method",
+  "chapter_dir": "10-natural-sciences-and-scientific-method",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Distinguish",
+  "learning_objective": "Distinguish between scientific theories, laws, and models by identifying the function and scope of each.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** theory-law-model<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Distinguish\n**Learning Objective:** Distinguish between scientific theories, laws, and models by identifying the function and scope of each.\n\n**Instructional Rationale:** Students commonly believe that laws are \"higher\" than theories. An interactive diagram showing their distinct roles and relationships corrects this misconception visually.\n\n**Visual elements:**\n- Three labeled nodes: \"Theory,\" \"Law,\" and \"Model\" arranged in a triangle\n- Connecting arrows with labels describing their relationships (e.g., \"Theories explain the mechanisms behind laws,\" \"Models simplify theories for prediction\")\n- Example cards attached to each node that expand on click\n- A \"Common Misconception\" callout: \"Laws do NOT become theories. They serve different functions.\"\n\n**Interactive controls:**\n- Click each node to expand 2-3 concrete examples with brief descriptions\n- Hover over relationship arrows to see explanatory text\n- Toggle between \"Science Examples\" and \"Everyday Analogies\" modes\n\n**Default state:** Triangle layout with all three nodes visible, examples collapsed.\n\n**Color scheme:** Theory = teal, Law = amber, Model = coral, arrows = dark gray\n\n**Responsive design:** Canvas resizes to fit container width. Triangle repositions for narrow screens.\n\nImplementation: p5.js with clickable nodes and hover detection"
+}

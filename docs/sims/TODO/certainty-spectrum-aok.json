@@ -1,0 +1,14 @@
+{
+  "sim_id": "certainty-spectrum-aok",
+  "diagram_name": "The Certainty Spectrum Across AOKs",
+  "chapter_number": 9,
+  "chapter_title": "Areas of Knowledge and Mathematical Methods",
+  "chapter_dir": "09-areas-of-knowledge-and-mathematics",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess",
+  "learning_objective": "Assess the degree of certainty achievable in different Areas of Knowledge by positioning them on a spectrum and justifying their placement.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** certainty-spectrum-aok<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess\n**Learning Objective:** Assess the degree of certainty achievable in different Areas of Knowledge by positioning them on a spectrum and justifying their placement.\n\n**Instructional Rationale:** A draggable spectrum visualization helps students move beyond the binary of \"certain vs. uncertain\" and develop nuanced thinking about degrees of confidence across AOKs.\n\n**Visual elements:**\n- A horizontal spectrum bar from \"Least Certain\" (left) to \"Most Certain\" (right)\n- Eight draggable AOK cards, each labeled with the AOK name and a brief description\n- A justification panel below the spectrum where explanations appear for each AOK's position\n- Guide markers at key positions: \"Deductive certainty,\" \"Strong empirical support,\" \"Interpretive,\" \"Value-dependent\"\n\n**Interactive controls:**\n- Drag any AOK card to a position on the spectrum\n- Click on a placed card to read a 2-3 sentence justification for its position\n- A \"Show Expert View\" button that reveals how epistemologists typically rank the AOKs by certainty\n- A \"Compare My View\" mode that overlays the student's ranking with the expert ranking\n\n**Default state:** All eight AOK cards arranged randomly below the spectrum, ready to be dragged.\n\n**Color scheme:** Spectrum gradient from coral (least certain) through cream to teal (most certain). Cards in white with teal borders.\n\n**Responsive design:** Canvas resizes to fit container width. On narrow screens, spectrum switches to vertical orientation.\n\nImplementation: p5.js with drag-and-drop detection and createButton() for mode toggles."
+}

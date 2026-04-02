@@ -1,0 +1,14 @@
+{
+  "sim_id": "conceptual-metaphor-map",
+  "diagram_name": "Conceptual Metaphor Map",
+  "chapter_number": 7,
+  "chapter_title": "Knowledge and Language",
+  "chapter_dir": "07-knowledge-and-language",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Deconstruct",
+  "learning_objective": "Deconstruct common conceptual metaphors to reveal how they structure thinking and identify what each metaphor highlights and hides.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** conceptual-metaphor-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Deconstruct\n**Learning Objective:** Deconstruct common conceptual metaphors to reveal how they structure thinking and identify what each metaphor highlights and hides.\n\n**Instructional Rationale:** A visual mapping tool makes the structure of conceptual metaphor explicit. By seeing source and target domains side by side with mapped correspondences, students understand how metaphors do cognitive work — not just aesthetic work.\n\n**Visual elements:**\n- Two circles: Source Domain (left, e.g., \"Building\") and Target Domain (right, e.g., \"Argument\")\n- Correspondence lines connecting elements: foundation ↔ premises, walls ↔ supporting evidence, roof ↔ conclusion, structural integrity ↔ logical validity\n- A \"Hidden by this metaphor\" box below listing aspects of arguments that the building metaphor ignores (e.g., emotional force, audience, cultural context)\n\n**Interactive controls:**\n- Dropdown to select different conceptual metaphors: \"Argument is Building,\" \"Knowledge is Light,\" \"Time is Money,\" \"Ideas are Food,\" \"Life is a Journey\"\n- Each selection updates both domains and correspondence lines\n- A \"What's Hidden?\" toggle that reveals/hides the box showing what the metaphor obscures\n- Click any correspondence line to see a specific linguistic example\n\n**Default state:** \"Argument is Building\" selected, correspondence lines visible, \"What's Hidden?\" box collapsed.\n\n**Color scheme:** Source domain in amber, target domain in teal, correspondence lines in gray, \"What's Hidden?\" box in coral.\n\n**Responsive design:** Canvas resizes to fit container width. Circles reposition on narrow screens.\n\nImplementation: p5.js with dropdown using createSelect() and toggle using createCheckbox()"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "capstone-portfolio-web",
+  "diagram_name": "Capstone Portfolio Knowledge Web",
+  "chapter_number": 16,
+  "chapter_title": "TOK Assessment and Synthesis",
+  "chapter_dir": "16-tok-assessment-and-synthesis",
+  "library": "vis-network",
+  "bloom_level": "Create (L6)",
+  "bloom_verb": "Construct",
+  "learning_objective": "Construct a personal knowledge web that maps connections between portfolio components, TOK concepts, Areas of Knowledge, and real-world examples.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive network\n**sim-id:** capstone-portfolio-web<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom Level:** Create (L6)\n**Bloom Verb:** Construct\n**Learning Objective:** Construct a personal knowledge web that maps connections between portfolio components, TOK concepts, Areas of Knowledge, and real-world examples.\n\n**Instructional Rationale:** A customizable network visualization allows students to build their own map of how course concepts connect, reinforcing the synthesizing function of the capstone and making their thinking visible.\n\n**Visual elements:**\n- Five core nodes representing portfolio components (Essay, Exhibition, Journal, Cross-AOK Analysis, Epistemological Statement) arranged in a pentagon\n- Sixteen chapter nodes arranged in a surrounding ring, color-coded by theme cluster\n- Edges representing connections between portfolio components and chapters\n- Student-addable nodes for personal examples, real-world objects, and key insights\n\n**Interactive controls:**\n- Click \"Add Connection\" to draw a new edge between any two nodes with a label\n- Click \"Add Node\" to create a custom node (personal example, key insight, exhibition object)\n- Double-click any node to add personal notes\n- \"Export\" button to save the current web as an image\n- Physics toggle to freeze/unfreeze the network layout\n\n**Default state:** Core pentagon and chapter ring visible with suggested connections. Student nodes empty. Slight y-offset (490) on horizontal edges.\n\n**Color scheme:** Portfolio nodes = gold, Chapter nodes = teal gradient (lighter for early chapters, deeper for later), Student nodes = coral, Edges = soft gray with hover highlight in amber\n\n**Responsive design:** Canvas resizes to container width. Network physics recalculate on resize. Control panel collapses to icons on small screens.\n\nImplementation: vis-network with custom node creation, edge drawing, and local storage for saving student work"
+}

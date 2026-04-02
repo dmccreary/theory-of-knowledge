@@ -1,0 +1,14 @@
+{
+  "sim_id": "content-moderation-framework",
+  "diagram_name": "Content Moderation Decision Framework",
+  "chapter_number": 15,
+  "chapter_title": "Misinformation and the Information Age",
+  "chapter_dir": "15-misinformation-and-the-information-age",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Judge",
+  "learning_objective": "Judge content moderation decisions by weighing competing values — truth, free expression, harm prevention, and cultural context — in realistic scenarios.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** content-moderation-framework<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Judge\n**Learning Objective:** Judge content moderation decisions by weighing competing values — truth, free expression, harm prevention, and cultural context — in realistic scenarios.\n\n**Instructional Rationale:** Placing students in the role of a content moderator forces them to confront the epistemological and ethical tensions inherent in deciding what information should be available. There are no easy answers, which mirrors the real complexity of the problem.\n\n**Visual elements:**\n- A simulated social media post displayed prominently at the top\n- Four action buttons: \"Leave Up,\" \"Add Warning Label,\" \"Reduce Distribution,\" \"Remove\"\n- A panel showing competing considerations: truthfulness score, harm potential, context, intent\n- After each decision, a feedback panel showing arguments for and against each action\n- A scorecard tracking the student's decisions across 6 scenarios\n\n**Interactive controls:**\n- Read each scenario and select a moderation action\n- \"See Arguments\" button after each decision to reveal multiple perspectives\n- \"Next Scenario\" button to advance\n- A summary dashboard after all 6 scenarios showing the student's moderation pattern\n- Scenarios cover: health misinformation, political satire, out-of-context video, hate speech, conspiracy theory, deepfake\n\n**Default state:** First scenario displayed. All action buttons enabled.\n\n**Color scheme:** Teal for \"leave up\" decisions, amber for \"label/reduce\" decisions, coral for \"remove\" decisions.\n\n**Responsive design:** Post and controls stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with scenario state machine, click detection, createButton() controls, summary chart rendering."
+}

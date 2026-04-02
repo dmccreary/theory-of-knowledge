@@ -1,0 +1,14 @@
+{
+  "sim_id": "ethical-frameworks-comparison",
+  "diagram_name": "Comparing Ethical Frameworks",
+  "chapter_number": 13,
+  "chapter_title": "Ethics and Values in Knowledge",
+  "chapter_dir": "13-ethics-and-values-in-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare how deontological, consequentialist, and virtue ethics frameworks evaluate the same ethical scenario, identifying the reasoning process each framework uses.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** ethical-frameworks-comparison<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare how deontological, consequentialist, and virtue ethics frameworks evaluate the same ethical scenario, identifying the reasoning process each framework uses.\n\n**Instructional Rationale:** By presenting the same moral dilemma through three different lenses simultaneously, students can see that ethical disagreement often stems from framework choice rather than factual disagreement. This builds analytical skill and tolerance for moral complexity.\n\n**Visual elements:**\n- Three vertical columns, one for each framework (Deontological, Consequentialist, Virtue Ethics)\n- Each column displays: the framework name, its central question, its evaluation of the current scenario, and its verdict (right/wrong/depends)\n- A scenario panel at the top displaying the current ethical dilemma\n- Color-coded verdicts: green for \"morally right,\" red for \"morally wrong,\" amber for \"depends on context\"\n\n**Interactive controls:**\n- A dropdown selector to choose between 4 scenarios: \"The White Lie\" (lying to protect feelings), \"The Trolley Problem\" (sacrificing one to save five), \"The Whistleblower\" (exposing wrongdoing at personal cost), \"The Stolen Medicine\" (stealing to save a life)\n- Hover over any framework column to see a detailed explanation of the reasoning\n- A \"Your Verdict\" button in each column that students can click to indicate which framework they find most persuasive for each scenario\n\n**Default state:** \"The Trolley Problem\" scenario selected, all three columns visible with reasoning and verdicts displayed.\n\n**Color scheme:** Deontological = teal, Consequentialist = amber, Virtue Ethics = coral. Verdicts in green/red/amber.\n\n**Responsive design:** Columns stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with createSelect() for scenario dropdown, hover detection for detail panels, and click tracking for student verdicts."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "evidence-strength-hierarchy",
+  "diagram_name": "Evidence Strength Hierarchy",
+  "chapter_number": 3,
+  "chapter_title": "Evidence and Justification",
+  "chapter_dir": "03-evidence-and-justification",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** evidence-strength-hierarchy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy Level: Evaluate (L5)\nBloom Verb: Rank, assess\n\nLearning Objective: Students will rank different types of evidence by their general strength and assess how contextual factors (sample size, replication, source expertise) affect the evidential weight of each type.\n\nInstructional Rationale: An interactive pyramid/hierarchy allows students to actively rank evidence types and see how moving contextual sliders (sample size, replication, expertise) shifts the relative strength. This supports the Evaluate level by requiring students to make judgments rather than merely recall categories.\n\nVisual elements:\n- A vertical pyramid divided into horizontal tiers, from weakest (bottom, widest) to strongest (top, narrowest)\n- Default order from bottom to top: Anecdotal → Testimonial → Statistical → Empirical (replicated)\n- Each tier is colour-coded and labelled with the evidence type and a brief description\n- Above the pyramid, a \"Strength Score\" display shows a numerical value (0-100) for the currently selected tier\n\nInteractive elements:\n- Click on any tier to select it and display a detailed description panel on the right\n- Three contextual sliders below the pyramid:\n  1. \"Sample Size\" (1 to 10,000) — increasing this raises the strength score for statistical evidence\n  2. \"Independent Replications\" (0 to 10) — increasing this raises the strength score for empirical evidence\n  3. \"Source Expertise\" (Novice to World Expert) — increasing this raises the strength score for testimonial evidence\n- As sliders change, the pyramid tiers can reorder dynamically (e.g., expert testimony from a Nobel laureate might rank above a single unreplicated experiment)\n- A \"Reset\" button returns all sliders to default values\n- Hover over each tier for a tooltip showing a real-world example\n\nColour scheme:\n- Anecdotal: light coral (#F08080)\n- Testimonial: sandy brown (#F4A460)\n- Statistical: steel blue (#4682B4)\n- Empirical: sea green (#2E8B57)\n- Background: white\n- Selected tier: gold border (#FFD700)\n\nResponsive: Canvas adapts to container width. On narrow screens, the description panel moves below the pyramid."
+}

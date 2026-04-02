@@ -1,0 +1,14 @@
+{
+  "sim_id": "ways-of-knowing-web",
+  "diagram_name": "Ways of Knowing and Their Interactions",
+  "chapter_number": 4,
+  "chapter_title": "Knowledge and the Knower",
+  "chapter_dir": "04-knowledge-and-the-knower",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare how sense perception, emotion, intuition, memory, and imagination interact when a knower encounters a knowledge claim.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** ways-of-knowing-web<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare how sense perception, emotion, intuition, memory, and imagination interact when a knower encounters a knowledge claim.\n\n**Instructional Rationale:** An interactive web diagram shows that ways of knowing are not isolated channels but a network of interacting faculties. Clicking connections reveals concrete examples of interaction.\n\n**Visual elements:**\n- Five nodes arranged in a pentagon: Sense Perception, Emotion, Intuition, Memory, Imagination\n- Lines connecting every node to every other node (10 connections total)\n- Each connection labeled with a brief interaction description\n- A central area showing the currently selected interaction in detail\n\n**Interactive controls:**\n- Click any connection line to see a detailed example of how those two ways of knowing interact (e.g., Memory + Emotion: \"The smell of a particular perfume instantly brings back the feeling of a childhood holiday\")\n- Click any node to highlight all its connections and see a summary of that way of knowing\n- Dropdown to select a scenario (\"Reading a poem,\" \"Making a medical diagnosis,\" \"Judging a moral dilemma\") that highlights which connections are most active\n\n**Default state:** All nodes and connections visible, no selection active.\n\n**Color scheme:** Nodes in teal with amber highlights for selected elements. Connection lines in light gray, highlighted connections in coral.\n\n**Responsive design:** Pentagon reshapes to fit container width. Canvas resizes on window resize.\n\nImplementation: p5.js with click detection on nodes and edges, createSelect() for scenario dropdown."
+}

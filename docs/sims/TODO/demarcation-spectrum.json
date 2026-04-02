@@ -1,0 +1,14 @@
+{
+  "sim_id": "demarcation-spectrum",
+  "diagram_name": "The Demarcation Spectrum",
+  "chapter_number": 10,
+  "chapter_title": "Natural Sciences and the Scientific Method",
+  "chapter_dir": "10-natural-sciences-and-scientific-method",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess",
+  "learning_objective": "Assess where various knowledge claims fall on the spectrum from well-established science to pseudoscience using multiple demarcation criteria.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive\n**sim-id:** demarcation-spectrum<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess\n**Learning Objective:** Assess where various knowledge claims fall on the spectrum from well-established science to pseudoscience using multiple demarcation criteria.\n\n**Instructional Rationale:** Rather than presenting science/pseudoscience as a binary, a spectrum visualization helps students appreciate the gray areas and apply multiple criteria simultaneously.\n\n**Visual elements:**\n- A horizontal spectrum bar from \"Well-established Science\" (left) to \"Pseudoscience\" (right) with intermediate zones\n- Draggable cards representing various claims (e.g., \"General relativity,\" \"Astrology,\" \"Acupuncture,\" \"String theory,\" \"Homeopathy,\" \"Evolutionary psychology\")\n- A criteria checklist panel that evaluates each claim against 5 criteria: falsifiability, peer review, replication, self-correction, consistency\n\n**Interactive controls:**\n- Drag claim cards to position them on the spectrum\n- Click a card to see the criteria checklist with checkmarks and explanations\n- A \"Check My Answers\" button that reveals expert positioning with explanations\n- Reset button to try again\n\n**Default state:** Cards in a stack, spectrum empty, ready for student interaction.\n\n**Color scheme:** Science end = teal, Pseudoscience end = coral, intermediate = amber gradient\n\n**Responsive design:** Canvas resizes to fit container width. Cards stack vertically on narrow screens.\n\nImplementation: p5.js with drag-and-drop using mousePressed/mouseReleased and createButton()"
+}

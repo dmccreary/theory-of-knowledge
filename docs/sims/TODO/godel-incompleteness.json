@@ -1,0 +1,14 @@
+{
+  "sim_id": "godel-incompleteness",
+  "diagram_name": "Godel's Incompleteness Visualized",
+  "chapter_number": 9,
+  "chapter_title": "Areas of Knowledge and Mathematical Methods",
+  "chapter_dir": "09-areas-of-knowledge-and-mathematics",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Explain Godel's First Incompleteness Theorem by identifying the relationship between provable statements and true statements within a formal system.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** godel-incompleteness<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Explain\n**Learning Objective:** Explain Godel's First Incompleteness Theorem by identifying the relationship between provable statements and true statements within a formal system.\n\n**Instructional Rationale:** Godel's theorems are notoriously abstract. A visual representation using nested sets — true statements, provable statements, and the \"Godel sentence\" that is true but unprovable — makes the core idea accessible without requiring formal logic training.\n\n**Visual elements:**\n- A large circle labeled \"All True Mathematical Statements\"\n- A smaller circle inside it labeled \"Statements Provable in System F\"\n- A point outside the provable circle but inside the true circle, labeled \"G: True but not provable in F\"\n- An annotation showing that expanding the system (adding G as a new axiom) creates a new system F' with its own unprovable truth G'\n- An animation showing this process repeating, illustrating the inexhaustibility of mathematical truth\n\n**Interactive controls:**\n- A \"Step\" button that expands the system by adding the unprovable statement as a new axiom, showing a new provable circle and a new unprovable truth\n- A slider to control animation speed\n- A \"Reset\" button to return to the original system\n- Hover over any region to see a plain-English explanation\n\n**Default state:** The two nested circles with G highlighted, before any expansion.\n\n**Color scheme:** True statements circle in light teal, provable circle in amber, unprovable truth in coral, new systems in progressively lighter shades.\n\n**Responsive design:** Canvas resizes to container width. Circle sizes scale proportionally.\n\nImplementation: p5.js with animation loop, createButton() for stepping, and createSlider() for speed control."
+}
