@@ -1,11 +1,77 @@
 site_name: Theory of Knowledge
+repo_url: https://github.com/dmccreary/theory-of-knowledge
+site_url: https://dmccreary.github.io/theory-of-knowledge/
+site_description: An interactive intelligent textbook for the IB Theory of Knowledge (TOK) course.
+site_author: Dan McCreary
+
 nav:
   - Home: index.md
+  - About the Course: about.md
   - Course Description: course-description.md
+
+  - MicroSims:
+    - List of MicroSims: sims/index.md
+
   - Learning Graph:
     - Introduction: learning-graph/index.md
-    - Concept Enumeration: learning-graph/concept-list.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
-    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept List: learning-graph/concept-list.md
+    - Quality Metrics: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
-    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+
+  - Glossary: glossary.md
+
+  - License: license.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  palette:
+    primary: 'teal'
+    accent: 'white'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - js/extra.js
+  - js/config.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+watch:
+  - docs
+  - mkdocs.yml
+
+copyright: Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+
+extra:
+  schema: https://dmccreary.github.io/intelligent-textbooks/ns/textbook/v1
+  textbook_name: Theory of Knowledge
+  textbook_version: "1.0"

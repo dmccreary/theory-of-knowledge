@@ -1,0 +1,139 @@
+.md-header__button.md-logo {
+    margin: 0;
+    padding: 0;
+}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 50px;
+    width: 50px;
+}
+
+/* Container to control the iframe size and scaling */
+.iframe-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Iframe styles */
+  iframe {
+    width: 100%;
+    border: solid 2px blue;
+  }
+
+  /* if a div with <div class="upper-alpha"> wraps a list, then number A.B.C.D etc */
+  /* this requires that the markdown extension md_in_html is enabled in the mkdocs.yml file */
+  .upper-alpha ol {
+    list-style-type: upper-alpha;
+  }
+
+/* Styling for the Copy Button */
+.admonition.prompt {
+  position: relative;
+}
+
+.admonition.prompt .copy-button {
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  background-color: #0056d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3rem 0.3rem;
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+.admonition.prompt .copy-button:hover {
+  background-color: #0041a4; /* Darker blue on hover */
+}
+
+/* ============================================
+   Delta Mascot Admonitions
+   Pose-specific accent colors for quote admonitions
+   ============================================ */
+
+/* ---- Shared base for all Delta admonitions ---- */
+.md-typeset .admonition.delta-welcome,
+.md-typeset .admonition.delta-thinking,
+.md-typeset .admonition.delta-tip,
+.md-typeset .admonition.delta-warning,
+.md-typeset .admonition.delta-celebration,
+.md-typeset .admonition.delta-encouraging,
+.md-typeset .admonition.delta-neutral {
+  font-size: inherit;
+}
+
+/* ---- Welcome (chapter openings) — forest green ---- */
+.admonition.delta-welcome {
+  border-left-color: #2e7d32 !important;
+  background-color: #e8f5e9 !important;
+}
+.admonition.delta-welcome > .admonition-title {
+  background-color: rgba(46, 125, 50, 0.1) !important;
+}
+
+/* ---- Thinking (key concepts, Delta Moments) — warm orange ---- */
+.admonition.delta-thinking {
+  border-left-color: #f57c00 !important;
+  background-color: #fff3e0 !important;
+}
+.admonition.delta-thinking > .admonition-title {
+  background-color: rgba(245, 124, 0, 0.1) !important;
+}
+
+/* ---- Tip (hints, sidequests) — teal ---- */
+.admonition.delta-tip {
+  border-left-color: #009688 !important;
+  background-color: #e0f2f1 !important;
+}
+.admonition.delta-tip > .admonition-title {
+  background-color: rgba(0, 150, 136, 0.1) !important;
+}
+
+/* ---- Warning (common mistakes) — red ---- */
+.admonition.delta-warning {
+  border-left-color: #c62828 !important;
+  background-color: #ffebee !important;
+}
+.admonition.delta-warning > .admonition-title {
+  background-color: rgba(198, 40, 40, 0.1) !important;
+}
+
+/* ---- Celebration (achievements, pun corner) — purple ---- */
+.admonition.delta-celebration {
+  border-left-color: #6a1b9a !important;
+  background-color: #f3e5f5 !important;
+}
+.admonition.delta-celebration > .admonition-title {
+  background-color: rgba(106, 27, 154, 0.1) !important;
+}
+
+/* ---- Encouraging (difficult content) — blue ---- */
+.admonition.delta-encouraging {
+  border-left-color: #0277bd !important;
+  background-color: #e1f5fe !important;
+}
+.admonition.delta-encouraging > .admonition-title {
+  background-color: rgba(2, 119, 189, 0.1) !important;
+}
+
+/* ---- Neutral (general purpose) — slate gray ---- */
+.admonition.delta-neutral {
+  border-left-color: #546e7a !important;
+  background-color: #eceff1 !important;
+}
+.admonition.delta-neutral > .admonition-title {
+  background-color: rgba(84, 110, 122, 0.1) !important;
+}
+
+/* ---- Delta mascot image floated left of admonition body text ---- */
+.delta-admonition-img {
+  float: left;
+  /* here you can set the size of all the mascot images - adjust as needed */
+  width: 90px;
+  height: 90px;
+  /* the order is top, right, bottom, left - we only need a margin on the right */
+  margin: 0 0.5em 0 0;
+  object-fit: contain;
+}
