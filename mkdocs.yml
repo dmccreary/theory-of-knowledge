@@ -32,6 +32,8 @@ theme:
   palette:
     primary: 'teal'
     accent: 'white'
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.png
   include_sidebar: true
   features:
     - content.code.copy
