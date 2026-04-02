@@ -30,7 +30,19 @@ nav:
 
   - MicroSims:
     - List of MicroSims: sims/index.md
+    - Critical Thinking Cycle: sims/critical-thinking-cycle/index.md
+    - JTB Venn Diagram - Justified True Belief: sims/knowledge-jtb-venn/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Personal and Shared Knowledge: sims/personal-shared-knowledge/index.md
+    - Reflective Thinking Quiz: sims/reflective-thinking-quiz/index.md
+
+
+
+
+
+
+
+
 
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -49,6 +61,7 @@ nav:
     - prompts/04-mascot-generator.md
     - prompts/05-book-chapter-generator.md
 
+  - FAQ: faq.md
   - Glossary: glossary.md
   - References: references.md
   - License: license.md
