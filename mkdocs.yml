@@ -9,6 +9,25 @@ nav:
   - About the Course: about.md
   - Course Description: course-description.md
 
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. Foundations of Knowledge: chapters/01-foundations-of-knowledge/index.md
+    - 2. Theories of Truth and Knowledge: chapters/02-theories-of-truth-and-knowledge/index.md
+    - 3. Evidence and Justification: chapters/03-evidence-and-justification/index.md
+    - 4. Knowledge and the Knower: chapters/04-knowledge-and-the-knower/index.md
+    - 5. Cognitive Biases: chapters/05-cognitive-biases/index.md
+    - 6. Reasoning and Argumentation: chapters/06-reasoning-and-argumentation/index.md
+    - 7. Knowledge and Language: chapters/07-knowledge-and-language/index.md
+    - 8. Skepticism and Intellectual Virtues: chapters/08-skepticism-and-intellectual-virtues/index.md
+    - 9. Areas of Knowledge and Mathematics: chapters/09-areas-of-knowledge-and-mathematics/index.md
+    - 10. Natural Sciences and Scientific Method: chapters/10-natural-sciences-and-scientific-method/index.md
+    - 11. Human Sciences and History: chapters/11-human-sciences-and-history/index.md
+    - 12. The Arts as Knowledge: chapters/12-the-arts-as-knowledge/index.md
+    - 13. Ethics and Values in Knowledge: chapters/13-ethics-and-values-in-knowledge/index.md
+    - 14. Knowledge, Technology, and Power: chapters/14-knowledge-technology-and-power/index.md
+    - 15. Misinformation and the Information Age: chapters/15-misinformation-and-the-information-age/index.md
+    - 16. TOK Assessment and Synthesis: chapters/16-tok-assessment-and-synthesis/index.md
+
   - MicroSims:
     - List of MicroSims: sims/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
@@ -22,8 +41,16 @@ nav:
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Mascot Style Guide: learning-graph/mascot-test.md
 
-  - Glossary: glossary.md
+  - Prompts:
+    - List of Prompts: prompts/index.md
+    - prompts/01-seed.md
+    - prompts/02-learning-graph-generator.md
+    - prompts/03-mkdoc-and-templates.md
+    - prompts/04-mascot-generator.md
+    - prompts/05-book-chapter-genetor.md
 
+  - Glossary: glossary.md
+  - References: references.md
   - License: license.md
   - Contact: contact.md
 
