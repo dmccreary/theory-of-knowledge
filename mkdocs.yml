@@ -47,7 +47,7 @@ nav:
     - prompts/02-learning-graph-generator.md
     - prompts/03-mkdoc-and-templates.md
     - prompts/04-mascot-generator.md
-    - prompts/05-book-chapter-genetor.md
+    - prompts/05-book-chapter-generator.md
 
   - Glossary: glossary.md
   - References: references.md
