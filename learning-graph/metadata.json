@@ -1,0 +1,10 @@
+{
+  "title": "Theory of Knowledge (TOK) Learning Graph",
+  "description": "A comprehensive learning graph with 275 concepts for the Theory of Knowledge course, covering epistemology, areas of knowledge, critical thinking, misinformation, argumentation, and TOK assessment skills.",
+  "creator": "Dan McCreary",
+  "date": "2026-04-02",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
