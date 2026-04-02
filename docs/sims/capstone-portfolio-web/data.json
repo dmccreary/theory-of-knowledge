@@ -1,0 +1,57 @@
+{
+  "portfolioNodes": [
+    {"id": 1, "label": "TOK\nEssay", "description": "Your 1,600-word essay responding to a prescribed title, demonstrating sustained analytical thinking about knowledge."},
+    {"id": 2, "label": "TOK\nExhibition", "description": "Three objects with commentaries showing how TOK concepts manifest in the real world."},
+    {"id": 3, "label": "Reflective\nJournal", "description": "Your ongoing personal record of epistemological reflections, questions, and evolving understanding."},
+    {"id": 4, "label": "Cross-AOK\nAnalysis", "description": "A comparative analysis exploring how different Areas of Knowledge address the same question."},
+    {"id": 5, "label": "Epistemological\nStatement", "description": "Your personal epistemological position statement articulating what you believe about the nature of knowledge."}
+  ],
+  "chapterNodes": [
+    {"id": 6, "label": "Ch 1: Foundations\nof Knowledge", "teal": "#1a8a7a"},
+    {"id": 7, "label": "Ch 2: Theories of\nTruth & Knowledge", "teal": "#1c9080"},
+    {"id": 8, "label": "Ch 3: Evidence\n& Justification", "teal": "#1e9686"},
+    {"id": 9, "label": "Ch 4: Knowledge\n& the Knower", "teal": "#209c8c"},
+    {"id": 10, "label": "Ch 5: Cognitive\nBiases", "teal": "#22a292"},
+    {"id": 11, "label": "Ch 6: Reasoning &\nArgumentation", "teal": "#24a898"},
+    {"id": 12, "label": "Ch 7: Knowledge\n& Language", "teal": "#26ae9e"},
+    {"id": 13, "label": "Ch 8: Skepticism &\nIntellectual Virtues", "teal": "#28b4a4"},
+    {"id": 14, "label": "Ch 9: AOKs &\nMathematics", "teal": "#2abaaa"},
+    {"id": 15, "label": "Ch 10: Natural Sciences\n& Scientific Method", "teal": "#2cc0b0"},
+    {"id": 16, "label": "Ch 11: Human\nSciences & History", "teal": "#2ec6b6"},
+    {"id": 17, "label": "Ch 12: The Arts\nas Knowledge", "teal": "#30ccbc"},
+    {"id": 18, "label": "Ch 13: Ethics &\nValues in Knowledge", "teal": "#32d2c2"},
+    {"id": 19, "label": "Ch 14: Knowledge,\nTechnology & Power", "teal": "#34d8c8"},
+    {"id": 20, "label": "Ch 15: Misinformation\n& Info Age", "teal": "#36dece"},
+    {"id": 21, "label": "Ch 16: TOK Assessment\n& Synthesis", "teal": "#38e4d4"}
+  ],
+  "edges": [
+    {"from": 1, "to": 6, "label": "Foundational\nconcepts"},
+    {"from": 1, "to": 7, "label": "Truth\ntheories"},
+    {"from": 1, "to": 8, "label": "Evidence\nstandards"},
+    {"from": 1, "to": 11, "label": "Argument\nstructure"},
+    {"from": 1, "to": 21, "label": "Essay\nguidance"},
+
+    {"from": 2, "to": 9, "label": "Personal\nknowledge"},
+    {"from": 2, "to": 12, "label": "Language &\nmeaning"},
+    {"from": 2, "to": 17, "label": "Artistic\nobjects"},
+    {"from": 2, "to": 19, "label": "Tech\nobjects"},
+    {"from": 2, "to": 21, "label": "Exhibition\nguidance"},
+
+    {"from": 3, "to": 6, "label": "Core\nquestions"},
+    {"from": 3, "to": 9, "label": "Self-\nawareness"},
+    {"from": 3, "to": 10, "label": "Bias\nreflection"},
+    {"from": 3, "to": 13, "label": "Intellectual\nvirtues"},
+
+    {"from": 4, "to": 14, "label": "Math\nmethods"},
+    {"from": 4, "to": 15, "label": "Scientific\nmethod"},
+    {"from": 4, "to": 16, "label": "Human Sci\n& History"},
+    {"from": 4, "to": 17, "label": "Arts\nknowledge"},
+    {"from": 4, "to": 18, "label": "Ethical\nframeworks"},
+
+    {"from": 5, "to": 7, "label": "Truth\nposition"},
+    {"from": 5, "to": 8, "label": "Justification\nstandards"},
+    {"from": 5, "to": 13, "label": "Epistemic\nhumility"},
+    {"from": 5, "to": 18, "label": "Values &\nknowledge"},
+    {"from": 5, "to": 20, "label": "Info age\nchallenges"}
+  ]
+}
