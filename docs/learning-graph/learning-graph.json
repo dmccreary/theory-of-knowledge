@@ -1,0 +1,3438 @@
+{
+  "metadata": {
+    "title": "Theory of Knowledge (TOK) Learning Graph",
+    "description": "A comprehensive learning graph with 275 concepts for the Theory of Knowledge course, covering epistemology, areas of knowledge, critical thinking, misinformation, argumentation, and TOK assessment skills.",
+    "creator": "Dan McCreary",
+    "date": "2026-04-02",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "THEO": {
+      "classifierName": "Theories of Knowledge",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "EVID": {
+      "classifierName": "Evidence and Justification",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BIAS": {
+      "classifierName": "Cognitive Biases",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SKEP": {
+      "classifierName": "Skepticism and Critical Thinking",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MISN": {
+      "classifierName": "Misinformation and Fact Checking",
+      "color": "LightPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ARGU": {
+      "classifierName": "Reasoning and Argumentation",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "AOK": {
+      "classifierName": "Areas of Knowledge",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "METH": {
+      "classifierName": "Discipline Methods",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ETHC": {
+      "classifierName": "Ethics and Values",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "THEM": {
+      "classifierName": "Themes and Perspectives",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ASMT": {
+      "classifierName": "TOK Assessment and Skills",
+      "color": "Plum",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Knowledge",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Belief",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Truth",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Justification",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Evidence",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Certainty",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Objectivity",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Subjectivity",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Perspective",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Bias",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Knowledge Claims",
+      "group": "FOUND"
+    },
+    {
+      "id": 12,
+      "label": "Personal Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 13,
+      "label": "Shared Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 14,
+      "label": "Propositional Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 15,
+      "label": "Procedural Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 16,
+      "label": "Acquaintance Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 17,
+      "label": "A Priori Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 18,
+      "label": "A Posteriori Knowledge",
+      "group": "FOUND"
+    },
+    {
+      "id": 19,
+      "label": "Correspondence Theory",
+      "group": "THEO"
+    },
+    {
+      "id": 20,
+      "label": "Coherence Theory",
+      "group": "THEO"
+    },
+    {
+      "id": 21,
+      "label": "Pragmatic Theory of Truth",
+      "group": "THEO"
+    },
+    {
+      "id": 22,
+      "label": "Justified True Belief",
+      "group": "THEO"
+    },
+    {
+      "id": 23,
+      "label": "Gettier Problem",
+      "group": "THEO"
+    },
+    {
+      "id": 24,
+      "label": "Fallibilism",
+      "group": "THEO"
+    },
+    {
+      "id": 25,
+      "label": "Epistemic Humility",
+      "group": "THEO"
+    },
+    {
+      "id": 26,
+      "label": "Intersubjectivity",
+      "group": "THEO"
+    },
+    {
+      "id": 27,
+      "label": "Value-Laden Inquiry",
+      "group": "THEO"
+    },
+    {
+      "id": 28,
+      "label": "Knowledge Production",
+      "group": "THEO"
+    },
+    {
+      "id": 29,
+      "label": "Knowledge Dissemination",
+      "group": "THEO"
+    },
+    {
+      "id": 30,
+      "label": "Knowledge Validation",
+      "group": "THEO"
+    },
+    {
+      "id": 31,
+      "label": "Empirical Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 32,
+      "label": "Testimonial Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 33,
+      "label": "Statistical Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 34,
+      "label": "Anecdotal Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 35,
+      "label": "Burden of Proof",
+      "group": "EVID"
+    },
+    {
+      "id": 36,
+      "label": "Standards of Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 37,
+      "label": "Sufficient Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 38,
+      "label": "Absence of Evidence",
+      "group": "EVID"
+    },
+    {
+      "id": 39,
+      "label": "Source Evaluation",
+      "group": "EVID"
+    },
+    {
+      "id": 40,
+      "label": "Provenance",
+      "group": "EVID"
+    },
+    {
+      "id": 41,
+      "label": "Corroboration",
+      "group": "EVID"
+    },
+    {
+      "id": 42,
+      "label": "Credibility",
+      "group": "EVID"
+    },
+    {
+      "id": 43,
+      "label": "Reliability",
+      "group": "EVID"
+    },
+    {
+      "id": 44,
+      "label": "Methodology",
+      "group": "EVID"
+    },
+    {
+      "id": 45,
+      "label": "Verification",
+      "group": "EVID"
+    },
+    {
+      "id": 46,
+      "label": "Cognitive Biases",
+      "group": "BIAS"
+    },
+    {
+      "id": 47,
+      "label": "Confirmation Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 48,
+      "label": "Anchoring Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 49,
+      "label": "Availability Heuristic",
+      "group": "BIAS"
+    },
+    {
+      "id": 50,
+      "label": "Cultural Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 51,
+      "label": "Selection Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 52,
+      "label": "Observer Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 53,
+      "label": "Groupthink",
+      "group": "BIAS"
+    },
+    {
+      "id": 54,
+      "label": "Dunning-Kruger Effect",
+      "group": "BIAS"
+    },
+    {
+      "id": 55,
+      "label": "Motivated Reasoning",
+      "group": "BIAS"
+    },
+    {
+      "id": 56,
+      "label": "Hindsight Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 57,
+      "label": "Framing Effect",
+      "group": "BIAS"
+    },
+    {
+      "id": 58,
+      "label": "Bandwagon Effect",
+      "group": "BIAS"
+    },
+    {
+      "id": 59,
+      "label": "Authority Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 60,
+      "label": "Status Quo Bias",
+      "group": "BIAS"
+    },
+    {
+      "id": 61,
+      "label": "Belief Perseverance",
+      "group": "BIAS"
+    },
+    {
+      "id": 62,
+      "label": "Cognitive Dissonance",
+      "group": "BIAS"
+    },
+    {
+      "id": 63,
+      "label": "Critical Thinking",
+      "group": "SKEP"
+    },
+    {
+      "id": 64,
+      "label": "Skepticism",
+      "group": "SKEP"
+    },
+    {
+      "id": 65,
+      "label": "Scientific Skepticism",
+      "group": "SKEP"
+    },
+    {
+      "id": 66,
+      "label": "Philosophical Skepticism",
+      "group": "SKEP"
+    },
+    {
+      "id": 67,
+      "label": "Cartesian Doubt",
+      "group": "SKEP"
+    },
+    {
+      "id": 68,
+      "label": "Pyrrhonian Skepticism",
+      "group": "SKEP"
+    },
+    {
+      "id": 69,
+      "label": "Healthy Skepticism",
+      "group": "SKEP"
+    },
+    {
+      "id": 70,
+      "label": "Pseudoscience",
+      "group": "SKEP"
+    },
+    {
+      "id": 71,
+      "label": "Demarcation Problem",
+      "group": "SKEP"
+    },
+    {
+      "id": 72,
+      "label": "Unfalsifiable Claims",
+      "group": "SKEP"
+    },
+    {
+      "id": 73,
+      "label": "Conspiracy Theories",
+      "group": "SKEP"
+    },
+    {
+      "id": 74,
+      "label": "Denialism",
+      "group": "SKEP"
+    },
+    {
+      "id": 75,
+      "label": "Science Denial",
+      "group": "SKEP"
+    },
+    {
+      "id": 76,
+      "label": "Intellectual Virtues",
+      "group": "SKEP"
+    },
+    {
+      "id": 77,
+      "label": "Intellectual Courage",
+      "group": "SKEP"
+    },
+    {
+      "id": 78,
+      "label": "Open-Mindedness",
+      "group": "SKEP"
+    },
+    {
+      "id": 79,
+      "label": "Intellectual Honesty",
+      "group": "SKEP"
+    },
+    {
+      "id": 80,
+      "label": "Epistemic Responsibility",
+      "group": "SKEP"
+    },
+    {
+      "id": 81,
+      "label": "Misinformation",
+      "group": "MISN"
+    },
+    {
+      "id": 82,
+      "label": "Disinformation",
+      "group": "MISN"
+    },
+    {
+      "id": 83,
+      "label": "Malinformation",
+      "group": "MISN"
+    },
+    {
+      "id": 84,
+      "label": "Propaganda",
+      "group": "MISN"
+    },
+    {
+      "id": 85,
+      "label": "Fact Checking",
+      "group": "MISN"
+    },
+    {
+      "id": 86,
+      "label": "Claim Verification",
+      "group": "MISN"
+    },
+    {
+      "id": 87,
+      "label": "Source Verification",
+      "group": "MISN"
+    },
+    {
+      "id": 88,
+      "label": "Lateral Reading",
+      "group": "MISN"
+    },
+    {
+      "id": 89,
+      "label": "Debunking",
+      "group": "MISN"
+    },
+    {
+      "id": 90,
+      "label": "Prebunking",
+      "group": "MISN"
+    },
+    {
+      "id": 91,
+      "label": "Inoculation Theory",
+      "group": "MISN"
+    },
+    {
+      "id": 92,
+      "label": "Media Literacy",
+      "group": "MISN"
+    },
+    {
+      "id": 93,
+      "label": "News Literacy",
+      "group": "MISN"
+    },
+    {
+      "id": 94,
+      "label": "Information Literacy",
+      "group": "MISN"
+    },
+    {
+      "id": 95,
+      "label": "Deepfakes",
+      "group": "MISN"
+    },
+    {
+      "id": 96,
+      "label": "Synthetic Media",
+      "group": "MISN"
+    },
+    {
+      "id": 97,
+      "label": "Information Warfare",
+      "group": "MISN"
+    },
+    {
+      "id": 98,
+      "label": "Post-Truth",
+      "group": "MISN"
+    },
+    {
+      "id": 99,
+      "label": "Information Ecosystem",
+      "group": "MISN"
+    },
+    {
+      "id": 100,
+      "label": "Echo Chambers",
+      "group": "MISN"
+    },
+    {
+      "id": 101,
+      "label": "Filter Bubbles",
+      "group": "MISN"
+    },
+    {
+      "id": 102,
+      "label": "Viral Misinformation",
+      "group": "MISN"
+    },
+    {
+      "id": 103,
+      "label": "Bot Networks",
+      "group": "MISN"
+    },
+    {
+      "id": 104,
+      "label": "Astroturfing",
+      "group": "MISN"
+    },
+    {
+      "id": 105,
+      "label": "Content Moderation",
+      "group": "MISN"
+    },
+    {
+      "id": 106,
+      "label": "Argumentation",
+      "group": "ARGU"
+    },
+    {
+      "id": 107,
+      "label": "Premises",
+      "group": "ARGU"
+    },
+    {
+      "id": 108,
+      "label": "Conclusions",
+      "group": "ARGU"
+    },
+    {
+      "id": 109,
+      "label": "Inductive Reasoning",
+      "group": "ARGU"
+    },
+    {
+      "id": 110,
+      "label": "Deductive Reasoning",
+      "group": "ARGU"
+    },
+    {
+      "id": 111,
+      "label": "Persuasion",
+      "group": "ARGU"
+    },
+    {
+      "id": 112,
+      "label": "Valid Arguments",
+      "group": "ARGU"
+    },
+    {
+      "id": 113,
+      "label": "Sound Arguments",
+      "group": "ARGU"
+    },
+    {
+      "id": 114,
+      "label": "Strong Induction",
+      "group": "ARGU"
+    },
+    {
+      "id": 115,
+      "label": "Weak Induction",
+      "group": "ARGU"
+    },
+    {
+      "id": 116,
+      "label": "Logical Fallacies",
+      "group": "ARGU"
+    },
+    {
+      "id": 117,
+      "label": "Ad Hominem Fallacy",
+      "group": "ARGU"
+    },
+    {
+      "id": 118,
+      "label": "Straw Man Fallacy",
+      "group": "ARGU"
+    },
+    {
+      "id": 119,
+      "label": "Appeal to Authority",
+      "group": "ARGU"
+    },
+    {
+      "id": 120,
+      "label": "False Dilemma",
+      "group": "ARGU"
+    },
+    {
+      "id": 121,
+      "label": "Circular Reasoning",
+      "group": "ARGU"
+    },
+    {
+      "id": 122,
+      "label": "Red Herring",
+      "group": "ARGU"
+    },
+    {
+      "id": 123,
+      "label": "Slippery Slope",
+      "group": "ARGU"
+    },
+    {
+      "id": 124,
+      "label": "Counterclaims",
+      "group": "ARGU"
+    },
+    {
+      "id": 125,
+      "label": "Claim and Evidence",
+      "group": "ARGU"
+    },
+    {
+      "id": 126,
+      "label": "Reasoning",
+      "group": "ARGU"
+    },
+    {
+      "id": 127,
+      "label": "Counterexamples",
+      "group": "ARGU"
+    },
+    {
+      "id": 128,
+      "label": "Reductio Ad Absurdum",
+      "group": "ARGU"
+    },
+    {
+      "id": 129,
+      "label": "Burden of Proof Fallacy",
+      "group": "ARGU"
+    },
+    {
+      "id": 130,
+      "label": "Tu Quoque Fallacy",
+      "group": "ARGU"
+    },
+    {
+      "id": 131,
+      "label": "Areas of Knowledge",
+      "group": "AOK"
+    },
+    {
+      "id": 132,
+      "label": "Mathematics AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 133,
+      "label": "Natural Sciences AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 134,
+      "label": "Human Sciences AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 135,
+      "label": "History AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 136,
+      "label": "The Arts AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 137,
+      "label": "Ethics AOK",
+      "group": "AOK"
+    },
+    {
+      "id": 138,
+      "label": "Indigenous Knowledge",
+      "group": "AOK"
+    },
+    {
+      "id": 139,
+      "label": "Religious Knowledge",
+      "group": "AOK"
+    },
+    {
+      "id": 140,
+      "label": "Methods of Inquiry",
+      "group": "AOK"
+    },
+    {
+      "id": 141,
+      "label": "Interdisciplinary Inquiry",
+      "group": "AOK"
+    },
+    {
+      "id": 142,
+      "label": "Cross-Cultural Knowledge",
+      "group": "AOK"
+    },
+    {
+      "id": 143,
+      "label": "Epistemological Frameworks",
+      "group": "AOK"
+    },
+    {
+      "id": 144,
+      "label": "Ways of Knowing",
+      "group": "AOK"
+    },
+    {
+      "id": 145,
+      "label": "Scope and Application",
+      "group": "AOK"
+    },
+    {
+      "id": 146,
+      "label": "Axioms",
+      "group": "METH"
+    },
+    {
+      "id": 147,
+      "label": "Mathematical Proof",
+      "group": "METH"
+    },
+    {
+      "id": 148,
+      "label": "Abstraction",
+      "group": "METH"
+    },
+    {
+      "id": 149,
+      "label": "Mathematical Modeling",
+      "group": "METH"
+    },
+    {
+      "id": 150,
+      "label": "Formal Systems",
+      "group": "METH"
+    },
+    {
+      "id": 151,
+      "label": "Empiricism",
+      "group": "METH"
+    },
+    {
+      "id": 152,
+      "label": "Rationalism",
+      "group": "METH"
+    },
+    {
+      "id": 153,
+      "label": "Certainty in Mathematics",
+      "group": "METH"
+    },
+    {
+      "id": 154,
+      "label": "Beauty in Mathematics",
+      "group": "METH"
+    },
+    {
+      "id": 155,
+      "label": "Incompleteness Theorems",
+      "group": "METH"
+    },
+    {
+      "id": 156,
+      "label": "Scientific Method",
+      "group": "METH"
+    },
+    {
+      "id": 157,
+      "label": "Falsifiability",
+      "group": "METH"
+    },
+    {
+      "id": 158,
+      "label": "Hypothesis Testing",
+      "group": "METH"
+    },
+    {
+      "id": 159,
+      "label": "Replication",
+      "group": "METH"
+    },
+    {
+      "id": 160,
+      "label": "Peer Review",
+      "group": "METH"
+    },
+    {
+      "id": 161,
+      "label": "Paradigm",
+      "group": "METH"
+    },
+    {
+      "id": 162,
+      "label": "Paradigm Shift",
+      "group": "METH"
+    },
+    {
+      "id": 163,
+      "label": "Thomas Kuhn",
+      "group": "METH"
+    },
+    {
+      "id": 164,
+      "label": "Scientific Revolutions",
+      "group": "METH"
+    },
+    {
+      "id": 165,
+      "label": "Normal Science",
+      "group": "METH"
+    },
+    {
+      "id": 166,
+      "label": "Anomalies",
+      "group": "METH"
+    },
+    {
+      "id": 167,
+      "label": "Theory and Law",
+      "group": "METH"
+    },
+    {
+      "id": 168,
+      "label": "Scientific Consensus",
+      "group": "METH"
+    },
+    {
+      "id": 169,
+      "label": "Replication Crisis",
+      "group": "METH"
+    },
+    {
+      "id": 170,
+      "label": "Scientific Models",
+      "group": "METH"
+    },
+    {
+      "id": 171,
+      "label": "Qualitative Methods",
+      "group": "METH"
+    },
+    {
+      "id": 172,
+      "label": "Quantitative Methods",
+      "group": "METH"
+    },
+    {
+      "id": 173,
+      "label": "Observer Effect",
+      "group": "METH"
+    },
+    {
+      "id": 174,
+      "label": "Ethical Constraints",
+      "group": "METH"
+    },
+    {
+      "id": 175,
+      "label": "Cultural Variables",
+      "group": "METH"
+    },
+    {
+      "id": 176,
+      "label": "Surveys and Sampling",
+      "group": "METH"
+    },
+    {
+      "id": 177,
+      "label": "Correlation and Causation",
+      "group": "METH"
+    },
+    {
+      "id": 178,
+      "label": "Controlled Experiments",
+      "group": "METH"
+    },
+    {
+      "id": 179,
+      "label": "Case Studies",
+      "group": "METH"
+    },
+    {
+      "id": 180,
+      "label": "Interpretation in Research",
+      "group": "METH"
+    },
+    {
+      "id": 181,
+      "label": "Primary Sources",
+      "group": "METH"
+    },
+    {
+      "id": 182,
+      "label": "Secondary Sources",
+      "group": "METH"
+    },
+    {
+      "id": 183,
+      "label": "Historical Narrative",
+      "group": "METH"
+    },
+    {
+      "id": 184,
+      "label": "Historical Revisionism",
+      "group": "METH"
+    },
+    {
+      "id": 185,
+      "label": "Memory and Testimony",
+      "group": "METH"
+    },
+    {
+      "id": 186,
+      "label": "Oral Traditions",
+      "group": "METH"
+    },
+    {
+      "id": 187,
+      "label": "Historical Empathy",
+      "group": "METH"
+    },
+    {
+      "id": 188,
+      "label": "Anachronism",
+      "group": "METH"
+    },
+    {
+      "id": 189,
+      "label": "Historiography",
+      "group": "METH"
+    },
+    {
+      "id": 190,
+      "label": "Archive and Record",
+      "group": "METH"
+    },
+    {
+      "id": 191,
+      "label": "Aesthetic Knowledge",
+      "group": "METH"
+    },
+    {
+      "id": 192,
+      "label": "Artistic Interpretation",
+      "group": "METH"
+    },
+    {
+      "id": 193,
+      "label": "Artistic Intent",
+      "group": "METH"
+    },
+    {
+      "id": 194,
+      "label": "Audience Reception",
+      "group": "METH"
+    },
+    {
+      "id": 195,
+      "label": "Creativity",
+      "group": "METH"
+    },
+    {
+      "id": 196,
+      "label": "Art and Emotion",
+      "group": "METH"
+    },
+    {
+      "id": 197,
+      "label": "Art and Culture",
+      "group": "METH"
+    },
+    {
+      "id": 198,
+      "label": "Censorship in Art",
+      "group": "METH"
+    },
+    {
+      "id": 199,
+      "label": "Art as Knowledge",
+      "group": "METH"
+    },
+    {
+      "id": 200,
+      "label": "Performative Knowledge",
+      "group": "METH"
+    },
+    {
+      "id": 201,
+      "label": "Moral Reasoning",
+      "group": "ETHC"
+    },
+    {
+      "id": 202,
+      "label": "Deontological Ethics",
+      "group": "ETHC"
+    },
+    {
+      "id": 203,
+      "label": "Consequentialism",
+      "group": "ETHC"
+    },
+    {
+      "id": 204,
+      "label": "Virtue Ethics",
+      "group": "ETHC"
+    },
+    {
+      "id": 205,
+      "label": "Moral Relativism",
+      "group": "ETHC"
+    },
+    {
+      "id": 206,
+      "label": "Moral Universalism",
+      "group": "ETHC"
+    },
+    {
+      "id": 207,
+      "label": "Ethical Dilemmas",
+      "group": "ETHC"
+    },
+    {
+      "id": 208,
+      "label": "Consent in Research",
+      "group": "ETHC"
+    },
+    {
+      "id": 209,
+      "label": "Representation",
+      "group": "ETHC"
+    },
+    {
+      "id": 210,
+      "label": "Intellectual Property",
+      "group": "ETHC"
+    },
+    {
+      "id": 211,
+      "label": "Ethics of AI",
+      "group": "ETHC"
+    },
+    {
+      "id": 212,
+      "label": "Bioethics",
+      "group": "ETHC"
+    },
+    {
+      "id": 213,
+      "label": "Ethical Implications",
+      "group": "ETHC"
+    },
+    {
+      "id": 214,
+      "label": "Faith and Reason",
+      "group": "ETHC"
+    },
+    {
+      "id": 215,
+      "label": "Authority in Knowledge",
+      "group": "ETHC"
+    },
+    {
+      "id": 216,
+      "label": "Knowledge and the Knower",
+      "group": "THEM"
+    },
+    {
+      "id": 217,
+      "label": "Identity and Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 218,
+      "label": "Culture and Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 219,
+      "label": "Personal Epistemology",
+      "group": "THEM"
+    },
+    {
+      "id": 220,
+      "label": "Emotion and Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 221,
+      "label": "Intuition",
+      "group": "THEM"
+    },
+    {
+      "id": 222,
+      "label": "Sense Perception",
+      "group": "THEM"
+    },
+    {
+      "id": 223,
+      "label": "Imagination in Knowing",
+      "group": "THEM"
+    },
+    {
+      "id": 224,
+      "label": "Memory as Knowledge Source",
+      "group": "THEM"
+    },
+    {
+      "id": 225,
+      "label": "Metacognition",
+      "group": "THEM"
+    },
+    {
+      "id": 226,
+      "label": "Knowledge and Language",
+      "group": "THEM"
+    },
+    {
+      "id": 227,
+      "label": "Language as Tool",
+      "group": "THEM"
+    },
+    {
+      "id": 228,
+      "label": "Language as Constraint",
+      "group": "THEM"
+    },
+    {
+      "id": 229,
+      "label": "Meaning",
+      "group": "THEM"
+    },
+    {
+      "id": 230,
+      "label": "Ambiguity",
+      "group": "THEM"
+    },
+    {
+      "id": 231,
+      "label": "Translation",
+      "group": "THEM"
+    },
+    {
+      "id": 232,
+      "label": "Sapir-Whorf Hypothesis",
+      "group": "THEM"
+    },
+    {
+      "id": 233,
+      "label": "Linguistic Relativity",
+      "group": "THEM"
+    },
+    {
+      "id": 234,
+      "label": "Metaphor",
+      "group": "THEM"
+    },
+    {
+      "id": 235,
+      "label": "Rhetoric",
+      "group": "THEM"
+    },
+    {
+      "id": 236,
+      "label": "Loaded Language",
+      "group": "THEM"
+    },
+    {
+      "id": 237,
+      "label": "Definitions",
+      "group": "THEM"
+    },
+    {
+      "id": 238,
+      "label": "Limits of Language",
+      "group": "THEM"
+    },
+    {
+      "id": 239,
+      "label": "Knowledge and Technology",
+      "group": "THEM"
+    },
+    {
+      "id": 240,
+      "label": "Tools in Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 241,
+      "label": "Algorithms",
+      "group": "THEM"
+    },
+    {
+      "id": 242,
+      "label": "Artificial Intelligence",
+      "group": "THEM"
+    },
+    {
+      "id": 243,
+      "label": "Machine Learning",
+      "group": "THEM"
+    },
+    {
+      "id": 244,
+      "label": "Algorithmic Bias",
+      "group": "THEM"
+    },
+    {
+      "id": 245,
+      "label": "Simulations",
+      "group": "THEM"
+    },
+    {
+      "id": 246,
+      "label": "Digital Knowledge Systems",
+      "group": "THEM"
+    },
+    {
+      "id": 247,
+      "label": "Big Data",
+      "group": "THEM"
+    },
+    {
+      "id": 248,
+      "label": "Data Visualization",
+      "group": "THEM"
+    },
+    {
+      "id": 249,
+      "label": "Digital Literacy",
+      "group": "THEM"
+    },
+    {
+      "id": 250,
+      "label": "Epistemology of Internet",
+      "group": "THEM"
+    },
+    {
+      "id": 251,
+      "label": "Knowledge and Politics",
+      "group": "THEM"
+    },
+    {
+      "id": 252,
+      "label": "Power and Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 253,
+      "label": "Censorship",
+      "group": "THEM"
+    },
+    {
+      "id": 254,
+      "label": "Intellectual Freedom",
+      "group": "THEM"
+    },
+    {
+      "id": 255,
+      "label": "Knowledge and Justice",
+      "group": "THEM"
+    },
+    {
+      "id": 256,
+      "label": "Politics of Expertise",
+      "group": "THEM"
+    },
+    {
+      "id": 257,
+      "label": "Trust in Institutions",
+      "group": "THEM"
+    },
+    {
+      "id": 258,
+      "label": "Epistemic Injustice",
+      "group": "THEM"
+    },
+    {
+      "id": 259,
+      "label": "Marginalized Knowledge",
+      "group": "THEM"
+    },
+    {
+      "id": 260,
+      "label": "Gatekeeping",
+      "group": "THEM"
+    },
+    {
+      "id": 261,
+      "label": "Information Overload",
+      "group": "THEM"
+    },
+    {
+      "id": 262,
+      "label": "Attention Economy",
+      "group": "THEM"
+    },
+    {
+      "id": 263,
+      "label": "Knowledge Questions",
+      "group": "ASMT"
+    },
+    {
+      "id": 264,
+      "label": "Open-Ended Questions",
+      "group": "ASMT"
+    },
+    {
+      "id": 265,
+      "label": "Debatable Questions",
+      "group": "ASMT"
+    },
+    {
+      "id": 266,
+      "label": "Prescribed Titles",
+      "group": "ASMT"
+    },
+    {
+      "id": 267,
+      "label": "TOK Essay",
+      "group": "ASMT"
+    },
+    {
+      "id": 268,
+      "label": "TOK Exhibition",
+      "group": "ASMT"
+    },
+    {
+      "id": 269,
+      "label": "Real-World Objects",
+      "group": "ASMT"
+    },
+    {
+      "id": 270,
+      "label": "Reflective Thinking",
+      "group": "ASMT"
+    },
+    {
+      "id": 271,
+      "label": "Socratic Dialogue",
+      "group": "ASMT"
+    },
+    {
+      "id": 272,
+      "label": "Inquiry-Based Learning",
+      "group": "ASMT"
+    },
+    {
+      "id": 273,
+      "label": "Knowledge Framework",
+      "group": "ASMT"
+    },
+    {
+      "id": 274,
+      "label": "Hermeneutics",
+      "group": "ASMT"
+    },
+    {
+      "id": 275,
+      "label": "Capstone TOK Portfolio",
+      "group": "ASMT"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 1
+    },
+    {
+      "from": 5,
+      "to": 4
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 6,
+      "to": 3
+    },
+    {
+      "from": 7,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 9
+    },
+    {
+      "from": 8,
+      "to": 1
+    },
+    {
+      "from": 8,
+      "to": 9
+    },
+    {
+      "from": 9,
+      "to": 1
+    },
+    {
+      "from": 10,
+      "to": 9
+    },
+    {
+      "from": 11,
+      "to": 1
+    },
+    {
+      "from": 11,
+      "to": 3
+    },
+    {
+      "from": 11,
+      "to": 4
+    },
+    {
+      "from": 12,
+      "to": 1
+    },
+    {
+      "from": 13,
+      "to": 1
+    },
+    {
+      "from": 13,
+      "to": 12
+    },
+    {
+      "from": 14,
+      "to": 1
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 15,
+      "to": 1
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 1
+    },
+    {
+      "from": 16,
+      "to": 14
+    },
+    {
+      "from": 17,
+      "to": 1
+    },
+    {
+      "from": 17,
+      "to": 5
+    },
+    {
+      "from": 18,
+      "to": 1
+    },
+    {
+      "from": 18,
+      "to": 5
+    },
+    {
+      "from": 18,
+      "to": 31
+    },
+    {
+      "from": 19,
+      "to": 3
+    },
+    {
+      "from": 20,
+      "to": 3
+    },
+    {
+      "from": 21,
+      "to": 3
+    },
+    {
+      "from": 22,
+      "to": 2
+    },
+    {
+      "from": 22,
+      "to": 3
+    },
+    {
+      "from": 22,
+      "to": 4
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 6
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 25,
+      "to": 6
+    },
+    {
+      "from": 26,
+      "to": 7
+    },
+    {
+      "from": 26,
+      "to": 8
+    },
+    {
+      "from": 27,
+      "to": 7
+    },
+    {
+      "from": 27,
+      "to": 8
+    },
+    {
+      "from": 27,
+      "to": 10
+    },
+    {
+      "from": 28,
+      "to": 1
+    },
+    {
+      "from": 28,
+      "to": 5
+    },
+    {
+      "from": 28,
+      "to": 44
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 29,
+      "to": 13
+    },
+    {
+      "from": 30,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 5
+    },
+    {
+      "from": 30,
+      "to": 36
+    },
+    {
+      "from": 31,
+      "to": 5
+    },
+    {
+      "from": 32,
+      "to": 5
+    },
+    {
+      "from": 33,
+      "to": 5
+    },
+    {
+      "from": 34,
+      "to": 5
+    },
+    {
+      "from": 35,
+      "to": 5
+    },
+    {
+      "from": 35,
+      "to": 4
+    },
+    {
+      "from": 36,
+      "to": 5
+    },
+    {
+      "from": 36,
+      "to": 31
+    },
+    {
+      "from": 37,
+      "to": 5
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 5
+    },
+    {
+      "from": 38,
+      "to": 35
+    },
+    {
+      "from": 39,
+      "to": 5
+    },
+    {
+      "from": 39,
+      "to": 42
+    },
+    {
+      "from": 40,
+      "to": 39
+    },
+    {
+      "from": 41,
+      "to": 39
+    },
+    {
+      "from": 42,
+      "to": 5
+    },
+    {
+      "from": 42,
+      "to": 3
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 5
+    },
+    {
+      "from": 44,
+      "to": 140
+    },
+    {
+      "from": 45,
+      "to": 5
+    },
+    {
+      "from": 45,
+      "to": 42
+    },
+    {
+      "from": 46,
+      "to": 10
+    },
+    {
+      "from": 46,
+      "to": 63
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 46
+    },
+    {
+      "from": 50,
+      "to": 46
+    },
+    {
+      "from": 50,
+      "to": 218
+    },
+    {
+      "from": 51,
+      "to": 46
+    },
+    {
+      "from": 52,
+      "to": 46
+    },
+    {
+      "from": 53,
+      "to": 46
+    },
+    {
+      "from": 53,
+      "to": 13
+    },
+    {
+      "from": 54,
+      "to": 46
+    },
+    {
+      "from": 54,
+      "to": 12
+    },
+    {
+      "from": 55,
+      "to": 46
+    },
+    {
+      "from": 55,
+      "to": 2
+    },
+    {
+      "from": 56,
+      "to": 46
+    },
+    {
+      "from": 57,
+      "to": 46
+    },
+    {
+      "from": 57,
+      "to": 229
+    },
+    {
+      "from": 58,
+      "to": 46
+    },
+    {
+      "from": 58,
+      "to": 53
+    },
+    {
+      "from": 59,
+      "to": 46
+    },
+    {
+      "from": 59,
+      "to": 215
+    },
+    {
+      "from": 60,
+      "to": 46
+    },
+    {
+      "from": 61,
+      "to": 46
+    },
+    {
+      "from": 61,
+      "to": 2
+    },
+    {
+      "from": 62,
+      "to": 46
+    },
+    {
+      "from": 62,
+      "to": 2
+    },
+    {
+      "from": 63,
+      "to": 1
+    },
+    {
+      "from": 63,
+      "to": 9
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 64,
+      "to": 6
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 65,
+      "to": 156
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 68,
+      "to": 66
+    },
+    {
+      "from": 69,
+      "to": 64
+    },
+    {
+      "from": 69,
+      "to": 25
+    },
+    {
+      "from": 70,
+      "to": 65
+    },
+    {
+      "from": 70,
+      "to": 71
+    },
+    {
+      "from": 71,
+      "to": 156
+    },
+    {
+      "from": 71,
+      "to": 157
+    },
+    {
+      "from": 72,
+      "to": 157
+    },
+    {
+      "from": 72,
+      "to": 35
+    },
+    {
+      "from": 73,
+      "to": 55
+    },
+    {
+      "from": 73,
+      "to": 81
+    },
+    {
+      "from": 74,
+      "to": 64
+    },
+    {
+      "from": 74,
+      "to": 61
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 75,
+      "to": 168
+    },
+    {
+      "from": 76,
+      "to": 63
+    },
+    {
+      "from": 76,
+      "to": 80
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 9
+    },
+    {
+      "from": 79,
+      "to": 76
+    },
+    {
+      "from": 79,
+      "to": 3
+    },
+    {
+      "from": 80,
+      "to": 63
+    },
+    {
+      "from": 80,
+      "to": 25
+    },
+    {
+      "from": 81,
+      "to": 11
+    },
+    {
+      "from": 81,
+      "to": 3
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 81
+    },
+    {
+      "from": 84,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 111
+    },
+    {
+      "from": 85,
+      "to": 81
+    },
+    {
+      "from": 85,
+      "to": 45
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 86,
+      "to": 39
+    },
+    {
+      "from": 87,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 39
+    },
+    {
+      "from": 87,
+      "to": 40
+    },
+    {
+      "from": 88,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 249
+    },
+    {
+      "from": 89,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 5
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 90,
+      "to": 91
+    },
+    {
+      "from": 91,
+      "to": 81
+    },
+    {
+      "from": 91,
+      "to": 111
+    },
+    {
+      "from": 92,
+      "to": 81
+    },
+    {
+      "from": 92,
+      "to": 94
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 93,
+      "to": 85
+    },
+    {
+      "from": 94,
+      "to": 63
+    },
+    {
+      "from": 94,
+      "to": 5
+    },
+    {
+      "from": 95,
+      "to": 96
+    },
+    {
+      "from": 95,
+      "to": 82
+    },
+    {
+      "from": 96,
+      "to": 242
+    },
+    {
+      "from": 96,
+      "to": 82
+    },
+    {
+      "from": 97,
+      "to": 82
+    },
+    {
+      "from": 97,
+      "to": 84
+    },
+    {
+      "from": 98,
+      "to": 81
+    },
+    {
+      "from": 98,
+      "to": 62
+    },
+    {
+      "from": 99,
+      "to": 81
+    },
+    {
+      "from": 99,
+      "to": 29
+    },
+    {
+      "from": 100,
+      "to": 47
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 244
+    },
+    {
+      "from": 101,
+      "to": 99
+    },
+    {
+      "from": 102,
+      "to": 81
+    },
+    {
+      "from": 102,
+      "to": 99
+    },
+    {
+      "from": 103,
+      "to": 97
+    },
+    {
+      "from": 104,
+      "to": 82
+    },
+    {
+      "from": 104,
+      "to": 97
+    },
+    {
+      "from": 105,
+      "to": 99
+    },
+    {
+      "from": 105,
+      "to": 253
+    },
+    {
+      "from": 106,
+      "to": 4
+    },
+    {
+      "from": 106,
+      "to": 5
+    },
+    {
+      "from": 106,
+      "to": 126
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 31
+    },
+    {
+      "from": 110,
+      "to": 106
+    },
+    {
+      "from": 111,
+      "to": 106
+    },
+    {
+      "from": 112,
+      "to": 110
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 113,
+      "to": 3
+    },
+    {
+      "from": 114,
+      "to": 109
+    },
+    {
+      "from": 115,
+      "to": 109
+    },
+    {
+      "from": 116,
+      "to": 106
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 215
+    },
+    {
+      "from": 120,
+      "to": 116
+    },
+    {
+      "from": 121,
+      "to": 116
+    },
+    {
+      "from": 122,
+      "to": 116
+    },
+    {
+      "from": 123,
+      "to": 116
+    },
+    {
+      "from": 124,
+      "to": 106
+    },
+    {
+      "from": 124,
+      "to": 11
+    },
+    {
+      "from": 125,
+      "to": 11
+    },
+    {
+      "from": 125,
+      "to": 5
+    },
+    {
+      "from": 126,
+      "to": 63
+    },
+    {
+      "from": 126,
+      "to": 4
+    },
+    {
+      "from": 127,
+      "to": 106
+    },
+    {
+      "from": 127,
+      "to": 112
+    },
+    {
+      "from": 128,
+      "to": 110
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 116
+    },
+    {
+      "from": 129,
+      "to": 35
+    },
+    {
+      "from": 130,
+      "to": 116
+    },
+    {
+      "from": 131,
+      "to": 1
+    },
+    {
+      "from": 131,
+      "to": 140
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 133,
+      "to": 131
+    },
+    {
+      "from": 134,
+      "to": 131
+    },
+    {
+      "from": 135,
+      "to": 131
+    },
+    {
+      "from": 136,
+      "to": 131
+    },
+    {
+      "from": 137,
+      "to": 131
+    },
+    {
+      "from": 138,
+      "to": 131
+    },
+    {
+      "from": 139,
+      "to": 131
+    },
+    {
+      "from": 140,
+      "to": 1
+    },
+    {
+      "from": 140,
+      "to": 5
+    },
+    {
+      "from": 141,
+      "to": 131
+    },
+    {
+      "from": 141,
+      "to": 184
+    },
+    {
+      "from": 142,
+      "to": 13
+    },
+    {
+      "from": 142,
+      "to": 218
+    },
+    {
+      "from": 143,
+      "to": 1
+    },
+    {
+      "from": 143,
+      "to": 4
+    },
+    {
+      "from": 143,
+      "to": 5
+    },
+    {
+      "from": 144,
+      "to": 1
+    },
+    {
+      "from": 144,
+      "to": 12
+    },
+    {
+      "from": 145,
+      "to": 131
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 146,
+      "to": 132
+    },
+    {
+      "from": 147,
+      "to": 146
+    },
+    {
+      "from": 147,
+      "to": 110
+    },
+    {
+      "from": 148,
+      "to": 132
+    },
+    {
+      "from": 149,
+      "to": 132
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 146
+    },
+    {
+      "from": 150,
+      "to": 147
+    },
+    {
+      "from": 151,
+      "to": 31
+    },
+    {
+      "from": 151,
+      "to": 140
+    },
+    {
+      "from": 152,
+      "to": 17
+    },
+    {
+      "from": 152,
+      "to": 140
+    },
+    {
+      "from": 153,
+      "to": 6
+    },
+    {
+      "from": 153,
+      "to": 132
+    },
+    {
+      "from": 153,
+      "to": 150
+    },
+    {
+      "from": 154,
+      "to": 132
+    },
+    {
+      "from": 154,
+      "to": 148
+    },
+    {
+      "from": 155,
+      "to": 150
+    },
+    {
+      "from": 155,
+      "to": 153
+    },
+    {
+      "from": 156,
+      "to": 140
+    },
+    {
+      "from": 156,
+      "to": 133
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 33
+    },
+    {
+      "from": 159,
+      "to": 156
+    },
+    {
+      "from": 159,
+      "to": 43
+    },
+    {
+      "from": 160,
+      "to": 156
+    },
+    {
+      "from": 160,
+      "to": 42
+    },
+    {
+      "from": 161,
+      "to": 133
+    },
+    {
+      "from": 161,
+      "to": 156
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 162,
+      "to": 166
+    },
+    {
+      "from": 163,
+      "to": 161
+    },
+    {
+      "from": 163,
+      "to": 162
+    },
+    {
+      "from": 164,
+      "to": 162
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 161
+    },
+    {
+      "from": 166,
+      "to": 165
+    },
+    {
+      "from": 166,
+      "to": 161
+    },
+    {
+      "from": 167,
+      "to": 156
+    },
+    {
+      "from": 167,
+      "to": 109
+    },
+    {
+      "from": 168,
+      "to": 160
+    },
+    {
+      "from": 168,
+      "to": 159
+    },
+    {
+      "from": 169,
+      "to": 159
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 156
+    },
+    {
+      "from": 170,
+      "to": 149
+    },
+    {
+      "from": 171,
+      "to": 140
+    },
+    {
+      "from": 171,
+      "to": 134
+    },
+    {
+      "from": 172,
+      "to": 140
+    },
+    {
+      "from": 172,
+      "to": 33
+    },
+    {
+      "from": 172,
+      "to": 134
+    },
+    {
+      "from": 173,
+      "to": 52
+    },
+    {
+      "from": 173,
+      "to": 171
+    },
+    {
+      "from": 174,
+      "to": 134
+    },
+    {
+      "from": 174,
+      "to": 207
+    },
+    {
+      "from": 175,
+      "to": 134
+    },
+    {
+      "from": 175,
+      "to": 50
+    },
+    {
+      "from": 175,
+      "to": 218
+    },
+    {
+      "from": 176,
+      "to": 172
+    },
+    {
+      "from": 176,
+      "to": 51
+    },
+    {
+      "from": 177,
+      "to": 172
+    },
+    {
+      "from": 177,
+      "to": 33
+    },
+    {
+      "from": 178,
+      "to": 172
+    },
+    {
+      "from": 178,
+      "to": 156
+    },
+    {
+      "from": 179,
+      "to": 171
+    },
+    {
+      "from": 180,
+      "to": 175
+    },
+    {
+      "from": 180,
+      "to": 174
+    },
+    {
+      "from": 180,
+      "to": 171
+    },
+    {
+      "from": 181,
+      "to": 5
+    },
+    {
+      "from": 181,
+      "to": 135
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 135
+    },
+    {
+      "from": 183,
+      "to": 9
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 184,
+      "to": 9
+    },
+    {
+      "from": 185,
+      "to": 32
+    },
+    {
+      "from": 185,
+      "to": 135
+    },
+    {
+      "from": 186,
+      "to": 185
+    },
+    {
+      "from": 186,
+      "to": 138
+    },
+    {
+      "from": 187,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 220
+    },
+    {
+      "from": 188,
+      "to": 183
+    },
+    {
+      "from": 188,
+      "to": 9
+    },
+    {
+      "from": 189,
+      "to": 183
+    },
+    {
+      "from": 189,
+      "to": 44
+    },
+    {
+      "from": 190,
+      "to": 181
+    },
+    {
+      "from": 190,
+      "to": 29
+    },
+    {
+      "from": 191,
+      "to": 136
+    },
+    {
+      "from": 191,
+      "to": 220
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 192,
+      "to": 175
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 194,
+      "to": 191
+    },
+    {
+      "from": 194,
+      "to": 9
+    },
+    {
+      "from": 195,
+      "to": 191
+    },
+    {
+      "from": 196,
+      "to": 191
+    },
+    {
+      "from": 196,
+      "to": 220
+    },
+    {
+      "from": 197,
+      "to": 191
+    },
+    {
+      "from": 197,
+      "to": 218
+    },
+    {
+      "from": 198,
+      "to": 191
+    },
+    {
+      "from": 198,
+      "to": 253
+    },
+    {
+      "from": 199,
+      "to": 191
+    },
+    {
+      "from": 199,
+      "to": 1
+    },
+    {
+      "from": 200,
+      "to": 15
+    },
+    {
+      "from": 200,
+      "to": 191
+    },
+    {
+      "from": 201,
+      "to": 126
+    },
+    {
+      "from": 201,
+      "to": 137
+    },
+    {
+      "from": 202,
+      "to": 201
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 76
+    },
+    {
+      "from": 205,
+      "to": 201
+    },
+    {
+      "from": 205,
+      "to": 8
+    },
+    {
+      "from": 205,
+      "to": 218
+    },
+    {
+      "from": 206,
+      "to": 201
+    },
+    {
+      "from": 206,
+      "to": 7
+    },
+    {
+      "from": 207,
+      "to": 201
+    },
+    {
+      "from": 207,
+      "to": 202
+    },
+    {
+      "from": 207,
+      "to": 203
+    },
+    {
+      "from": 208,
+      "to": 174
+    },
+    {
+      "from": 208,
+      "to": 201
+    },
+    {
+      "from": 209,
+      "to": 13
+    },
+    {
+      "from": 209,
+      "to": 258
+    },
+    {
+      "from": 210,
+      "to": 28
+    },
+    {
+      "from": 210,
+      "to": 201
+    },
+    {
+      "from": 211,
+      "to": 242
+    },
+    {
+      "from": 211,
+      "to": 201
+    },
+    {
+      "from": 212,
+      "to": 201
+    },
+    {
+      "from": 212,
+      "to": 133
+    },
+    {
+      "from": 213,
+      "to": 201
+    },
+    {
+      "from": 213,
+      "to": 28
+    },
+    {
+      "from": 214,
+      "to": 2
+    },
+    {
+      "from": 214,
+      "to": 126
+    },
+    {
+      "from": 214,
+      "to": 139
+    },
+    {
+      "from": 215,
+      "to": 13
+    },
+    {
+      "from": 215,
+      "to": 42
+    },
+    {
+      "from": 216,
+      "to": 12
+    },
+    {
+      "from": 216,
+      "to": 144
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 217,
+      "to": 94
+    },
+    {
+      "from": 218,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 13
+    },
+    {
+      "from": 219,
+      "to": 216
+    },
+    {
+      "from": 219,
+      "to": 143
+    },
+    {
+      "from": 220,
+      "to": 216
+    },
+    {
+      "from": 220,
+      "to": 144
+    },
+    {
+      "from": 221,
+      "to": 144
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 222,
+      "to": 144
+    },
+    {
+      "from": 222,
+      "to": 31
+    },
+    {
+      "from": 223,
+      "to": 144
+    },
+    {
+      "from": 224,
+      "to": 144
+    },
+    {
+      "from": 225,
+      "to": 216
+    },
+    {
+      "from": 225,
+      "to": 270
+    },
+    {
+      "from": 226,
+      "to": 1
+    },
+    {
+      "from": 227,
+      "to": 226
+    },
+    {
+      "from": 228,
+      "to": 226
+    },
+    {
+      "from": 228,
+      "to": 238
+    },
+    {
+      "from": 229,
+      "to": 226
+    },
+    {
+      "from": 230,
+      "to": 229
+    },
+    {
+      "from": 231,
+      "to": 229
+    },
+    {
+      "from": 231,
+      "to": 106
+    },
+    {
+      "from": 232,
+      "to": 226
+    },
+    {
+      "from": 232,
+      "to": 233
+    },
+    {
+      "from": 233,
+      "to": 226
+    },
+    {
+      "from": 233,
+      "to": 218
+    },
+    {
+      "from": 234,
+      "to": 229
+    },
+    {
+      "from": 234,
+      "to": 111
+    },
+    {
+      "from": 235,
+      "to": 226
+    },
+    {
+      "from": 235,
+      "to": 106
+    },
+    {
+      "from": 236,
+      "to": 229
+    },
+    {
+      "from": 236,
+      "to": 111
+    },
+    {
+      "from": 237,
+      "to": 229
+    },
+    {
+      "from": 237,
+      "to": 112
+    },
+    {
+      "from": 238,
+      "to": 226
+    },
+    {
+      "from": 238,
+      "to": 230
+    },
+    {
+      "from": 239,
+      "to": 1
+    },
+    {
+      "from": 240,
+      "to": 239
+    },
+    {
+      "from": 241,
+      "to": 239
+    },
+    {
+      "from": 242,
+      "to": 241
+    },
+    {
+      "from": 243,
+      "to": 242
+    },
+    {
+      "from": 243,
+      "to": 33
+    },
+    {
+      "from": 244,
+      "to": 241
+    },
+    {
+      "from": 244,
+      "to": 10
+    },
+    {
+      "from": 245,
+      "to": 239
+    },
+    {
+      "from": 245,
+      "to": 149
+    },
+    {
+      "from": 246,
+      "to": 239
+    },
+    {
+      "from": 246,
+      "to": 13
+    },
+    {
+      "from": 247,
+      "to": 239
+    },
+    {
+      "from": 247,
+      "to": 33
+    },
+    {
+      "from": 248,
+      "to": 247
+    },
+    {
+      "from": 248,
+      "to": 125
+    },
+    {
+      "from": 249,
+      "to": 239
+    },
+    {
+      "from": 249,
+      "to": 94
+    },
+    {
+      "from": 250,
+      "to": 239
+    },
+    {
+      "from": 250,
+      "to": 99
+    },
+    {
+      "from": 251,
+      "to": 1
+    },
+    {
+      "from": 252,
+      "to": 251
+    },
+    {
+      "from": 252,
+      "to": 215
+    },
+    {
+      "from": 253,
+      "to": 251
+    },
+    {
+      "from": 253,
+      "to": 254
+    },
+    {
+      "from": 254,
+      "to": 251
+    },
+    {
+      "from": 255,
+      "to": 251
+    },
+    {
+      "from": 255,
+      "to": 258
+    },
+    {
+      "from": 256,
+      "to": 252
+    },
+    {
+      "from": 256,
+      "to": 160
+    },
+    {
+      "from": 257,
+      "to": 252
+    },
+    {
+      "from": 257,
+      "to": 42
+    },
+    {
+      "from": 258,
+      "to": 252
+    },
+    {
+      "from": 258,
+      "to": 10
+    },
+    {
+      "from": 259,
+      "to": 258
+    },
+    {
+      "from": 259,
+      "to": 141
+    },
+    {
+      "from": 260,
+      "to": 252
+    },
+    {
+      "from": 260,
+      "to": 29
+    },
+    {
+      "from": 261,
+      "to": 99
+    },
+    {
+      "from": 261,
+      "to": 125
+    },
+    {
+      "from": 262,
+      "to": 261
+    },
+    {
+      "from": 262,
+      "to": 101
+    },
+    {
+      "from": 263,
+      "to": 11
+    },
+    {
+      "from": 263,
+      "to": 143
+    },
+    {
+      "from": 264,
+      "to": 263
+    },
+    {
+      "from": 265,
+      "to": 263
+    },
+    {
+      "from": 265,
+      "to": 124
+    },
+    {
+      "from": 266,
+      "to": 263
+    },
+    {
+      "from": 267,
+      "to": 263
+    },
+    {
+      "from": 267,
+      "to": 106
+    },
+    {
+      "from": 267,
+      "to": 266
+    },
+    {
+      "from": 268,
+      "to": 263
+    },
+    {
+      "from": 268,
+      "to": 269
+    },
+    {
+      "from": 269,
+      "to": 263
+    },
+    {
+      "from": 269,
+      "to": 125
+    },
+    {
+      "from": 270,
+      "to": 63
+    },
+    {
+      "from": 271,
+      "to": 63
+    },
+    {
+      "from": 271,
+      "to": 264
+    },
+    {
+      "from": 272,
+      "to": 63
+    },
+    {
+      "from": 272,
+      "to": 263
+    },
+    {
+      "from": 273,
+      "to": 143
+    },
+    {
+      "from": 273,
+      "to": 131
+    },
+    {
+      "from": 274,
+      "to": 175
+    },
+    {
+      "from": 274,
+      "to": 226
+    },
+    {
+      "from": 275,
+      "to": 267
+    },
+    {
+      "from": 275,
+      "to": 268
+    },
+    {
+      "from": 275,
+      "to": 273
+    }
+  ]
+}

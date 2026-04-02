@@ -1,0 +1,11 @@
+site_name: Theory of Knowledge
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Concept Enumeration: learning-graph/concept-list.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Graph Quality Analysis: learning-graph/quality-metrics.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
