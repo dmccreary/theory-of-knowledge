@@ -1,0 +1,14 @@
+{
+  "sim_id": "algorithm-filter-knowledge",
+  "diagram_name": "How Algorithms Filter Knowledge",
+  "chapter_number": 14,
+  "chapter_title": "Knowledge, Technology, and Power",
+  "chapter_dir": "14-knowledge-technology-and-power",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Trace",
+  "learning_objective": "Trace how algorithmic filtering transforms raw information into the curated knowledge a user actually sees.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** algorithm-filter-knowledge<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Trace\n**Learning Objective:** Trace how algorithmic filtering transforms raw information into the curated knowledge a user actually sees.\n\n**Instructional Rationale:** A flow diagram showing information passing through successive algorithmic filters makes visible the normally invisible process of algorithmic curation, helping students understand that search results and feeds are constructed, not neutral.\n\n**Visual elements:**\n- Left side: A large pool labeled \"All Available Information\" with many colored dots representing diverse sources\n- Center: A series of filter layers labeled \"Relevance Filter,\" \"Popularity Filter,\" \"Personalization Filter,\" and \"Monetization Filter\"\n- Right side: A small curated set labeled \"What You See\" with fewer dots\n- Arrows showing information flow from left to right, with dots being removed at each filter stage\n- A counter showing how many items are filtered out at each stage\n\n**Interactive controls:**\n- Slider to adjust the \"strictness\" of each filter and see how results change\n- Toggle to enable/disable each filter layer independently\n- Button to randomize the initial information pool\n- Hover over filtered-out dots to see why they were removed\n\n**Default state:** All four filters active, showing dramatic reduction from hundreds of items to a small handful.\n\n**Color scheme:** Information dots in varied colors representing different sources/perspectives, filters in graduated teal shades, final results highlighted in amber.\n\n**Responsive design:** Canvas resizes to fit container width. Flow diagram shifts from horizontal to vertical on narrow screens.\n\nImplementation: p5.js with createSlider() for filter strictness and createCheckbox() for filter toggles"
+}

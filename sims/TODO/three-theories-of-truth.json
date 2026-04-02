@@ -1,0 +1,14 @@
+{
+  "sim_id": "three-theories-of-truth",
+  "diagram_name": "Three Theories of Truth Comparison",
+  "chapter_number": 2,
+  "chapter_title": "Theories of Truth and Knowledge",
+  "chapter_dir": "02-theories-of-truth-and-knowledge",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": null,
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** three-theories-of-truth<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nBloom Taxonomy Level: Understand (L2)\nBloom Verb: Compare, contrast\n\nLearning Objective: Students will compare and contrast the three major theories of truth by exploring their central questions, strengths, and weaknesses through an interactive infographic.\n\nInstructional Rationale: An interactive comparison allows students to examine each theory side-by-side, hover for detailed explanations, and see how the same knowledge claim is evaluated differently under each theory. This supports the Understand level by enabling students to compare and contrast rather than merely recall.\n\nLayout: Three columns, one per theory (Correspondence, Coherence, Pragmatic), arranged horizontally across the canvas.\n\nVisual elements:\n- Three large rounded rectangles in distinct colours (blue for Correspondence, green for Coherence, orange for Pragmatic)\n- Each rectangle contains the theory name, central question, and a brief definition\n- Below each column, a shared example knowledge claim (\"The Earth is round\") is evaluated from each theory's perspective\n- Hover over any element to reveal a detailed explanation panel at the bottom of the canvas\n\nInteractive elements:\n- Dropdown to select different example claims (\"The Earth is round,\" \"Democracy is the best system,\" \"2 + 2 = 4,\" \"This medicine works\")\n- Each claim updates the evaluation text under all three columns simultaneously\n- Hover over strength/weakness icons to see expanded text\n- A \"Quiz Me\" button that presents a random claim and asks the student to identify which theory would most easily accept or reject it\n\nResponsive design: Canvas resizes to container width. On narrow screens, columns stack vertically.\n\nColour scheme:\n- Correspondence: steel blue (#4682B4)\n- Coherence: sea green (#2E8B57)\n- Pragmatic: dark orange (#FF8C00)\n- Background: light grey (#F5F5F5)\n- Hover panel: white with subtle shadow\n\nDefault state: \"The Earth is round\" selected, no hover active."
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "information-literacy-framework",
+  "diagram_name": "Information Literacy Framework",
+  "chapter_number": 4,
+  "chapter_title": "Knowledge and the Knower",
+  "chapter_dir": "04-knowledge-and-the-knower",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Apply",
+  "learning_objective": "Apply information literacy criteria to evaluate a real-world source by assessing its credibility, bias, and evidence quality.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** information-literacy-framework<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Apply\n**Learning Objective:** Apply information literacy criteria to evaluate a real-world source by assessing its credibility, bias, and evidence quality.\n\n**Instructional Rationale:** An interactive framework that guides students through evaluating a source step by step makes the abstract concept of information literacy concrete and actionable.\n\n**Visual elements:**\n- A central panel showing a sample source (news article headline, social media post, or academic abstract)\n- Four evaluation stations arranged around the source: Credibility, Bias, Evidence Quality, and Context\n- Each station contains 2-3 guiding questions\n- A \"Verdict\" area at the bottom that compiles the student's assessments into an overall reliability rating\n\n**Interactive controls:**\n- Dropdown to select different sample sources: a peer-reviewed study, a social media post, a news article, a Wikipedia entry\n- At each station, radio buttons for the student's assessment (Strong / Moderate / Weak)\n- \"Generate Verdict\" button that produces a composite reliability assessment based on selections\n- \"Reset\" button to start over with a new source\n\n**Default state:** Peer-reviewed study selected, no assessments made.\n\n**Color scheme:** Source panel in cream, stations in teal, verdict area in amber/coral gradient based on rating.\n\n**Responsive design:** Stations reflow from grid to vertical list on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with createSelect() for source dropdown, createRadio() for station assessments, and createButton() for verdict generation."
+}

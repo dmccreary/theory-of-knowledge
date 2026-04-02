@@ -1,0 +1,14 @@
+{
+  "sim_id": "critical-thinking-cycle",
+  "diagram_name": "Critical Thinking Process Cycle",
+  "chapter_number": 1,
+  "chapter_title": "Foundations of Knowledge",
+  "chapter_dir": "01-foundations-of-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Use",
+  "learning_objective": "Use the critical thinking cycle to analyze a knowledge claim by stepping through questioning, evidence evaluation, bias recognition, and conclusion drawing.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** critical-thinking-cycle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Use\n**Learning Objective:** Use the critical thinking cycle to analyze a knowledge claim by stepping through questioning, evidence evaluation, bias recognition, and conclusion drawing.\n\n**Instructional Rationale:** A cyclical diagram with clickable stages and a worked example shows students that critical thinking is a repeatable process, not a one-time event. The step-through interaction supports application-level learning.\n\n**Visual elements:**\n- A circular arrangement of five connected stages:\n  1. \"Question Assumptions\" (top)\n  2. \"Evaluate Evidence\" (upper right)\n  3. \"Recognize Bias\" (lower right)\n  4. \"Consider Alternatives\" (lower left)\n  5. \"Draw Conclusions\" (upper left)\n- Arrows connecting each stage to the next in a clockwise cycle\n- A central area displaying a worked example that updates as the student clicks through stages\n- A \"Knowledge Claim\" input area at the top where a sample claim is displayed\n\n**Interactive controls:**\n- Click on any stage to see a detailed explanation and a worked example for that stage\n- A dropdown to select different sample claims to analyze: \"Vaccines cause autism\" (false claim), \"Democracy is the best system of government\" (value claim), \"The Earth is approximately 4.5 billion years old\" (scientific claim)\n- \"Next\" and \"Previous\" buttons to step through the cycle with the selected claim\n- Each step shows: the guiding question for that stage, the analysis applied to the selected claim, and a brief student prompt (\"What would YOU notice at this stage?\")\n\n**Default state:** All five stages visible. \"The Earth is approximately 4.5 billion years old\" selected as the default claim.\n\n**Color scheme:** Each stage a different shade of teal-to-amber gradient. Active stage highlighted with a glow effect. Arrows in dark gray.\n\n**Responsive design:** Canvas and stage positions recalculate on window resize. On narrow screens, the cycle compresses vertically.\n\nImplementation: p5.js with click detection, createSelect() for claim dropdown, and text rendering for the worked example panel."
+}

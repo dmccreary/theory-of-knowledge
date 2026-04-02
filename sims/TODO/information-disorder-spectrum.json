@@ -1,0 +1,14 @@
+{
+  "sim_id": "information-disorder-spectrum",
+  "diagram_name": "The Information Disorder Spectrum",
+  "chapter_number": 15,
+  "chapter_title": "Misinformation and the Information Age",
+  "chapter_dir": "15-misinformation-and-the-information-age",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Classify",
+  "learning_objective": "Classify examples of false or misleading content into the correct category (misinformation, disinformation, malinformation, propaganda) based on intent and accuracy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** information-disorder-spectrum<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Classify\n**Learning Objective:** Classify examples of false or misleading content into the correct category (misinformation, disinformation, malinformation, propaganda) based on intent and accuracy.\n\n**Instructional Rationale:** A visual spectrum with interactive examples allows students to practice the critical distinction between types of information disorder, reinforcing that the same content can shift categories depending on context and intent.\n\n**Visual elements:**\n- A two-axis grid: x-axis \"Intent to Harm\" (low to high), y-axis \"Content Accuracy\" (false to true)\n- Four quadrants labeled: Misinformation (false, low intent), Disinformation (false, high intent), Malinformation (true, high intent), and Honest Mistake (true, low intent)\n- Propaganda overlaid as a region spanning disinformation and malinformation\n- Draggable example cards that students classify by placing on the grid\n- Color-coded regions: teal for misinformation, coral for disinformation, amber for malinformation\n\n**Interactive controls:**\n- 10 example cards describing real-world scenarios (anonymized) that students drag onto the grid\n- Feedback on placement: correct zone highlights green, incorrect shows hint\n- A \"Show All\" button to reveal the correct classification of all examples\n- A score counter tracking correct placements\n\n**Default state:** Grid displayed with labeled quadrants. Example cards stacked on the side.\n\n**Color scheme:** Teal for misinformation zone, coral for disinformation zone, amber for malinformation zone, light gray for honest mistake zone.\n\n**Responsive design:** Grid scales proportionally. Cards stack below grid on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with drag-and-drop detection, zone collision checking, createButton() controls."
+}

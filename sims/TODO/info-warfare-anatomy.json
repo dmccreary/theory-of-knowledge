@@ -1,0 +1,14 @@
+{
+  "sim_id": "info-warfare-anatomy",
+  "diagram_name": "Anatomy of an Information Warfare Campaign",
+  "chapter_number": 15,
+  "chapter_title": "Misinformation and the Information Age",
+  "chapter_dir": "15-misinformation-and-the-information-age",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Deconstruct",
+  "learning_objective": "Deconstruct the stages and tactics of an information warfare campaign, identifying how each stage exploits specific cognitive biases and platform features.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** info-warfare-anatomy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Deconstruct\n**Learning Objective:** Deconstruct the stages and tactics of an information warfare campaign, identifying how each stage exploits specific cognitive biases and platform features.\n\n**Instructional Rationale:** A step-by-step interactive diagram showing the anatomy of an information warfare campaign helps students see how individual tactics (bot networks, deepfakes, echo chambers) combine into a coordinated strategy, moving from abstract concepts to systemic understanding.\n\n**Visual elements:**\n- A flowchart with 5 stages arranged left to right: Identify Vulnerabilities, Create Content, Amplify, Target, Reinforce\n- Each stage contains icons representing tactics used (bot icons, deepfake icons, echo chamber icons)\n- Arrows connecting stages, with labels showing how output of one stage feeds the next\n- A \"Cognitive Biases Exploited\" panel below each stage listing relevant biases\n- A case study panel on the right showing a fictionalized but realistic example\n\n**Interactive controls:**\n- Click on any stage to expand it, revealing detailed tactics and examples\n- A dropdown to select different campaign types: \"Election Interference,\" \"Public Health Misinformation,\" \"Corporate Reputation Attack\"\n- Hover over bias labels to see brief reminders from Chapter 5\n- A \"Defense\" toggle that overlays countermeasures at each stage\n\n**Default state:** All five stages visible with basic labels. \"Election Interference\" scenario selected.\n\n**Color scheme:** Stages in progressively darker coral (escalation), defense overlays in teal, bias labels in amber.\n\n**Responsive design:** Flowchart stacks vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with click detection, expandable panels, createSelect() and createCheckbox() controls."
+}

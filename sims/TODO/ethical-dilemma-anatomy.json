@@ -1,0 +1,14 @@
+{
+  "sim_id": "ethical-dilemma-anatomy",
+  "diagram_name": "Anatomy of an Ethical Dilemma",
+  "chapter_number": 13,
+  "chapter_title": "Ethics and Values in Knowledge",
+  "chapter_dir": "13-ethics-and-values-in-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Deconstruct",
+  "learning_objective": "Deconstruct an ethical dilemma by identifying the competing moral principles, stakeholders, and possible courses of action.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** ethical-dilemma-anatomy<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Deconstruct\n**Learning Objective:** Deconstruct an ethical dilemma by identifying the competing moral principles, stakeholders, and possible courses of action.\n\n**Instructional Rationale:** Visualizing the structure of a dilemma — the competing principles, the stakeholders affected, and the possible actions — helps students move beyond gut reactions toward systematic moral reasoning. The interactive structure encourages analysis over impulse.\n\n**Visual elements:**\n- A central panel displaying the dilemma scenario\n- Two branching paths representing the two competing moral principles, each labeled with the value at stake\n- Stakeholder icons along each path showing who is affected and how\n- Consequence boxes at the end of each path summarizing what happens if that value is prioritized\n- A \"Framework Lens\" panel showing how each of the three frameworks would evaluate the dilemma\n\n**Interactive controls:**\n- A dropdown to select between 3 dilemmas: \"The Journalist's Secret\" (transparency vs. safety), \"The Doctor's Choice\" (patient autonomy vs. duty of care), \"The AI Decision\" (efficiency vs. fairness)\n- Click on stakeholder icons to see a brief description of their perspective\n- Toggle buttons to show/hide the framework lens for each dilemma\n- A \"Make Your Choice\" button that lets students select a path and then see a reflection prompt\n\n**Default state:** \"The Journalist's Secret\" dilemma displayed with both paths visible.\n\n**Color scheme:** Path A in teal, Path B in coral, stakeholder icons in amber, framework lens panel in cream.\n\n**Responsive design:** Branches stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with branching layout, createSelect() for dilemma selector, and click interaction for stakeholder details."
+}

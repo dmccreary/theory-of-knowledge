@@ -1,0 +1,14 @@
+{
+  "sim_id": "echo-chambers-filter-bubbles",
+  "diagram_name": "Echo Chambers and Filter Bubbles",
+  "chapter_number": 15,
+  "chapter_title": "Misinformation and the Information Age",
+  "chapter_dir": "15-misinformation-and-the-information-age",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate",
+  "learning_objective": "Differentiate between echo chambers (self-selected) and filter bubbles (algorithmically created) by observing how each mechanism narrows the information a user encounters.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** echo-chambers-filter-bubbles<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate\n**Learning Objective:** Differentiate between echo chambers (self-selected) and filter bubbles (algorithmically created) by observing how each mechanism narrows the information a user encounters.\n\n**Instructional Rationale:** A split-screen simulation showing side-by-side how echo chambers and filter bubbles form helps students understand both the active and passive mechanisms that narrow information exposure.\n\n**Visual elements:**\n- Left panel: \"Echo Chamber\" — a network of nodes (people) connected by edges (follows/friendships), with nodes colored by viewpoint (teal vs. coral)\n- Right panel: \"Filter Bubble\" — a feed of content items filtered by an algorithm, with a visible \"algorithm preference\" meter\n- Both panels start with diverse information and progressively narrow\n- A central \"diversity index\" meter showing how varied the information environment is in each panel\n\n**Interactive controls:**\n- A \"Step Forward\" button that advances time by one cycle, showing progressive narrowing\n- In the Echo Chamber panel: click to \"unfollow\" diverse voices or \"follow\" similar voices\n- In the Filter Bubble panel: click to \"like\" content, which shifts the algorithm preference meter\n- A \"Reset\" button to restore initial diverse state\n- A slider for \"Algorithm Strength\" in the Filter Bubble panel\n\n**Default state:** Both panels showing a diverse information environment. Diversity index at 100% for both.\n\n**Color scheme:** Teal and coral for opposing viewpoints, amber for neutral content, gray for filtered-out content.\n\n**Responsive design:** Panels stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with network graph rendering, feed simulation, createButton() and createSlider() controls."
+}

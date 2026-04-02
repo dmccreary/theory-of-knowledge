@@ -1,0 +1,14 @@
+{
+  "sim_id": "art-communication-triangle",
+  "diagram_name": "The Communication Triangle of Art",
+  "chapter_number": 12,
+  "chapter_title": "The Arts as Knowledge",
+  "chapter_dir": "12-the-arts-as-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Relate",
+  "learning_objective": "Analyze how meaning is constructed through the dynamic relationship among artist, artwork, and audience.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive diagram\n**sim-id:** art-communication-triangle<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Relate\n**Learning Objective:** Analyze how meaning is constructed through the dynamic relationship among artist, artwork, and audience.\n\n**Instructional Rationale:** A triangle diagram with the three vertices — Artist (Intent), Artwork (Form), and Audience (Reception) — allows students to visualize the contested site of meaning-making. Animated arrows showing the flow of meaning in different theoretical frameworks (intentionalist, formalist, reception-based) make the abstract debate concrete.\n\n**Visual elements:**\n- Triangle with three labeled vertices: \"Artist (Intent),\" \"Artwork (Form),\" \"Audience (Reception)\"\n- Animated directional arrows between vertices showing the flow of meaning\n- Three mode buttons corresponding to different theories: \"Intentionalism\" (arrow from Artist to Artwork to Audience), \"Formalism\" (arrow cycles around Artwork), \"Reception Theory\" (arrow from Audience to Artwork)\n- Central area showing a brief description of the selected theory\n\n**Interactive controls:**\n- Three radio buttons to switch between theoretical perspectives\n- Hover over any vertex for a detailed tooltip\n- A \"Case Study\" dropdown with examples (e.g., \"Duchamp's Fountain,\" \"Banksy's Shredded Painting\") that populates each vertex with specific details\n\n**Default state:** All three vertices visible with balanced arrows showing all three perspectives.\n\n**Color scheme:** Artist vertex in coral, Artwork vertex in gold, Audience vertex in teal, arrows in dark grey.\n\n**Responsive design:** Canvas resizes to fit container width. Triangle scales proportionally.\n\nImplementation: p5.js with radio buttons using createRadio() and dropdown using createSelect()"
+}

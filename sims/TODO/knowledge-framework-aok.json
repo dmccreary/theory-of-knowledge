@@ -1,0 +1,14 @@
+{
+  "sim_id": "knowledge-framework-aok",
+  "diagram_name": "The Knowledge Framework Applied to AOKs",
+  "chapter_number": 9,
+  "chapter_title": "Areas of Knowledge and Mathematical Methods",
+  "chapter_dir": "09-areas-of-knowledge-and-mathematics",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare the eight Areas of Knowledge using the four dimensions of the Knowledge Framework.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** knowledge-framework-aok<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare the eight Areas of Knowledge using the four dimensions of the Knowledge Framework.\n\n**Instructional Rationale:** An interactive matrix allows students to select any AOK and see how it scores on each dimension of the Knowledge Framework, making abstract comparisons concrete and explorable.\n\n**Visual elements:**\n- A grid with eight columns (one per AOK) and four rows (Scope, Concepts/Language, Methodology, Historical Development)\n- Each cell contains a brief summary that appears on hover or click\n- AOK icons or color-coded headers for each column\n- A highlight effect when comparing two AOKs side by side\n\n**Interactive controls:**\n- Click any AOK column header to see its full Knowledge Framework profile in a detail panel below the grid\n- A \"Compare\" mode: select two AOKs to see their profiles side by side with similarities highlighted in green and differences highlighted in amber\n- A dropdown to select which Knowledge Framework dimension to sort by\n\n**Default state:** All eight AOKs visible as column headers. Mathematics highlighted by default.\n\n**Color scheme:** Teal headers, cream cells, amber highlights for selected items, coral for comparison differences.\n\n**Responsive design:** Canvas resizes to fit container width. On narrow screens, switches to a single-AOK detail view with tabs.\n\nImplementation: p5.js with click detection and createSelect() for dimension sorting."
+}

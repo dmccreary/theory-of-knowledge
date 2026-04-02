@@ -1,0 +1,14 @@
+{
+  "sim_id": "ai-knowledge-production-map",
+  "diagram_name": "Mapping AI in Knowledge Production",
+  "chapter_number": 14,
+  "chapter_title": "Knowledge, Technology, and Power",
+  "chapter_dir": "14-knowledge-technology-and-power",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Classify",
+  "learning_objective": "Classify the different roles AI plays across stages of knowledge production, from data collection to dissemination.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: concept map\n**sim-id:** ai-knowledge-production-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Classify\n**Learning Objective:** Classify the different roles AI plays across stages of knowledge production, from data collection to dissemination.\n\n**Instructional Rationale:** A concept map showing AI's involvement at each stage of the knowledge production pipeline helps students see that AI is not a single phenomenon but a collection of tools operating at many points in the epistemic process.\n\n**Visual elements:**\n- A horizontal pipeline with stages: \"Data Collection,\" \"Data Processing,\" \"Analysis,\" \"Interpretation,\" \"Dissemination\"\n- At each stage, branching nodes show specific AI applications (e.g., under Data Collection: \"Sensors,\" \"Web Scraping,\" \"Satellite Imaging\")\n- Color-coded nodes indicating level of human oversight: green (high oversight), yellow (moderate), red (minimal)\n- Dotted lines connecting related applications across stages\n\n**Interactive controls:**\n- Click on any node to see a brief description and real-world example\n- Filter toggle to show only applications in a specific Area of Knowledge (Natural Sciences, Human Sciences, Arts)\n- Slider to adjust \"level of human oversight\" threshold, dimming nodes below the threshold\n\n**Default state:** Full pipeline visible with all nodes shown, colored by oversight level.\n\n**Color scheme:** Pipeline stages in neutral gray, nodes colored by oversight level (teal for high, amber for moderate, coral for minimal).\n\n**Responsive design:** Canvas resizes to fit container width. Pipeline shifts from horizontal to vertical on narrow screens.\n\nImplementation: p5.js with clickable regions and createSelect() for AOK filter"
+}

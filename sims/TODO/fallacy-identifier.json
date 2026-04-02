@@ -1,0 +1,14 @@
+{
+  "sim_id": "fallacy-identifier",
+  "diagram_name": "Logical Fallacy Identification Guide",
+  "chapter_number": 6,
+  "chapter_title": "Reasoning and Argumentation",
+  "chapter_dir": "06-reasoning-and-argumentation",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Classify",
+  "learning_objective": "Classify examples of reasoning as instances of specific logical fallacies by identifying the error pattern in each argument.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** fallacy-identifier<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Classify\n**Learning Objective:** Classify examples of reasoning as instances of specific logical fallacies by identifying the error pattern in each argument.\n\n**Instructional Rationale:** A flashcard-style identification game provides repeated practice with immediate feedback, which is essential for developing the pattern recognition needed to spot fallacies in real-world contexts. The gamified format increases engagement with material that might otherwise feel like rote memorization.\n\n**Visual elements:**\n- A card panel displaying an argument in natural language\n- Below it, a grid of fallacy name buttons (ad hominem, straw man, false dilemma, circular reasoning, red herring, slippery slope, appeal to authority, burden of proof, tu quoque)\n- A feedback panel that shows: whether the answer was correct, an explanation of why the argument commits that particular fallacy, and the key diagnostic question for that fallacy type\n- A score tracker and progress bar\n\n**Interactive controls:**\n- Click a fallacy name button to submit your answer\n- \"Next\" button to advance to the next argument\n- \"Hint\" button that highlights the key phrase in the argument that reveals the fallacy\n- A difficulty selector: \"Basic\" (obvious examples), \"Intermediate\" (subtler examples), \"Advanced\" (real-world arguments with mixed fallacies)\n- \"Review Missed\" button at the end to revisit incorrectly classified arguments\n\n**Default state:** Basic difficulty, first argument displayed, all fallacy buttons visible.\n\n**Argument bank:** 18 arguments (2 per fallacy type), distributed across three difficulty levels.\n\n**Color scheme:** Card in cream, correct answers highlighted in teal, incorrect in coral, buttons in neutral gray with teal hover.\n\n**Responsive design:** Button grid rearranges on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with createButton() for fallacy selection, state machine for quiz progression, and score tracking."
+}

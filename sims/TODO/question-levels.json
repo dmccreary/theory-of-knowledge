@@ -1,0 +1,14 @@
+{
+  "sim_id": "question-levels",
+  "diagram_name": "From First-Order Questions to Knowledge Questions",
+  "chapter_number": 16,
+  "chapter_title": "TOK Assessment and Synthesis",
+  "chapter_dir": "16-tok-assessment-and-synthesis",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Differentiate",
+  "learning_objective": "Differentiate between first-order disciplinary questions and second-order knowledge questions across multiple Areas of Knowledge.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** question-levels<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Differentiate\n**Learning Objective:** Differentiate between first-order disciplinary questions and second-order knowledge questions across multiple Areas of Knowledge.\n\n**Instructional Rationale:** A layered interactive diagram helps students see the structural relationship between content-level and meta-level questions, reinforcing the skill of \"stepping back\" that is central to TOK thinking.\n\n**Visual elements:**\n- Two concentric rings: inner ring labeled \"First-Order Questions\" (discipline-specific), outer ring labeled \"Knowledge Questions\" (about knowledge itself)\n- Six sectors dividing the rings, each representing an AOK: Natural Sciences, Human Sciences, Mathematics, The Arts, Ethics, History\n- Each sector contains an example first-order question in the inner ring and a corresponding knowledge question in the outer ring\n- Arrows pointing outward from inner to outer ring, labeled \"Step back and ask...\"\n\n**Interactive controls:**\n- Click any sector to expand it and reveal three additional question pairs\n- A \"Generate Your Own\" text input where students type a first-order question and see a template for converting it into a knowledge question\n- Toggle button to show/hide the connecting arrows and labels\n\n**Default state:** All six sectors visible with one example pair each. Natural Sciences sector highlighted.\n\n**Color scheme:** Inner ring = light teal, Outer ring = warm amber, Sector dividers = soft gray, Highlighted sector = gold\n\n**Responsive design:** Canvas resizes to container width. On small screens, sectors stack vertically instead of radial layout.\n\nImplementation: p5.js with click detection, createInput(), and createButton()"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "empiricism-rationalism-compare",
+  "diagram_name": "Empiricism vs. Rationalism Comparison",
+  "chapter_number": 4,
+  "chapter_title": "Knowledge and the Knower",
+  "chapter_dir": "04-knowledge-and-the-knower",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Judge",
+  "learning_objective": "Judge whether a given knowledge claim is better supported by empiricist or rationalist reasoning, and explain why.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** empiricism-rationalism-compare<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Judge\n**Learning Objective:** Judge whether a given knowledge claim is better supported by empiricist or rationalist reasoning, and explain why.\n\n**Instructional Rationale:** An interactive comparison tool that presents knowledge claims and asks students to categorize them develops evaluative thinking about the sources of knowledge. The immediate feedback loop reinforces understanding of both traditions.\n\n**Visual elements:**\n- Two columns: \"Empiricism\" (left) and \"Rationalism\" (right) with key characteristics listed\n- A central \"claim zone\" where knowledge claims appear one at a time\n- A \"Both\" zone in the middle for claims that draw on both traditions\n- A feedback panel that explains why a claim fits a particular category after the student makes a choice\n- A score tracker showing correct categorizations\n\n**Interactive controls:**\n- \"Next Claim\" button to display a new knowledge claim\n- Three clickable zones (Empiricism, Rationalism, Both) for categorization\n- After selection, a feedback panel explains the correct answer\n- Dropdown to select difficulty level: \"Introductory\" (clear-cut cases) or \"Advanced\" (ambiguous cases)\n- \"Reset Score\" button\n\n**Claims bank (12 total):**\n1. \"Water boils at 100°C at sea level\" (Empiricism)\n2. \"The sum of angles in a triangle is 180°\" (Rationalism)\n3. \"Penicillin kills bacteria\" (Empiricism)\n4. \"If A=B and B=C, then A=C\" (Rationalism)\n5. \"The universe began with a Big Bang\" (Both)\n6. \"Democracy is the most just form of government\" (Both)\n7-12: Additional claims at advanced difficulty\n\n**Default state:** Introductory difficulty, first claim displayed, score at 0.\n\n**Color scheme:** Empiricism column in teal, Rationalism column in amber, Both zone in coral, feedback panel in cream.\n\n**Responsive design:** Columns stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with click detection for zones, createButton() for navigation, createSelect() for difficulty."
+}

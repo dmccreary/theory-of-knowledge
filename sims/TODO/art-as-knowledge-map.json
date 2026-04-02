@@ -1,0 +1,14 @@
+{
+  "sim_id": "art-as-knowledge-map",
+  "diagram_name": "Art as a Source of Knowledge",
+  "chapter_number": 12,
+  "chapter_title": "The Arts as Knowledge",
+  "chapter_dir": "12-the-arts-as-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Classify",
+  "learning_objective": "Classify the different types of knowledge that art can produce.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: concept map\n**sim-id:** art-as-knowledge-map<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Classify\n**Learning Objective:** Classify the different types of knowledge that art can produce.\n\n**Instructional Rationale:** A concept map showing the four types of artistic knowledge (experiential, perceptual, moral, self-knowledge) radiating from a central \"Art as Knowledge\" node helps students see the breadth of epistemic contributions art can make, rather than thinking of artistic knowledge as a single undifferentiated category.\n\n**Visual elements:**\n- Central node labeled \"Art as Knowledge\"\n- Four branch nodes: \"Experiential Knowledge,\" \"Perceptual Knowledge,\" \"Moral Knowledge,\" \"Self-Knowledge\"\n- Each branch has 2-3 leaf nodes with concrete examples (e.g., under Experiential: \"Novels about refugee experience,\" \"Films depicting historical events\")\n- Connecting lines showing relationships between types (e.g., moral and experiential overlap)\n\n**Interactive controls:**\n- Hover over any node to see a 2-3 sentence explanation\n- Click a node to highlight all connected paths\n- Dropdown to switch example sets: \"Visual Arts,\" \"Literature,\" \"Music,\" \"Performing Arts\"\n\n**Default state:** All nodes visible with central node highlighted.\n\n**Color scheme:** Central node in gold, branches in teal, examples in cream, connections in coral.\n\n**Responsive design:** Canvas resizes to fit container width. Node positions recalculate on window resize.\n\nImplementation: p5.js with hover detection and dropdown using createSelect()"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "exhibition-analysis",
+  "diagram_name": "TOK Exhibition Object Analysis Framework",
+  "chapter_number": 16,
+  "chapter_title": "TOK Assessment and Synthesis",
+  "chapter_dir": "16-tok-assessment-and-synthesis",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Justify",
+  "learning_objective": "Justify the selection of a real-world object by connecting it to specific TOK concepts, Areas of Knowledge, and knowledge questions.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive tool\n**sim-id:** exhibition-analysis<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Justify\n**Learning Objective:** Justify the selection of a real-world object by connecting it to specific TOK concepts, Areas of Knowledge, and knowledge questions.\n\n**Instructional Rationale:** An interactive framework walks students through the analytical process of connecting a concrete object to abstract epistemological concepts, modeling the thinking required for a strong exhibition.\n\n**Visual elements:**\n- Central area displaying a placeholder labeled \"Your Object\" with a text input for the object description\n- Four radiating branches labeled: \"Knowledge Claims,\" \"Methods of Justification,\" \"Perspectives & Bias,\" \"Connections to AOKs\"\n- Each branch expands into sub-nodes with guiding questions\n- A \"Strength Meter\" that fills as students complete each branch, providing formative feedback\n\n**Interactive controls:**\n- Text input for describing the selected object\n- Clickable branch nodes that expand to reveal guiding questions\n- Text areas within each branch for student notes\n- A \"Generate Knowledge Question\" button that synthesizes inputs into a draft KQ\n- Reset button to start with a new object\n\n**Default state:** Central node visible with four collapsed branches. Strength meter at 0%.\n\n**Color scheme:** Central node = teal, Branches = amber/coral/sage/violet, Strength meter = gradient from red to gold\n\n**Responsive design:** Canvas resizes to container width. Branches stack vertically on narrow screens.\n\nImplementation: p5.js with createInput(), createButton(), and dynamic text areas"
+}

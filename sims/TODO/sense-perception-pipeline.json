@@ -1,0 +1,14 @@
+{
+  "sim_id": "sense-perception-pipeline",
+  "diagram_name": "Sense Perception and Interpretation",
+  "chapter_number": 4,
+  "chapter_title": "Knowledge and the Knower",
+  "chapter_dir": "04-knowledge-and-the-knower",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Distinguish",
+  "learning_objective": "Distinguish between raw sensory input and the brain's interpretation by tracing how sense data is filtered, organized, and shaped by prior experience.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** sense-perception-pipeline<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Distinguish\n**Learning Objective:** Distinguish between raw sensory input and the brain's interpretation by tracing how sense data is filtered, organized, and shaped by prior experience.\n\n**Instructional Rationale:** A pipeline diagram makes visible the invisible steps between stimulus and perception, helping students understand that perception is an active construction rather than passive reception.\n\n**Visual elements:**\n- A left-to-right pipeline with five stages: Stimulus → Sensory Organ → Neural Signal → Brain Processing → Conscious Perception\n- Each stage shown as a labeled box with an icon (e.g., a sound wave, an ear, neural pathways, a brain, a thought bubble)\n- Branching arrows from \"Brain Processing\" showing three filters: Expectations, Context, and Prior Experience\n- An example panel below showing a concrete case (e.g., the Muller-Lyer illusion) traced through the pipeline\n\n**Interactive controls:**\n- Dropdown to select different examples: \"Optical Illusion,\" \"Selective Attention,\" \"Cross-Modal Perception\"\n- Hover over each stage to see a description of what happens at that point\n- Toggle button to show/hide the three filters, demonstrating how perception changes with and without them\n\n**Default state:** \"Optical Illusion\" example selected, all filters visible.\n\n**Color scheme:** Pipeline stages in teal gradient, filters in coral, example panel in cream/amber.\n\n**Responsive design:** Pipeline compresses to vertical orientation on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with hover detection, createSelect() for example dropdown, and createCheckbox() for filter toggle."
+}

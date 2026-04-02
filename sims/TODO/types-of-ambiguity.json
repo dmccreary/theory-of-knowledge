@@ -1,0 +1,14 @@
+{
+  "sim_id": "types-of-ambiguity",
+  "diagram_name": "Types of Ambiguity",
+  "chapter_number": 7,
+  "chapter_title": "Knowledge and Language",
+  "chapter_dir": "07-knowledge-and-language",
+  "library": "p5.js",
+  "bloom_level": "Analyze (L4)",
+  "bloom_verb": "Classify",
+  "learning_objective": "Classify examples of ambiguity by type (lexical, syntactic, referential) and explain how each undermines clear communication.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** types-of-ambiguity<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Analyze (L4)\n**Bloom Verb:** Classify\n**Learning Objective:** Classify examples of ambiguity by type (lexical, syntactic, referential) and explain how each undermines clear communication.\n\n**Instructional Rationale:** An interactive sorting activity helps students move beyond recognizing ambiguity to identifying its source, a skill critical for evaluating knowledge claims.\n\n**Visual elements:**\n- Three labeled columns: \"Lexical,\" \"Syntactic,\" \"Referential\"\n- A queue of sentence cards at the top, each containing an ambiguous sentence\n- Color-coded feedback when a card is placed correctly or incorrectly\n- A brief explanation revealed after each correct placement\n\n**Interactive controls:**\n- Drag-and-drop sentence cards into the appropriate column\n- A \"Hint\" button that highlights the ambiguous element in each sentence\n- A score tracker showing correct/total placements\n- A \"New Set\" button to load a fresh batch of examples\n\n**Default state:** Five cards in the queue, columns empty.\n\n**Color scheme:** Lexical = teal, Syntactic = amber, Referential = coral. Correct placement pulses green, incorrect pulses red briefly.\n\n**Responsive design:** Canvas resizes to fit container width. Cards stack vertically on narrow screens.\n\nImplementation: p5.js with drag-and-drop interaction using mousePressed/mouseReleased"
+}

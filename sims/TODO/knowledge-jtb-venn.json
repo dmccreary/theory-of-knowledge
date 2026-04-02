@@ -1,0 +1,14 @@
+{
+  "sim_id": "knowledge-jtb-venn",
+  "diagram_name": "Knowledge as Justified True Belief",
+  "chapter_number": 1,
+  "chapter_title": "Foundations of Knowledge",
+  "chapter_dir": "01-foundations-of-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Understand (L2)",
+  "bloom_verb": "Explain",
+  "learning_objective": "Explain how knowledge emerges from the intersection of belief, truth, and justification.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: diagram\n**sim-id:** knowledge-jtb-venn<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Understand (L2)\n**Bloom Verb:** Explain\n**Learning Objective:** Explain how knowledge emerges from the intersection of belief, truth, and justification.\n\n**Instructional Rationale:** A Venn diagram with three overlapping circles allows students to see that knowledge only exists where all three conditions overlap. This visual makes the abstract JTB definition concrete and memorable.\n\n**Visual elements:**\n- Three overlapping circles labeled \"Belief,\" \"Truth,\" and \"Justification\"\n- The triple-overlap region highlighted and labeled \"Knowledge\"\n- Each pairwise overlap labeled with an example:\n  - Belief ∩ Truth (but not Justified): \"Lucky guess — you believe it and it's true, but you have no good reason\"\n  - Belief ∩ Justified (but not True): \"Reasonable but wrong — you have good reasons, but the belief is false\"\n  - Truth ∩ Justified (but not Belief): \"Unrecognized truth — the evidence supports it, but you don't believe it\"\n- Regions outside all three labeled with brief examples (e.g., \"False unjustified belief\")\n\n**Interactive controls:**\n- Hover over any region to see a pop-up with a concrete real-world example\n- A dropdown selector to switch between example sets: \"Everyday Examples,\" \"Science Examples,\" \"History Examples\"\n- A \"Quiz Mode\" button that highlights a region and asks the student to identify which conditions are met\n\n**Default state:** All three circles visible with the Knowledge region highlighted in gold.\n\n**Color scheme:** Belief = teal, Truth = amber, Justification = coral, Knowledge overlap = gold\n\n**Responsive design:** Canvas resizes to fit container width. Circle positions recalculate on window resize.\n\nImplementation: p5.js with hover detection and dropdown using createSelect()"
+}

@@ -1,0 +1,14 @@
+{
+  "sim_id": "correlation-causation",
+  "diagram_name": "Correlation vs. Causation",
+  "chapter_number": 11,
+  "chapter_title": "Human Sciences and History",
+  "chapter_dir": "11-human-sciences-and-history",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Distinguish",
+  "learning_objective": "Distinguish between correlational and causal relationships by identifying confounding variables in real-world examples.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive diagram\n**sim-id:** correlation-causation<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Distinguish\n**Learning Objective:** Distinguish between correlational and causal relationships by identifying confounding variables in real-world examples.\n\n**Instructional Rationale:** An interactive scatter plot with the ability to reveal hidden confounding variables helps students experience the reasoning process that researchers use when moving from observed correlation to causal inference.\n\n**Visual elements:**\n- A scatter plot showing the relationship between two variables (e.g., ice cream sales and drowning rates)\n- A trendline showing the correlation\n- A \"Reveal Confound\" button that introduces the third variable (e.g., temperature) and re-colours the data points\n\n**Interactive controls:**\n- Dropdown to select example datasets: \"Ice Cream & Drowning,\" \"Education & Income,\" \"Screen Time & Sleep\"\n- \"Reveal Confound\" button that displays the hidden third variable\n- Checkbox to show/hide the trendline\n- Hover over data points for details\n\n**Default state:** Scatter plot of Ice Cream & Drowning with trendline visible, confound hidden.\n\n**Color scheme:** Data points in teal, trendline in coral, confound-revealed colouring in amber gradient.\n\n**Responsive design:** Canvas resizes to fit container width.\n\nImplementation: p5.js with createSelect(), createButton(), createCheckbox()"
+}

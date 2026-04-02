@@ -1,0 +1,14 @@
+{
+  "sim_id": "arts-knowledge-types",
+  "diagram_name": "Types of Knowledge in the Arts",
+  "chapter_number": 12,
+  "chapter_title": "The Arts as Knowledge",
+  "chapter_dir": "12-the-arts-as-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare propositional, performative, and aesthetic knowledge in terms of their epistemic characteristics and evaluate the relative strengths of each.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: comparison chart\n**sim-id:** arts-knowledge-types<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare propositional, performative, and aesthetic knowledge in terms of their epistemic characteristics and evaluate the relative strengths of each.\n\n**Instructional Rationale:** A three-column comparison showing propositional knowledge (knowing-that), performative knowledge (knowing-how), and aesthetic knowledge (knowing-through-experience) side by side makes the distinctive features of artistic knowledge visible and invites students to evaluate which types are most epistemically robust.\n\n**Visual elements:**\n- Three columns: \"Propositional (Knowing-That),\" \"Performative (Knowing-How),\" \"Aesthetic (Knowing-Through)\"\n- Rows for: Definition, Example, Can be written down?, Requires experience?, Transferable?, Testable?\n- Color-coded cells indicating Yes/No/Partially for each characteristic\n- Icons representing each type: book for propositional, dancer for performative, eye for aesthetic\n\n**Interactive controls:**\n- Hover over any cell for an expanded explanation with a concrete example\n- Toggle button to show/hide a fourth column: \"Scientific Knowledge\" for comparison\n- A \"Which type?\" quiz mode that presents a knowledge example and asks students to classify it\n\n**Default state:** Three columns visible with all rows populated.\n\n**Color scheme:** Propositional in amber, Performative in coral, Aesthetic in teal, header row in cream.\n\n**Responsive design:** Columns stack vertically on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with hover detection and toggle using createCheckbox()"
+}

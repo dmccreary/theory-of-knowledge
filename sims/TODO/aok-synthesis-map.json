@@ -1,0 +1,14 @@
+{
+  "sim_id": "aok-synthesis-map",
+  "diagram_name": "Cross-AOK Synthesis Map",
+  "chapter_number": 16,
+  "chapter_title": "TOK Assessment and Synthesis",
+  "chapter_dir": "16-tok-assessment-and-synthesis",
+  "library": "vis-network",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Compare",
+  "learning_objective": "Compare how different Areas of Knowledge address the same epistemological concepts, identifying patterns and tensions across disciplines.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: interactive network\n**sim-id:** aok-synthesis-map<br/>\n**Library:** vis-network<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Compare\n**Learning Objective:** Compare how different Areas of Knowledge address the same epistemological concepts, identifying patterns and tensions across disciplines.\n\n**Instructional Rationale:** A network visualization allows students to see connections and tensions between AOKs that are not visible in linear text. By interacting with the network, students practice the cross-disciplinary synthesis required for strong TOK essays.\n\n**Visual elements:**\n- Central hub nodes representing epistemological concepts: Evidence, Certainty, Objectivity, Methods, Authority\n- Outer nodes representing six AOKs, each color-coded\n- Edges connecting each AOK to each concept, labeled with how that AOK handles the concept\n- Edge thickness indicating strength of connection (e.g., certainty is thick for mathematics, thin for arts)\n\n**Interactive controls:**\n- Click any concept node to highlight all connected AOKs and display a comparison panel\n- Click any AOK node to see how it handles all five concepts\n- A dropdown to select a specific comparison: \"Compare two AOKs\" mode where student picks two and sees side-by-side\n- Hover over edges to see detailed tooltips\n\n**Default state:** Full network visible with slight y-offset (490) on horizontal edges. Evidence concept highlighted.\n\n**Color scheme:** Natural Sciences = blue, Mathematics = teal, Arts = coral, Ethics = amber, History = sage, Human Sciences = violet. Concept nodes = dark gray.\n\n**Responsive design:** Canvas resizes to container width. Network physics recalculate on resize.\n\nImplementation: vis-network with custom tooltips and comparison panel"
+}

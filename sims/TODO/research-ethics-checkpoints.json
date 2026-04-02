@@ -1,0 +1,14 @@
+{
+  "sim_id": "research-ethics-checkpoints",
+  "diagram_name": "Ethical Checkpoints in the Research Process",
+  "chapter_number": 13,
+  "chapter_title": "Ethics and Values in Knowledge",
+  "chapter_dir": "13-ethics-and-values-in-knowledge",
+  "library": "p5.js",
+  "bloom_level": "Apply (L3)",
+  "bloom_verb": "Identify",
+  "learning_objective": "Identify the ethical checkpoints at each stage of the research process, from question formulation through publication.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: infographic\n**sim-id:** research-ethics-checkpoints<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Apply (L3)\n**Bloom Verb:** Identify\n**Learning Objective:** Identify the ethical checkpoints at each stage of the research process, from question formulation through publication.\n\n**Instructional Rationale:** A linear process diagram with clickable stages allows students to see that ethical considerations are not an afterthought but are embedded at every step of research. This supports application-level thinking about research ethics.\n\n**Visual elements:**\n- A horizontal timeline showing six stages of research: Question Design, Participant Selection, Data Collection, Data Analysis, Interpretation, Publication\n- Each stage represented as a node with an icon\n- Below each node, an \"Ethical Checkpoint\" box listing the key ethical considerations at that stage\n- Example ethical issues: bias in question framing, informed consent, privacy, selective reporting, representation, intellectual property\n\n**Interactive controls:**\n- Click on any stage to expand its ethical checkpoint with real-world examples\n- A toggle to switch between \"Natural Sciences\" and \"Human Sciences\" examples at each stage\n- A \"Case Study\" button at each stage that presents a brief historical example of an ethical violation at that stage\n\n**Default state:** All six stages visible with ethical checkpoints summarized. First stage expanded.\n\n**Color scheme:** Timeline in teal, ethical checkpoint boxes in amber, violation case studies in coral.\n\n**Responsive design:** Timeline wraps to two rows on narrow screens. Canvas resizes to fit container width.\n\nImplementation: p5.js with horizontal layout, click detection for stage expansion, and createCheckbox() for toggle."
+}

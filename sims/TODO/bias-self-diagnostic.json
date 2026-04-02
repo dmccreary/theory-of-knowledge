@@ -1,0 +1,14 @@
+{
+  "sim_id": "bias-self-diagnostic",
+  "diagram_name": "Cognitive Bias Self-Diagnostic Tool",
+  "chapter_number": 5,
+  "chapter_title": "Cognitive Biases",
+  "chapter_dir": "05-cognitive-biases",
+  "library": "p5.js",
+  "bloom_level": "Evaluate (L5)",
+  "bloom_verb": "Assess",
+  "learning_objective": "Assess your own susceptibility to cognitive biases by responding to realistic scenarios and reflecting on which biases were activated.",
+  "completion_status": "specified",
+  "extracted_date": "2026-04-02",
+  "specification": "Type: microsim\n**sim-id:** bias-self-diagnostic<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\n**Bloom Level:** Evaluate (L5)\n**Bloom Verb:** Assess\n**Learning Objective:** Assess your own susceptibility to cognitive biases by responding to realistic scenarios and reflecting on which biases were activated.\n\n**Instructional Rationale:** A scenario-based self-diagnostic allows students to move from abstract knowledge of bias to personal recognition of bias in their own reasoning. The reflection component supports metacognitive development.\n\n**Visual elements:**\n- A scenario panel displaying a realistic decision-making situation\n- Four response options, each reflecting a different cognitive bias (not labeled by bias name)\n- After selection, a feedback panel revealing which bias each option reflects\n- A cumulative \"bias profile\" radar chart showing the student's pattern across all scenarios\n- Progress bar showing scenario completion (8 scenarios total)\n\n**Scenarios (8 total):**\n1. Evaluating a news headline that confirms your political view (confirmation bias)\n2. Estimating a fair price after seeing an inflated price tag (anchoring)\n3. Judging the safety of a city after seeing news coverage of a crime (availability)\n4. Going along with a group project decision you disagree with (groupthink)\n5. Feeling confident about a topic you just started learning (Dunning-Kruger)\n6. Defending a choice you made after learning it had negative consequences (cognitive dissonance)\n7. Accepting a celebrity's health advice (authority bias)\n8. Interpreting a historical event knowing the outcome (hindsight bias)\n\n**Interactive controls:**\n- Click to select a response for each scenario\n- \"Next Scenario\" button to advance\n- \"See My Bias Profile\" button after all scenarios, displaying a radar chart\n- \"Learn More\" links on each bias in the feedback panel\n- \"Try Again\" button to restart\n\n**Color scheme:** Teal background, amber scenario panel, coral for bias feedback highlights.\n\n**Responsive design:** Layout stacks vertically on narrow screens. Radar chart scales proportionally. Canvas resizes to fit container width.\n\nImplementation: p5.js with click detection, scenario state machine, radar chart rendering, createButton() controls."
+}
