@@ -30,12 +30,74 @@ nav:
 
   - MicroSims:
     - List of MicroSims: sims/index.md
+    - Anachronism Detection: sims/anachronism-detection/index.md
+    - Anatomy of a Mathematical Proof: sims/anatomy-of-proof/index.md
+    - Anatomy of an Argument: sims/argument-anatomy/index.md
+    - Anatomy of an Ethical Dilemma: sims/ethical-dilemma-anatomy/index.md
+    - Anatomy of an Information Warfare Campaign: sims/info-warfare-anatomy/index.md
+    - Art as a Source of Knowledge: sims/art-as-knowledge-map/index.md
+    - Capstone Portfolio Knowledge Web: sims/capstone-portfolio-web/index.md
+    - Cartesian Doubt Progression: sims/cartesian-doubt-layers/index.md
+    - Cognitive Bias Self-Diagnostic Tool: sims/bias-self-diagnostic/index.md
+    - Cognitive Dissonance Resolution Strategies: sims/cognitive-dissonance-model/index.md
+    - Comparing Ethical Frameworks: sims/ethical-frameworks-comparison/index.md
+    - Conceptual Metaphor Map: sims/conceptual-metaphor-map/index.md
+    - Content Moderation Decision Framework: sims/content-moderation-framework/index.md
+    - Correlation vs. Causation: sims/correlation-causation/index.md
     - Critical Thinking Cycle: sims/critical-thinking-cycle/index.md
+    - Cross-AOK Synthesis Map: sims/aok-synthesis-map/index.md
+    - Debunking vs. Prebunking Effectiveness: sims/debunking-vs-prebunking/index.md
+    - Deductive vs. Inductive Reasoning: sims/deductive-inductive-comparison/index.md
+    - Dimensions of Creativity: sims/creativity-dimensions/index.md
+    - Echo Chambers and Filter Bubbles: sims/echo-chambers-filter-bubbles/index.md
+    - Empiricism vs. Rationalism Comparison: sims/empiricism-rationalism-compare/index.md
+    - Epistemological Frameworks Comparison: sims/epistemological-frameworks/index.md
+    - Ethical Checkpoints in the Research Process: sims/research-ethics-checkpoints/index.md
+    - Ethical Dimensions of AI: sims/ai-ethics-dimensions/index.md
+    - Evidence Evaluation Workflow: sims/evidence-evaluation-workflow/index.md
+    - Evidence Strength Hierarchy: sims/evidence-strength-hierarchy/index.md
+    - Four TOK Themes Interaction Map: sims/tok-themes-interaction/index.md
+    - From Claim to Knowledge Workflow: sims/claim-to-knowledge-workflow/index.md
+    - From First-Order Questions to Knowledge Questions: sims/question-levels/index.md
+    - Godel's Incompleteness Visualized: sims/godel-incompleteness/index.md
+    - How Algorithms Filter Knowledge: sims/algorithm-filter-knowledge/index.md
+    - How Simulations Generate Knowledge: sims/simulation-knowledge-cycle/index.md
+    - How the Availability Heuristic Distorts Risk Perception: sims/availability-heuristic-risk/index.md
+    - Human Sciences and History Methods Map: sims/human-sciences-history-map/index.md
+    - Information Literacy Framework: sims/information-literacy-framework/index.md
+    - Intellectual Virtues Wheel: sims/intellectual-virtues-wheel/index.md
     - JTB Venn Diagram - Justified True Belief: sims/knowledge-jtb-venn/index.md
-    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Justified True Belief Venn Diagram: sims/jtb-venn-diagram/index.md
+    - Knowledge Dissemination Network: sims/knowledge-dissemination-network/index.md
+    - Knowledge Production Pipeline: sims/knowledge-production-pipeline/index.md
+    - Knowledge Type Classification Game: sims/knowledge-type-classifier/index.md
+    - Kuhn's Cycle of Scientific Revolutions: sims/kuhn-cycle/index.md
+    - Language as Tool vs. Language as Constraint: sims/language-tool-constraint/index.md
+    - Logical Fallacy Identification Guide: sims/fallacy-identifier/index.md
+    - Mapping AI in Knowledge Production: sims/ai-knowledge-production-map/index.md
     - Personal and Shared Knowledge: sims/personal-shared-knowledge/index.md
+    - Primary and Secondary Source Analysis: sims/source-analysis/index.md
+    - Quantitative vs. Qualitative Methods in Science: sims/quant-qual-methods/index.md
+    - Reductio Ad Absurdum Flowchart: sims/reductio-flowchart/index.md
     - Reflective Thinking Quiz: sims/reflective-thinking-quiz/index.md
-
+    - Sampling Methods Comparison: sims/sampling-methods/index.md
+    - Sense Perception and Interpretation: sims/sense-perception-pipeline/index.md
+    - Source Credibility Analyzer: sims/source-credibility-analyzer/index.md
+    - The Certainty Spectrum Across AOKs: sims/certainty-spectrum-aok/index.md
+    - The Communication Triangle of Art: sims/art-communication-triangle/index.md
+    - The Demarcation Spectrum: sims/demarcation-spectrum/index.md
+    - The Dunning-Kruger Confidence Curve: sims/dunning-kruger-curve/index.md
+    - The Epistemology of the Internet: sims/internet-epistemology/index.md
+    - The Hermeneutic Circle: sims/hermeneutic-circle/index.md
+    - The Information Disorder Spectrum: sims/information-disorder-spectrum/index.md
+    - The Knowledge Framework Applied to AOKs: sims/knowledge-framework-aok/index.md
+    - Theory, Law, and Model Relationships: sims/theory-law-model/index.md
+    - Three Theories of Truth Comparison: sims/three-theories-of-truth/index.md
+    - TOK Exhibition Object Analysis Framework: sims/exhibition-analysis/index.md
+    - Types of Ambiguity: sims/types-of-ambiguity/index.md
+    - Types of Knowledge in the Arts: sims/arts-knowledge-types/index.md
+    - Ways of Knowing and Their Interactions: sims/ways-of-knowing-web/index.md
+    - What Is Lost in Translation: sims/translation-loss/index.md
 
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -45,6 +107,7 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
     - Mascot Style Guide: learning-graph/mascot-test.md
+    - Mascot Image Prompts: img/mascot/image-prompts.md
 
 
   - Prompts:
@@ -54,6 +117,7 @@ nav:
     - prompts/03-mkdoc-and-templates.md
     - prompts/04-mascot-generator.md
     - prompts/05-book-chapter-generator.md
+    - prompts/06-microsim-todos.md
 
   - FAQ: faq.md
   - Glossary: glossary.md
