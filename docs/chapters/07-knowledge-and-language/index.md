@@ -65,7 +65,7 @@ In everyday conversation, context usually resolves ambiguity. But in areas of kn
 
 #### Diagram: Types of Ambiguity
 
-<iframe src="../../sims/types-of-ambiguity/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/types-of-ambiguity/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Types of Ambiguity</summary>
@@ -213,7 +213,7 @@ The Italian proverb *traduttore, traditore* ("translator, traitor") captures thi
 
 #### Diagram: What Is Lost in Translation
 
-<iframe src="../../sims/translation-loss/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/translation-loss/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>What Is Lost in Translation</summary>

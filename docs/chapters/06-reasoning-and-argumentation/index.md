@@ -311,7 +311,7 @@ Each step in this chain needs to be independently justified. The fallacy lies in
 
 #### Diagram: Logical Fallacy Identification Guide
 
-<iframe src="../../sims/fallacy-identifier/main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="../../sims/fallacy-identifier/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Logical Fallacy Identification Guide</summary>
@@ -403,7 +403,7 @@ Reductio ad absurdum is widely used in mathematics, philosophy, and law. It is a
 
 #### Diagram: Reductio Ad Absurdum Flowchart
 
-<iframe src="../../sims/reductio-flowchart/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/reductio-flowchart/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Reductio Ad Absurdum Flowchart</summary>

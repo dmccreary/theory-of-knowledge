@@ -73,7 +73,7 @@ The significance of Cartesian doubt for TOK is not whether Descartes's reconstru
 
 #### Diagram: Cartesian Doubt Progression
 
-<iframe src="../../sims/cartesian-doubt-layers/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/cartesian-doubt-layers/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Cartesian Doubt Progression</summary>
@@ -249,7 +249,7 @@ What all these methods share is a commitment to some form of rigor — a set of 
 
 #### Diagram: Knowledge Production Pipeline
 
-<iframe src="../../sims/knowledge-production-pipeline/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/knowledge-production-pipeline/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Knowledge Production Pipeline</summary>

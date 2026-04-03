@@ -97,7 +97,7 @@ The availability heuristic has serious implications for how we evaluate **statis
 
 #### Diagram: How the Availability Heuristic Distorts Risk Perception
 
-<iframe src="../../sims/availability-heuristic-risk/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/availability-heuristic-risk/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>How the Availability Heuristic Distorts Risk Perception</summary>
@@ -229,7 +229,7 @@ Cognitive dissonance is a powerful force in knowledge production because it mean
 
 #### Diagram: Cognitive Dissonance Resolution Strategies
 
-<iframe src="../../sims/cognitive-dissonance-model/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/cognitive-dissonance-model/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Cognitive Dissonance Resolution Strategies</summary>
@@ -368,7 +368,7 @@ The table below maps each bias to the self-examination question that best detect
 
 #### Diagram: Cognitive Bias Self-Diagnostic Tool
 
-<iframe src="../../sims/bias-self-diagnostic/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/bias-self-diagnostic/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Cognitive Bias Self-Diagnostic Tool</summary>

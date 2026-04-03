@@ -11,7 +11,7 @@ quality_score: 0
 
 # Language as Tool vs. Language as Constraint
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="462" width="100%" scrolling="no"></iframe>
 
 [Run the Language as Tool vs. Language as Constraint MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

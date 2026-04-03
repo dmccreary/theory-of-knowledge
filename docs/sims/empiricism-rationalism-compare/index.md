@@ -11,7 +11,7 @@ quality_score: 0
 
 # Empiricism vs. Rationalism Comparison
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="452" width="100%" scrolling="no"></iframe>
 
 [Run the Empiricism vs. Rationalism Comparison MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

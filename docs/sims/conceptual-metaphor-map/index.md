@@ -11,7 +11,7 @@ quality_score: 0
 
 # Conceptual Metaphor Map
 
-<iframe src="main.html" height="510px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="452" width="100%" scrolling="no"></iframe>
 
 [Run the Conceptual Metaphor Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

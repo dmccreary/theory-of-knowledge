@@ -169,7 +169,7 @@ Each object becomes a lens through which the entire TOK toolkit becomes visible.
 
 #### Diagram: TOK Exhibition Object Analysis Framework
 
-<iframe src="../../sims/exhibition-analysis/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/exhibition-analysis/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>TOK Exhibition Object Analysis Framework</summary>

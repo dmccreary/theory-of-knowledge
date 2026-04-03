@@ -11,7 +11,7 @@ quality_score: 0
 
 # Three Theories of Truth Comparison
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="462" width="100%" scrolling="no"></iframe>
 
 [Run the Three Theories of Truth Comparison MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

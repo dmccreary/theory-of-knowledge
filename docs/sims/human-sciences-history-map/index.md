@@ -11,7 +11,7 @@ quality_score: 0
 
 # Human Sciences and History Methods Map
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="530" width="100%" scrolling="no"></iframe>
 
 [Run the Human Sciences and History Methods Map MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

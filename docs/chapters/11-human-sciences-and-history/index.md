@@ -316,7 +316,7 @@ This does not mean we cannot morally evaluate the past. We can recognise that sl
 
 #### Diagram: Anachronism Detection
 
-<iframe src="../../sims/anachronism-detection/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/anachronism-detection/main.html" width="100%" height="467px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Anachronism Detection</summary>

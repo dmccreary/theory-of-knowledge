@@ -11,7 +11,7 @@ quality_score: 0
 
 # Debunking vs. Prebunking Effectiveness
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="452" width="100%" scrolling="no"></iframe>
 
 [Run the Debunking vs. Prebunking Effectiveness MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

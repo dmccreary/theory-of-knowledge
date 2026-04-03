@@ -11,7 +11,7 @@ quality_score: 0
 
 # Dimensions of Creativity
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="382" width="100%" scrolling="no"></iframe>
 
 [Run the Dimensions of Creativity MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

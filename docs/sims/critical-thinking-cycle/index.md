@@ -10,7 +10,7 @@ social:
 ---
 # Critical Thinking Cycle
 
-<iframe src="main.html" height="602px" scrolling="no"></iframe>
+<iframe src="main.html" height="552" scrolling="no"></iframe>
 
 [Run the Critical Thinking Cycle MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 

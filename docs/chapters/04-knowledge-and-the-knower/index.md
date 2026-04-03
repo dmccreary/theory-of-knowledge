@@ -76,7 +76,7 @@ These limitations do not mean sense perception is unreliable. They mean it is *c
 
 #### Diagram: Sense Perception and Interpretation
 
-<iframe src="../../sims/sense-perception-pipeline/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/sense-perception-pipeline/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Sense Perception and Interpretation Pipeline</summary>
@@ -258,7 +258,7 @@ Technology also raises profound questions about the knower. If an AI system can 
 
 #### Diagram: Information Literacy Framework
 
-<iframe src="../../sims/information-literacy-framework/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/information-literacy-framework/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Information Literacy Framework</summary>

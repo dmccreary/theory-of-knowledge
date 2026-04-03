@@ -11,7 +11,7 @@ quality_score: 0
 
 # Content Moderation Decision Framework
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="462" width="100%" scrolling="no"></iframe>
 
 [Run the Content Moderation Decision Framework MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

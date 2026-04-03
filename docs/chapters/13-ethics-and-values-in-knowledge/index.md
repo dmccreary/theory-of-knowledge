@@ -122,7 +122,7 @@ Ethical dilemmas are epistemologically significant because they reveal that mora
 
 #### Diagram: Anatomy of an Ethical Dilemma
 
-<iframe src="../../sims/ethical-dilemma-anatomy/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/ethical-dilemma-anatomy/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Anatomy of an Ethical Dilemma</summary>
@@ -179,7 +179,7 @@ Interpretation is ethically significant because it can introduce bias, silence c
 
 #### Diagram: Ethical Checkpoints in the Research Process
 
-<iframe src="../../sims/research-ethics-checkpoints/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/research-ethics-checkpoints/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Ethical Checkpoints in the Research Process</summary>

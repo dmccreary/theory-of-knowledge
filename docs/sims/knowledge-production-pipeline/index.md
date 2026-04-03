@@ -11,7 +11,7 @@ quality_score: 0
 
 # Knowledge Production Pipeline
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="512" width="100%" scrolling="no"></iframe>
 
 [Run the Knowledge Production Pipeline MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

@@ -11,7 +11,7 @@ quality_score: 0
 
 # Reflective Thinking Quiz
 
-<iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="552" width="100%" scrolling="no"></iframe>
 
 [Run the Reflective Thinking Quiz MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

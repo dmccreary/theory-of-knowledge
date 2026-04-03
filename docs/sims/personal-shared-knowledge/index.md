@@ -11,7 +11,7 @@ quality_score: 0
 
 # Personal and Shared Knowledge
 
-<iframe src="main.html" height="582px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="502" width="100%" scrolling="no"></iframe>
 
 [Run the Personal and Shared Knowledge MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 

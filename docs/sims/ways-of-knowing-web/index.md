@@ -11,7 +11,7 @@ quality_score: 0
 
 # Ways of Knowing and Their Interactions
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="452" width="100%" scrolling="no"></iframe>
 
 [Run the Ways of Knowing and Their Interactions MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

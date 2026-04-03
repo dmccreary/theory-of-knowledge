@@ -11,7 +11,7 @@ quality_score: 0
 
 # From First-Order Questions to Knowledge Questions
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="462" width="100%" scrolling="no"></iframe>
 
 [Run the From First-Order Questions to Knowledge Questions MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

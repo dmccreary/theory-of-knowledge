@@ -103,7 +103,7 @@ Post-truth is not the same as lying. It is a shift in what counts as persuasive.
 
 #### Diagram: The Information Disorder Spectrum
 
-<iframe src="../../sims/information-disorder-spectrum/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/information-disorder-spectrum/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>The Information Disorder Spectrum</summary>
@@ -160,7 +160,7 @@ The modern information ecosystem does not just allow false information to exist 
 
 #### Diagram: Echo Chambers and Filter Bubbles
 
-<iframe src="../../sims/echo-chambers-filter-bubbles/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/echo-chambers-filter-bubbles/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Echo Chambers and Filter Bubbles</summary>
@@ -236,7 +236,7 @@ A typical information warfare campaign might proceed as follows: (1) identify a 
 
 #### Diagram: Anatomy of an Information Warfare Campaign
 
-<iframe src="../../sims/info-warfare-anatomy/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/info-warfare-anatomy/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Anatomy of an Information Warfare Campaign</summary>
@@ -379,7 +379,7 @@ The challenges of content moderation include scale (billions of posts per day ac
 
 #### Diagram: Content Moderation Decision Framework
 
-<iframe src="../../sims/content-moderation-framework/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/content-moderation-framework/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Content Moderation Decision Framework</summary>

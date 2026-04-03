@@ -324,7 +324,7 @@ Epistemic humility also applies to how we engage with knowledge from different c
 
 #### Diagram: From Claim to Knowledge Workflow
 
-<iframe src="../../sims/claim-to-knowledge-workflow/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/claim-to-knowledge-workflow/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>From Claim to Knowledge Workflow</summary>
@@ -377,7 +377,7 @@ Responsive: Adapts to container width; on narrow screens, the flowchart scales p
 
 #### Diagram: Knowledge Type Classification Game
 
-<iframe src="../../sims/knowledge-type-classifier/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/knowledge-type-classifier/main.html" width="100%" height="522px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Knowledge Type Classification Game</summary>

@@ -63,7 +63,7 @@ Not everyone accepts these claims. Skeptics point out that art can also mislead,
 
 #### Diagram: Art as a Source of Knowledge
 
-<iframe src="../../sims/art-as-knowledge-map/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/art-as-knowledge-map/main.html" width="100%" height="467px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Art as a Source of Knowledge</summary>
@@ -136,7 +136,7 @@ Consider how creativity functions in different art forms. A jazz musician improv
 
 #### Diagram: Dimensions of Creativity
 
-<iframe src="../../sims/creativity-dimensions/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/creativity-dimensions/main.html" width="100%" height="582px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Dimensions of Creativity</summary>
@@ -305,7 +305,7 @@ Performative knowledge has several distinctive characteristics:
 
 #### Diagram: Types of Knowledge in the Arts
 
-<iframe src="../../sims/arts-knowledge-types/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/arts-knowledge-types/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Types of Knowledge in the Arts</summary>

@@ -11,7 +11,7 @@ quality_score: 0
 
 # JTB Venn Diagram - Justified True Belief
 
-<iframe src="main.html" height="572px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="522" width="100%" scrolling="no"></iframe>
 
 [Run the JTB Venn Diagram Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

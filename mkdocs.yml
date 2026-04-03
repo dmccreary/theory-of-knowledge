@@ -73,6 +73,7 @@ nav:
     - Knowledge Type Classification Game: sims/knowledge-type-classifier/index.md
     - Kuhn's Cycle of Scientific Revolutions: sims/kuhn-cycle/index.md
     - Language as Tool vs. Language as Constraint: sims/language-tool-constraint/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
     - Logical Fallacy Identification Guide: sims/fallacy-identifier/index.md
     - Mapping AI in Knowledge Production: sims/ai-knowledge-production-map/index.md
     - Personal and Shared Knowledge: sims/personal-shared-knowledge/index.md
@@ -98,6 +99,8 @@ nav:
     - Types of Knowledge in the Arts: sims/arts-knowledge-types/index.md
     - Ways of Knowing and Their Interactions: sims/ways-of-knowing-web/index.md
     - What Is Lost in Translation: sims/translation-loss/index.md
+
+
 
   - Learning Graph:
     - Introduction: learning-graph/index.md

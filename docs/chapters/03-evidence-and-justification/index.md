@@ -333,7 +333,7 @@ No single framework captures everything about how knowledge works. Each highligh
 
 #### Diagram: Epistemological Frameworks Comparison
 
-<iframe src="../../sims/epistemological-frameworks/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/epistemological-frameworks/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Epistemological Frameworks Comparison</summary>
@@ -398,7 +398,7 @@ Understanding authority helps you navigate one of the most important questions i
 
 #### Diagram: Evidence Evaluation Workflow
 
-<iframe src="../../sims/evidence-evaluation-workflow/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/evidence-evaluation-workflow/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Evidence Evaluation Workflow</summary>

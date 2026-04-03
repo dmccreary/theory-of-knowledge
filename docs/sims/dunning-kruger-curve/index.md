@@ -11,7 +11,7 @@ quality_score: 0
 
 # The Dunning-Kruger Confidence Curve
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="432" width="100%" scrolling="no"></iframe>
 
 [Run the The Dunning-Kruger Confidence Curve MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

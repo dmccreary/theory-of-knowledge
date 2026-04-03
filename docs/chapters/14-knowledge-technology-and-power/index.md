@@ -41,7 +41,7 @@ Search engine algorithms do not simply find all relevant pages and present them 
 
 #### Diagram: How Algorithms Filter Knowledge
 
-<iframe src="../../sims/algorithm-filter-knowledge/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/algorithm-filter-knowledge/main.html" width="100%" height="482px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>How Algorithms Filter Knowledge</summary>
@@ -114,7 +114,7 @@ The philosophical questions are profound. Can a machine truly "understand" langu
 
 #### Diagram: Mapping AI in Knowledge Production
 
-<iframe src="../../sims/ai-knowledge-production-map/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/ai-knowledge-production-map/main.html" width="100%" height="482px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Mapping AI in Knowledge Production</summary>

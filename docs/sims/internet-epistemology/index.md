@@ -11,7 +11,7 @@ quality_score: 0
 
 # The Epistemology of the Internet
 
-<iframe src="main.html" height="450px" width="100%" scrolling="no"></iframe>
+<iframe src="main.html" height="492" width="100%" scrolling="no"></iframe>
 
 [Run the The Epistemology of the Internet MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 <br/>

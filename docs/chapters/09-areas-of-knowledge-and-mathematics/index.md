@@ -99,7 +99,7 @@ This framework is not a formula to be mechanically applied — it is a set of le
 
 #### Diagram: The Knowledge Framework Applied to AOKs
 
-<iframe src="../../sims/knowledge-framework-aok/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/knowledge-framework-aok/main.html" width="100%" height="562px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>The Knowledge Framework Applied to AOKs</summary>
@@ -277,7 +277,7 @@ But several considerations complicate this picture:
 
 #### Diagram: The Certainty Spectrum Across AOKs
 
-<iframe src="../../sims/certainty-spectrum-aok/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/certainty-spectrum-aok/main.html" width="100%" height="552px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>The Certainty Spectrum Across AOKs</summary>
@@ -345,7 +345,7 @@ Godel's theorems do not destroy mathematical certainty. They refine it. Individu
 
 #### Diagram: Godel's Incompleteness Visualized
 
-<iframe src="../../sims/godel-incompleteness/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/godel-incompleteness/main.html" width="100%" height="512px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Godel's Incompleteness Visualized</summary>
