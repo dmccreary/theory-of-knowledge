@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {"id": 1, "label": "Surveys", "group": "human-science", "description": "Structured questionnaires used to gather data from large populations. Surveys allow human scientists to measure attitudes, beliefs, and behaviours quantitatively, though response bias and question framing can shape results."},
+    {"id": 2, "label": "Experiments", "group": "human-science", "description": "Controlled studies that manipulate variables to test hypotheses about human behaviour. Experiments in psychology and economics aim for causal explanations, but ethical constraints and ecological validity pose challenges."},
+    {"id": 3, "label": "Observer\nEffect", "group": "human-science", "description": "The phenomenon where the act of observing or studying people changes their behaviour. In the human sciences, researchers are themselves part of the social world they study, making pure objectivity elusive."},
+    {"id": 4, "label": "Correlation vs\nCausation", "group": "human-science", "description": "A core methodological distinction: statistical correlation between variables does not establish that one causes the other. Human scientists must use careful experimental design and reasoning to distinguish the two."},
+    {"id": 5, "label": "Case\nStudies", "group": "human-science", "description": "In-depth investigations of a single individual, group, or event. Case studies provide rich qualitative data and generate hypotheses, but findings may not generalise to wider populations."},
+    {"id": 6, "label": "Quantitative\nMethods", "group": "human-science", "description": "Numerical data collection and statistical analysis used to identify patterns and test hypotheses. Quantitative methods prioritise measurability, replicability, and generalisability."},
+    {"id": 7, "label": "Qualitative\nMethods", "group": "human-science", "description": "Non-numerical approaches such as interviews, ethnography, and thematic analysis. Qualitative methods capture meaning, context, and lived experience that numbers alone cannot convey."},
+
+    {"id": 8, "label": "Primary\nSources", "group": "history", "description": "Original documents, artefacts, and records from the period under study. Letters, photographs, treaties, and diaries provide direct evidence, though they must be evaluated for authenticity, provenance, and bias."},
+    {"id": 9, "label": "Secondary\nSources", "group": "history", "description": "Scholarly works that interpret and analyse primary sources. Textbooks, journal articles, and documentaries offer synthesis and perspective, but reflect the historian's own interpretive framework."},
+    {"id": 10, "label": "Oral\nTraditions", "group": "history", "description": "Knowledge passed down through spoken word across generations. Oral traditions preserve perspectives often excluded from written records, especially those of indigenous and marginalised communities."},
+    {"id": 11, "label": "Historiography", "group": "history", "description": "The study of how history itself is written. Historiography examines how different schools of thought, cultural contexts, and methodological choices shape the narratives historians construct."},
+    {"id": 12, "label": "Historical\nEmpathy", "group": "history", "description": "The practice of understanding past actors within their own context rather than judging them by present-day standards. Historical empathy guards against anachronism and enriches interpretation."},
+    {"id": 13, "label": "Archives &\nRecords", "group": "history", "description": "Institutional collections of documents, data, and artefacts preserved for research. What gets archived — and what does not — shapes what historians can study, raising questions about power and selection bias."},
+
+    {"id": 14, "label": "Cultural\nVariables", "group": "shared", "description": "Factors such as language, values, traditions, and social norms that vary across cultures. Both human scientists and historians must account for cultural context when interpreting evidence and drawing conclusions."},
+    {"id": 15, "label": "Bias", "group": "shared", "description": "Systematic distortion in data collection, interpretation, or narrative construction. Confirmation bias, selection bias, and cultural bias affect both human science research and historical writing."},
+    {"id": 16, "label": "Interpretation", "group": "shared", "description": "The process of assigning meaning to evidence. In both disciplines, the same data can support different conclusions depending on the theoretical framework, perspective, and assumptions of the interpreter."},
+    {"id": 17, "label": "Interdisciplinary\nInquiry", "group": "shared", "description": "Research that draws on methods and insights from multiple fields. Many modern questions — migration, public health, climate impact — require both human science data and historical perspective."}
+  ],
+  "edges": [
+    {"from": 1, "to": 15, "label": "Response bias", "description": "Survey design and wording can introduce systematic bias; respondents may give socially desirable answers rather than truthful ones."},
+    {"from": 1, "to": 14, "label": "Cultural framing", "description": "Survey questions must be adapted across cultures; concepts like 'happiness' or 'success' carry different meanings in different contexts."},
+    {"from": 2, "to": 3, "label": "Alters behaviour", "description": "Experimental subjects who know they are being studied may behave differently, threatening the validity of results."},
+    {"from": 2, "to": 4, "label": "Tests causation", "description": "Controlled experiments are the primary tool for establishing causal relationships, moving beyond mere correlation."},
+    {"from": 2, "to": 15, "label": "Experimenter bias", "description": "Researchers' expectations can unconsciously influence how experiments are conducted and how results are interpreted."},
+    {"from": 3, "to": 16, "label": "Shapes meaning", "description": "When observation changes behaviour, the data collected may not represent authentic actions, complicating interpretation."},
+    {"from": 4, "to": 16, "label": "Requires judgment", "description": "Distinguishing correlation from causation requires careful interpretive reasoning about confounding variables and alternative explanations."},
+    {"from": 5, "to": 7, "label": "Rich data", "description": "Case studies rely heavily on qualitative methods — interviews, observation, narrative analysis — to build deep understanding."},
+    {"from": 5, "to": 16, "label": "Context-dependent", "description": "Interpreting case study findings requires understanding the specific context, making generalisation a matter of careful judgment."},
+    {"from": 6, "to": 4, "label": "Statistical tools", "description": "Quantitative methods use statistical tests to measure the strength of correlations and assess the probability of causal relationships."},
+    {"from": 6, "to": 15, "label": "Sampling bias", "description": "Quantitative studies can produce biased results if the sample is not representative of the population being studied."},
+    {"from": 7, "to": 14, "label": "Cultural sensitivity", "description": "Qualitative methods such as ethnography are particularly attuned to cultural variables, capturing meaning within its social context."},
+    {"from": 7, "to": 16, "label": "Subjective depth", "description": "Qualitative interpretation draws on the researcher's understanding and empathy, offering depth but introducing subjectivity."},
+
+    {"from": 8, "to": 15, "label": "Source bias", "description": "Primary sources reflect the perspective, purpose, and limitations of their creators; historians must critically evaluate each source."},
+    {"from": 8, "to": 16, "label": "Requires context", "description": "Primary sources must be interpreted within their historical context — language, conventions, and circumstances shape meaning."},
+    {"from": 9, "to": 11, "label": "Reflects schools", "description": "Secondary sources embody particular historiographic traditions — Marxist, feminist, postcolonial — that shape their analysis."},
+    {"from": 9, "to": 15, "label": "Interpretive lens", "description": "Every secondary source filters primary evidence through the author's perspective, methodology, and theoretical commitments."},
+    {"from": 10, "to": 14, "label": "Cultural memory", "description": "Oral traditions preserve culturally specific knowledge systems and perspectives that may differ from dominant written narratives."},
+    {"from": 10, "to": 16, "label": "Evolving narrative", "description": "Oral traditions change as they are retold, raising questions about accuracy versus the living, adaptive nature of cultural memory."},
+    {"from": 11, "to": 15, "label": "Exposes bias", "description": "Historiography reveals how historians' own biases — national, ideological, cultural — shape the histories they write."},
+    {"from": 11, "to": 16, "label": "Meta-interpretation", "description": "Historiography is interpretation of interpretations — analysing how and why different historians construct different narratives."},
+    {"from": 12, "to": 14, "label": "Cross-cultural\nunderstanding", "description": "Historical empathy requires imaginatively engaging with cultural values and worldviews that may differ radically from one's own."},
+    {"from": 12, "to": 16, "label": "Guards against\nanachronism", "description": "By interpreting past actions within their own context, historical empathy prevents the distortion of judging the past by present standards."},
+    {"from": 13, "to": 15, "label": "Selection bias", "description": "Archives reflect decisions about what to preserve and what to discard; the voices of the powerful are often over-represented."},
+    {"from": 13, "to": 8, "label": "Houses evidence", "description": "Archives are the institutional repositories of primary sources, and access to archives shapes what historical research is possible."},
+
+    {"from": 17, "to": 6, "label": "Data for history", "description": "Quantitative methods from the human sciences — demographics, economics — provide data that enriches historical analysis."},
+    {"from": 17, "to": 11, "label": "Historical context\nfor science", "description": "Historiography reminds human scientists that their disciplines have histories, and that past paradigms shape current methods."},
+    {"from": 17, "to": 7, "label": "Ethnographic\nhistory", "description": "Qualitative human science methods like ethnography inform historical research, especially oral history and microhistory."},
+    {"from": 17, "to": 10, "label": "Oral history\nmethods", "description": "Interdisciplinary approaches combine social science interview techniques with historical analysis of oral traditions."},
+    {"from": 14, "to": 3, "label": "Varies by\nculture", "description": "The observer effect itself varies across cultures — what counts as 'being observed' and how people respond differs by social context."},
+    {"from": 14, "to": 12, "label": "Empathy requires\ncultural knowledge", "description": "Practising historical empathy demands understanding the cultural variables that shaped the worldviews of people in the past."},
+    {"from": 15, "to": 4, "label": "Confounds\ncausation", "description": "Unrecognised biases in research design can create spurious correlations, making it harder to establish genuine causal links."},
+    {"from": 16, "to": 9, "label": "Shapes\nscholarship", "description": "The act of interpretation is what transforms primary evidence into secondary scholarship — every synthesis is an interpretive act."},
+    {"from": 16, "to": 5, "label": "Case-by-case\nmeaning", "description": "Case studies require careful interpretation because their findings are deeply embedded in specific circumstances and contexts."}
+  ],
+  "groups": {
+    "human-science": {"label": "Human Sciences", "color": "#4A90D9", "shape": "dot", "size": 28, "font_size": 13},
+    "history": {"label": "History", "color": "#2E8B57", "shape": "dot", "size": 28, "font_size": 13},
+    "shared": {"label": "Shared Challenges", "color": "#DAA520", "shape": "diamond", "size": 24, "font_size": 13}
+  }
+}

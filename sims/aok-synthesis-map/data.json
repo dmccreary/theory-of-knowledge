@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {"id": 1, "label": "Evidence", "group": "concept"},
+    {"id": 2, "label": "Certainty", "group": "concept"},
+    {"id": 3, "label": "Objectivity", "group": "concept"},
+    {"id": 4, "label": "Methods", "group": "concept"},
+    {"id": 5, "label": "Authority", "group": "concept"},
+    {"id": 6, "label": "Natural\nSciences", "group": "natural-sciences"},
+    {"id": 7, "label": "Mathematics", "group": "mathematics"},
+    {"id": 8, "label": "The Arts", "group": "arts"},
+    {"id": 9, "label": "Ethics", "group": "ethics"},
+    {"id": 10, "label": "History", "group": "history"},
+    {"id": 11, "label": "Human\nSciences", "group": "human-sciences"}
+  ],
+  "edges": [
+    {"from": 6, "to": 1, "label": "Empirical\nobservation", "width": 5, "description": "Natural Sciences rely on empirical observation and repeatable experiments as primary evidence."},
+    {"from": 6, "to": 2, "label": "Probabilistic\ncertainty", "width": 3, "description": "Scientific knowledge is always provisional, expressed in degrees of confidence rather than absolute certainty."},
+    {"from": 6, "to": 3, "label": "Methodological\nobjectivity", "width": 4, "description": "Peer review and replication aim to minimize subjective bias and achieve intersubjective agreement."},
+    {"from": 6, "to": 4, "label": "Hypothetico-\ndeductive", "width": 5, "description": "The scientific method uses hypothesis formation, prediction, experimentation, and falsification."},
+    {"from": 6, "to": 5, "label": "Peer-reviewed\nconsensus", "width": 4, "description": "Authority in science derives from expert consensus validated through peer review, not from individuals."},
+
+    {"from": 7, "to": 1, "label": "Logical\nproof", "width": 5, "description": "Mathematical evidence consists of deductive proofs from axioms, not empirical data."},
+    {"from": 7, "to": 2, "label": "Axiomatic\ncertainty", "width": 5, "description": "Mathematics achieves the highest certainty of any AOK through deductive proof from axioms."},
+    {"from": 7, "to": 3, "label": "Abstract\nuniversality", "width": 5, "description": "Mathematical truths are considered objective and universal, independent of culture or perspective."},
+    {"from": 7, "to": 4, "label": "Deductive\nreasoning", "width": 5, "description": "Mathematics uses purely deductive methods: axioms, definitions, theorems, and proofs."},
+    {"from": 7, "to": 5, "label": "Proof\nverification", "width": 3, "description": "Authority in mathematics rests on the validity of proofs, which any competent mathematician can verify."},
+
+    {"from": 8, "to": 1, "label": "Aesthetic\nexperience", "width": 3, "description": "Evidence in the Arts is grounded in subjective aesthetic experience and emotional response."},
+    {"from": 8, "to": 2, "label": "Embraces\nambiguity", "width": 2, "description": "The Arts thrive on ambiguity and multiple interpretations rather than seeking certainty."},
+    {"from": 8, "to": 3, "label": "Inherently\nsubjective", "width": 1, "description": "Artistic knowledge is deeply subjective, shaped by personal and cultural perspective."},
+    {"from": 8, "to": 4, "label": "Creative\nexpression", "width": 4, "description": "Artistic methods include creative expression, imagination, and embodied practice."},
+    {"from": 8, "to": 5, "label": "Critical\ntradition", "width": 2, "description": "Authority in the Arts comes from critical tradition, cultural standing, and institutional gatekeeping."},
+
+    {"from": 9, "to": 1, "label": "Moral\nintuition", "width": 3, "description": "Ethical evidence draws on moral intuitions, thought experiments, and reasoned argument."},
+    {"from": 9, "to": 2, "label": "Contested\nprinciples", "width": 2, "description": "Ethical certainty is deeply contested; competing frameworks yield different conclusions."},
+    {"from": 9, "to": 3, "label": "Perspective-\ndependent", "width": 2, "description": "Objectivity in ethics is debated: moral realists argue for objective truths, while relativists deny them."},
+    {"from": 9, "to": 4, "label": "Reasoned\nargument", "width": 4, "description": "Ethics uses thought experiments, case analysis, and principled reasoning as core methods."},
+    {"from": 9, "to": 5, "label": "Philosophical\ntradition", "width": 3, "description": "Ethical authority derives from philosophical traditions, religious teachings, and cultural norms."},
+
+    {"from": 10, "to": 1, "label": "Primary\nsources", "width": 4, "description": "Historical evidence comes from primary sources: documents, artifacts, oral testimony, and archives."},
+    {"from": 10, "to": 2, "label": "Interpretive\nrevision", "width": 2, "description": "Historical knowledge is always open to reinterpretation as new evidence emerges or perspectives shift."},
+    {"from": 10, "to": 3, "label": "Strives for\nbalance", "width": 3, "description": "Historians strive for objectivity through corroboration but acknowledge that perspective shapes narrative."},
+    {"from": 10, "to": 4, "label": "Source\nanalysis", "width": 4, "description": "Historical methods include source criticism, corroboration, contextualization, and historiography."},
+    {"from": 10, "to": 5, "label": "Historiographic\nconsensus", "width": 3, "description": "Authority in History rests on rigorous methodology and scholarly consensus, but is always revisable."},
+
+    {"from": 11, "to": 1, "label": "Empirical\ndata", "width": 4, "description": "Human Sciences gather evidence through surveys, experiments, ethnography, and statistical analysis."},
+    {"from": 11, "to": 2, "label": "Statistical\nconfidence", "width": 3, "description": "Certainty in Human Sciences is expressed statistically, with findings that are often context-dependent."},
+    {"from": 11, "to": 3, "label": "Observer\neffect", "width": 2, "description": "Objectivity is challenged by observer effects, cultural bias, and the fact that researchers are part of what they study."},
+    {"from": 11, "to": 4, "label": "Mixed\nmethods", "width": 4, "description": "Human Sciences use both quantitative and qualitative methods, including experiments, interviews, and fieldwork."},
+    {"from": 11, "to": 5, "label": "Institutional\nreview", "width": 3, "description": "Authority comes from institutional review, replication, and methodological rigor, though paradigm debates persist."}
+  ],
+  "groups": {
+    "concept": {"label": "Epistemological Concepts", "color": "#555555", "shape": "box", "size": 30, "font_size": 16},
+    "natural-sciences": {"label": "Natural Sciences", "color": "#4A90D9", "shape": "circle", "size": 22, "font_size": 13},
+    "mathematics": {"label": "Mathematics", "color": "#2BA8A8", "shape": "circle", "size": 22, "font_size": 13},
+    "arts": {"label": "The Arts", "color": "#E07060", "shape": "circle", "size": 22, "font_size": 13},
+    "ethics": {"label": "Ethics", "color": "#D4A030", "shape": "circle", "size": 22, "font_size": 13},
+    "history": {"label": "History", "color": "#8FBC8F", "shape": "circle", "size": 22, "font_size": 13},
+    "human-sciences": {"label": "Human Sciences", "color": "#9370DB", "shape": "circle", "size": 22, "font_size": 13}
+  }
+}

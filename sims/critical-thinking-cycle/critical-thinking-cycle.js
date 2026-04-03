@@ -232,22 +232,24 @@ function draw() {
   text('Critical Thinking Cycle', canvasWidth / 2, 10);
 
   // ---- Show selected claim ----
-  textSize(14);
+  textSize(18);
   fill(80);
-  textAlign(CENTER, TOP);
+  textAlign(LEFT, TOP);
   let claimText = 'Claim (' + claims[selectedClaim].type + '): "' + claims[selectedClaim].label + '"';
-  text(claimText, canvasWidth / 2, 40, canvasWidth - 40);
+  let claimW = canvasWidth - 40;
+  let claimX = 20;
+  text(claimText, claimX, 40, claimW);
 
   // ---- Draw the cycle ----
   let cycleRadius = Math.min(canvasWidth * 0.22, 130);
   let centerX = canvasWidth * 0.3;
-  let centerY = 195;
+  let centerY = 280;
   let nodeRadius = Math.min(canvasWidth * 0.09, 52);
 
   // Narrow screen adjustment
   if (canvasWidth < 500) {
     centerX = canvasWidth / 2;
-    centerY = 180;
+    centerY = 265;
     cycleRadius = Math.min(canvasWidth * 0.25, 120);
     nodeRadius = Math.min(canvasWidth * 0.1, 48);
   }
@@ -323,9 +325,9 @@ function draw() {
   let panelX, panelY, panelW, panelH;
   if (canvasWidth >= 500) {
     panelX = canvasWidth * 0.55;
-    panelY = 70;
+    panelY = 150;
     panelW = canvasWidth * 0.42;
-    panelH = 250;
+    panelH = 260;
   } else {
     panelX = 15;
     panelY = centerY + cycleRadius + nodeRadius + 20;
@@ -400,12 +402,12 @@ function draw() {
 function mousePressed() {
   let cycleRadius = Math.min(canvasWidth * 0.22, 130);
   let centerX = canvasWidth * 0.3;
-  let centerY = 195;
+  let centerY = 280;
   let nodeRadius = Math.min(canvasWidth * 0.09, 52);
 
   if (canvasWidth < 500) {
     centerX = canvasWidth / 2;
-    centerY = 180;
+    centerY = 265;
     cycleRadius = Math.min(canvasWidth * 0.25, 120);
     nodeRadius = Math.min(canvasWidth * 0.1, 48);
   }

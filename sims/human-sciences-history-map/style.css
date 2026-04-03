@@ -1,0 +1,192 @@
+/* Human Sciences & History Methods Map Styles */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; background: #1a1a2e; color: #e0e0e0; overflow: hidden; }
+
+#network-container {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    height: 685px;
+}
+
+/* Title overlay */
+#title-overlay {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(26, 26, 46, 0.85);
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    z-index: 10;
+    text-align: center;
+    pointer-events: none;
+}
+#title-overlay h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+#title-overlay .subtitle {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 2px;
+}
+
+/* Legend overlay - upper left */
+#legend-overlay {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(26, 26, 46, 0.9);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    z-index: 10;
+    font-size: 12px;
+    min-width: 160px;
+}
+#legend-overlay h3 {
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-weight: 600;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.legend-item:hover {
+    opacity: 0.8;
+}
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+.legend-dot.diamond {
+    border-radius: 2px;
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+}
+.legend-label {
+    color: #ccc;
+    font-size: 12px;
+}
+
+/* Right info panel */
+#info-panel {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 280px;
+    max-height: calc(685px - 24px);
+    background: rgba(26, 26, 46, 0.92);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    z-index: 10;
+    overflow-y: auto;
+    padding: 14px;
+    font-size: 13px;
+}
+#info-panel h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 8px;
+}
+#info-panel h3 {
+    font-size: 14px;
+    margin: 10px 0 6px;
+    color: #ddd;
+}
+
+/* Reset button */
+#reset-btn {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 5px;
+    background: transparent;
+    color: #aaa;
+    font-size: 11px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+#reset-btn:hover {
+    background: rgba(255,255,255,0.05);
+    color: #ccc;
+}
+
+/* Node detail section */
+.node-detail-header {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.node-description {
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+.connections-heading {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+/* Connection detail items */
+.connection-item {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    border-left: 3px solid #555;
+}
+.connection-item .concept-name {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.connection-item .edge-label {
+    color: #8cb4e0;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+.connection-item .description {
+    color: #bbb;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+/* Prompt text */
+.prompt-text {
+    color: #888;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.prompt-text em {
+    color: #aaa;
+}
+
+/* Scrollbar styling */
+#info-panel::-webkit-scrollbar { width: 5px; }
+#info-panel::-webkit-scrollbar-track { background: transparent; }
+#info-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }

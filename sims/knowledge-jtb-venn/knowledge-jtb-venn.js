@@ -214,17 +214,23 @@ function drawVennDiagram() {
   textSize(labelSize);
   textStyle(BOLD);
 
-  // Belief label - outside top-left
+  // Belief label - shifted toward center
   fill(0, 120, 108);
-  text('Belief', beliefCenter.x - circleRadius * 0.65, beliefCenter.y - circleRadius * 0.8);
+  let beliefLabelX = beliefCenter.x - circleRadius * 0.65;
+  let beliefLabelY = beliefCenter.y - circleRadius * 0.8;
+  text('Belief', beliefLabelX + (cx - beliefLabelX) * 0.3, beliefLabelY + (cy - beliefLabelY) * 0.3);
 
-  // Truth label - outside top-right
+  // Truth label - shifted toward center
   fill(200, 140, 0);
-  text('Truth', truthCenter.x + circleRadius * 0.65, truthCenter.y - circleRadius * 0.8);
+  let truthLabelX = truthCenter.x + circleRadius * 0.65;
+  let truthLabelY = truthCenter.y - circleRadius * 0.8;
+  text('Truth', truthLabelX + (cx - truthLabelX) * 0.3, truthLabelY + (cy - truthLabelY) * 0.3);
 
-  // Justification label - outside bottom
+  // Justification label - shifted toward center
   fill(200, 60, 40);
-  text('Justification', justCenter.x, justCenter.y + circleRadius * 0.95);
+  let justLabelX = justCenter.x;
+  let justLabelY = justCenter.y + circleRadius * 0.95;
+  text('Justification', justLabelX + (cx - justLabelX) * 0.3, justLabelY + (cy - justLabelY) * 0.3);
 
   // Knowledge label in the center
   textSize(labelSize * 0.9);
