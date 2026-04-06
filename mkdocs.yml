@@ -100,7 +100,22 @@ nav:
     - Ways of Knowing and Their Interactions: sims/ways-of-knowing-web/index.md
     - What Is Lost in Translation: sims/translation-loss/index.md
 
-
+  - Stories:
+    - List of Stories: stories/index.md
+    - Andreas Vesalius - The Forbidden Bodies: stories/andreas-vesalius/index.md
+    - Galileo Galilei - The Moons of Jupiter: stories/galileo-galilei/index.md
+    - Mary Anning - Dragons in the Cliffs: stories/mary-anning/index.md
+    - Charles Darwin - The Finches' Beaks: stories/charles-darwin/index.md
+    - Ignaz Semmelweis - The Invisible Killer: stories/ignaz-semmelweis/index.md
+    - Ida B. Wells - The Woman Who Counted: stories/ida-b-wells/index.md
+    - Alice Stewart - The X-Ray Mystery: stories/alice-stewart/index.md
+    - Hannah Arendt - The Truth in the Courtroom: stories/hannah-arendt/index.md
+    - Hedy Lamarr - The Hidden Inventor: stories/hedy-lamarr/index.md
+    - Maurice Hilleman - The Vaccine Detective: stories/maurice-hilleman/index.md
+    - Carl Sagan - The Baloney Detection Kit: stories/carl-sagan/index.md
+    - Marie Colvin - The Cost of Witness: stories/marie-colvin/index.md
+    - Katalin Karikó - The Rejected Idea: stories/katalin-kariko/index.md
+    - Rachel Carson - Silent Spring: stories/rachel-carson/index.md
 
   - Learning Graph:
     - Introduction: learning-graph/index.md
