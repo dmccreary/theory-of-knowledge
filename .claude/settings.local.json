@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test -n \"$GEMINI_API_KEY\")",
+      "Read(//Users/dan/**)",
+      "Bash(zsh -i -c 'echo \"\"\"\"key=${GEMINI_API_KEY:+SET}${GEMINI_API_KEY:-NOTSET}\"\"\"\"')",
+      "Bash(python3 -c \"import google.genai; print\\(''google-genai OK''\\)\")",
+      "Bash(source ~/.zshrc)",
+      "Bash(python3 ~/.claude/skills/story-generator/scripts/generate-images.py docs/stories/rachel-carson --first-only)",
+      "Bash(python3 ~/.claude/skills/story-generator/scripts/generate-images.py docs/stories/rachel-carson --skip-existing)",
+      "Bash(python3 ~/.claude/skills/story-generator/scripts/verify-images.py docs/stories/rachel-carson)",
+      "Bash(ls logs/rachel-carson* logs/image-generation-usage.jsonl)"
+    ]
+  }
+}

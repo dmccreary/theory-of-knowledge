@@ -5,6 +5,7 @@ toc:
     - hide
 ---
 # Theory of Knowledge
+![Cover Image](./img/cover.png)
 
 <style>
 .md-content__inner h1 {display: none !important;}
