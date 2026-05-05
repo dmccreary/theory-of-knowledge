@@ -99,6 +99,9 @@ def build_montage() -> Image.Image:
         side = max(tile_w, tile_h)
         tile = square_crop(im, side)
         tile = tile.crop((0, 0, tile_w, tile_h))
+        tile = ImageEnhance.Contrast(tile).enhance(0.70)
+        tile = ImageEnhance.Brightness(tile).enhance(0.88)
+        tile = ImageEnhance.Color(tile).enhance(0.90)
         montage.paste(tile, (col * tile_w, row * tile_h))
 
     return montage
@@ -110,20 +113,20 @@ def darken_center_for_title(montage: Image.Image) -> Image.Image:
     draw.rectangle([(0, 0), montage.size], fill=(0, 0, 0, 90))
 
     cx, cy = montage.width // 2, montage.height // 2
-    rx, ry = int(montage.width * 0.42), int(montage.height * 0.32)
+    rx, ry = int(montage.width * 0.50), int(montage.height * 0.38)
     radial = Image.new("L", montage.size, 0)
     rdraw = ImageDraw.Draw(radial)
     steps = 60
     for i in range(steps):
         t = i / steps
-        alpha = int(160 * (1 - t))
+        alpha = int(185 * (1 - t))
         ex = int(rx * (0.2 + 0.8 * t))
         ey = int(ry * (0.2 + 0.8 * t))
         rdraw.ellipse(
             [(cx - ex, cy - ey), (cx + ex, cy + ey)],
             fill=alpha,
         )
-    radial = radial.filter(ImageFilter.GaussianBlur(radius=40))
+    radial = radial.filter(ImageFilter.GaussianBlur(radius=50))
 
     dark_layer = Image.new("RGBA", montage.size, (5, 18, 30, 255))
     composed = montage.convert("RGBA")
