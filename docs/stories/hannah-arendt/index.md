@@ -31,6 +31,7 @@ Jerusalem, 1961. A philosopher walked into a courtroom expecting to see a monste
 <details><summary>Image Prompt</summary>
 I am about to ask you to generate a series of images for a graphic novel. Please make the images have a consistent style and consistent characters. Do not ask any clarifying questions. Just generate the image immediately when asked.
 
+(This is panel 1.  Do not include the panel number in the image.)
 Please generate a 16:9 image in a 1920s German intellectual and Bauhaus-influenced style depicting panel 1 of 12. The scene shows a young Hannah Arendt, around 18 years old, with short dark hair, sharp intelligent eyes, and angular features, seated in a university lecture hall at the University of Marburg, Germany, in 1924. She sits forward in her seat, utterly absorbed, a notebook open on the fold-down desk before her. Around her, other students in 1920s academic dress listen in various states of attention. At the front of the hall, a professor writes on a large blackboard. The architecture is clean modernist stone and wood — Weimar-era academic design. Through tall windows, the rooftops of a small German university town are visible in autumn light. Color palette: warm amber, cool stone gray, dark navy, cream, and the golden brown of autumn leaves. Emotional tone: intellectual awakening, the excitement of discovering philosophy. Include: period-accurate 1920s clothing, a fountain pen in her hand, stacks of philosophy books on the desk, the German text "SEIN UND ZEIT" partly visible on the blackboard, wood-paneled walls, and the intensity of a young woman who has found her calling. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -40,6 +41,8 @@ Hannah Arendt was born in 1906 in Linden, Germany, into a secular Jewish family.
 
 ![](./panel-02.png)
 <details><summary>Image Prompt</summary>
+(This is panel 2.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1930s German Expressionist style depicting panel 2 of 12. Make the characters and style consistent with the prior panel. The scene shows a street in Berlin, 1933. Hannah Arendt, now in her late 20s, walks quickly down a gray cobblestone street carrying a leather briefcase. She wears a dark coat and beret. The street is eerily quiet — shuttered storefronts with "GESCHLOSSEN" (closed) signs, a smashed shop window with glass on the pavement, and official notices pasted on walls and lamp posts. A few people hurry past with their heads down. No explicit political symbols are shown — only the atmosphere of fear and conformity. Gray institutional buildings loom on both sides. Color palette: muted grays, cold blues, dark charcoal, a single patch of warm amber from a lit window. Emotional tone: tension, dread, and the feeling of a society closing in on itself. Include: crumpled newspapers in the gutter, a lone streetcar in the distance, a padlocked door, Arendt's determined stride, and long dramatic shadows cast by unseen streetlights. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -49,6 +52,8 @@ By 1933, Germany had changed. The new regime began systematically excluding Jewi
 
 ![](./panel-03.png)
 <details><summary>Image Prompt</summary>
+(This is panel 3.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1930s European Expressionist style depicting panel 3 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt in a modest room, preparing to leave. A small suitcase lies open on a narrow bed, half-packed with books and papers. She stands at the window looking out at a gray European cityscape, one hand resting on the suitcase, the other holding a passport or travel document. A framed photograph of her mother sits on a small bedside table. The room is spare — bare walls, a single overhead lamp, a wooden chair with a coat draped over it. Color palette: muted grays, warm amber lamplight, dark brown leather, cold pale sky through the window. Emotional tone: quiet resolve, the weight of leaving everything behind, and the loneliness of exile. Include: a stack of philosophy books tied with string, a pair of reading glasses on the table, a handwritten letter, worn floorboards, and the sense that this departure is permanent. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -58,6 +63,8 @@ Arendt fled Germany in 1933, crossing into Czechoslovakia and then to Paris, whe
 
 ![](./panel-04.png)
 <details><summary>Image Prompt</summary>
+(This is panel 4.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1940s–1950s New York editorial illustration style depicting panel 4 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt in her apartment on the Upper West Side of Manhattan, circa 1950. She sits at a heavy wooden desk covered with manuscripts, open books, and carbon-copy typescript pages, a cigarette in one hand and a pen in the other. Behind her, floor-to-ceiling bookshelves are packed with volumes in German, French, and English. Through a window, the rooftops and water towers of mid-century Manhattan are visible against a winter sky. Color palette: warm interior browns and ambers, cool blue-gray city light, cream paper, dark navy and charcoal. Emotional tone: intellectual determination, the quiet intensity of a mind building something important. Include: a typewriter on a side table, an ashtray with cigarette stubs, a framed photograph of her husband Heinrich, a cup of coffee, scattered handwritten notes, and the thick manuscript of a book in progress. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -67,6 +74,8 @@ In New York, Arendt rebuilt her intellectual life from scratch. She learned Engl
 
 ![](./panel-05.png)
 <details><summary>Image Prompt</summary>
+(This is panel 5.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1960s New York editorial illustration style depicting panel 5 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt, now in her mid-50s, standing in the offices of The New Yorker magazine in Manhattan. She is speaking with an editor across a desk, gesturing with one hand while holding a cigarette in the other. On the desk between them lies an open newspaper with a headline about the upcoming Eichmann trial in Jerusalem. Arendt's expression is intent and resolute — she has volunteered for this assignment. The office is a classic mid-century New York editorial space: neat stacks of galley proofs, framed magazine covers on the wall, venetian blinds filtering afternoon light. Color palette: warm office ambers, cream, dark charcoal suits, cool blue-gray light. Emotional tone: professional resolve and the gravity of what lies ahead. Include: a rotary telephone, a glass ashtray, manuscript pages, a map of Israel pinned to a corkboard, The New Yorker logo visible on stationery, and period-accurate 1960s office furnishings. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -76,6 +85,8 @@ In 1960, Israeli agents captured Adolf Eichmann, a former senior official who ha
 
 ![](./panel-06.png)
 <details><summary>Image Prompt</summary>
+(This is panel 6.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1960s documentary illustration style depicting panel 6 of 12. Make the characters and style consistent with the prior panels. The scene shows the interior of the Jerusalem District Court during the Eichmann trial, 1961. The courtroom is large, modern, and packed with spectators, journalists, and translators wearing headphones. In the center of the courtroom, a bulletproof glass booth contains a single figure: a thin, balding, middle-aged man in a dark suit, sitting upright with his hands folded, wearing thick-rimmed glasses. He looks utterly ordinary — a bureaucrat, not a monster. In the press gallery above, Hannah Arendt sits with a notebook open, her pen frozen mid-sentence, staring down at the man in the booth with an expression of disturbed concentration. Three judges in dark robes sit at an elevated bench. Color palette: cold fluorescent courtroom whites, institutional gray, dark navy suits, warm amber on Arendt's face from a side lamp. Emotional tone: the shock of the ordinary, clinical observation, and moral bewilderment. Include: microphones on the judges' bench, headphone sets for translation, rows of journalists with notebooks, the glass booth reflecting overhead lights, uniformed court guards, and the strange emptiness of Eichmann's expression. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -85,6 +96,8 @@ Arendt sat in the press gallery day after day, watching and listening. She had e
 
 ![](./panel-07.png)
 <details><summary>Image Prompt</summary>
+(This is panel 7.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1960s editorial illustration style depicting panel 7 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt alone in her hotel room in Jerusalem at night, sitting at a small writing desk. She has just written a phrase in her notebook and is staring at it, cigarette burning forgotten in the ashtray. The notebook page is visible, with the handwritten words "the banality of evil" underlined. Her expression is one of troubled clarity — she has found the words for something she cannot un-see. The room is spare: a single bed, a reading lamp casting a cone of warm light, a window showing the dark skyline of Jerusalem with a few distant lights. Color palette: warm amber lamplight, deep shadow, cream paper, cool blue-black night sky. Emotional tone: solitary revelation, the weight of a dangerous idea, and the loneliness of intellectual honesty. Include: scattered handwritten pages, a half-empty glass of water, an open suitcase with books, a hotel telephone, and the glow of her cigarette in the darkened room. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -94,6 +107,8 @@ In her hotel room, Arendt wrote the phrase that would follow her for the rest of
 
 ![](./panel-08.png)
 <details><summary>Image Prompt</summary>
+(This is panel 8.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1960s New York editorial illustration style depicting panel 8 of 12. Make the characters and style consistent with the prior panels. The scene shows a New York City newsstand in early 1963, with copies of The New Yorker magazine prominently displayed. Several people have stopped to read — a man in a dark overcoat holds the magazine open, his expression troubled; a woman in a fur-collared coat reads over his shoulder. The magazine cover and the visible article page are the focus. In the background, a busy Manhattan sidewalk with 1960s cars, yellow cabs, and winter-bare trees. Color palette: cool winter grays, warm newsstand yellows, cream magazine pages, dark coats, and the muted urban palette of early 1960s New York. Emotional tone: public shock, the moment an idea enters the world and cannot be taken back. Include: stacked magazines and newspapers, a vendor in a wool cap, steam rising from a street grate, period-accurate signage, and the sense that everyone is reading the same unsettling thing. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -103,6 +118,9 @@ In February 1963, *The New Yorker* published Arendt's report in five serial inst
 
 ![](./panel-09.png)
 <details><summary>Image Prompt</summary>
+(This is panel 9.  Do not include the panel number in the image.)
+
+
 Please generate a 16:9 image in a 1960s editorial illustration style depicting panel 9 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt sitting in a living room, surrounded by open newspapers and letters, reading a hostile review with a pained but composed expression. Around her on the table and sofa are scattered newspaper clippings with visible headlines — some supportive but most angry. A telephone sits off the hook. Through the window, the skyline of Manhattan is visible in gray afternoon light. Her friend Mary McCarthy sits across from her in an armchair, leaning forward with a concerned expression. Color palette: muted grays and warm interior browns, cool winter light, dark print on cream newsprint. Emotional tone: besieged dignity, the cost of public honesty, and the comfort of loyal friendship. Include: reading glasses pushed up on Arendt's forehead, a cigarette in hand, an overflowing ashtray, stacks of unopened mail, a bookshelf in the background, and the visible weight of public condemnation on Arendt's composed face. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -112,6 +130,9 @@ The attacks came from every direction. Old friends severed ties. The Israeli gov
 
 ![](./panel-10.png)
 <details><summary>Image Prompt</summary>
+
+(This is panel 10.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a 1960s intellectual portrait style depicting panel 10 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt standing at a podium in a university lecture hall, addressing a packed audience. She is mid-sentence, one hand raised in a precise philosophical gesture, the other resting on her notes. Her expression is fierce and uncompromising. The audience is a mix of supportive and hostile faces — some leaning forward, some with arms crossed, some taking notes. The hall is a classic 1960s American university auditorium with wood paneling and institutional lighting. Color palette: warm wood browns, cool fluorescent light, dark suits and dresses, cream paper, and the amber of a desk lamp on the podium. Emotional tone: intellectual courage under fire, the refusal to back down, and the loneliness of a mind that will not simplify. Include: a glass of water on the podium, a microphone, her book *Eichmann in Jerusalem* visible on the lectern, attentive and skeptical faces in the front rows, and the focused intensity of a woman who knows exactly what she means. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -121,6 +142,9 @@ Arendt's central argument was deceptively simple and endlessly misunderstood. Sh
 
 ![](./panel-11.png)
 <details><summary>Image Prompt</summary>
+
+(This is panel 11.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a late 1960s intellectual illustration style depicting panel 11 of 12. Make the characters and style consistent with the prior panels. The scene shows Hannah Arendt in her study at the New School for Social Research in New York, late 1960s. She sits in an armchair beside a window, an open book in her lap, gazing outward with a contemplative expression. On her desk nearby are manuscripts for her final, unfinished work — the pages are titled "The Life of the Mind." Bookshelves rise behind her. Late afternoon light streams through the window, catching the smoke from her cigarette. A small seminar table with chairs is visible, suggesting the intimate teaching she loved. Color palette: warm golden afternoon light, deep book-leather browns, cream and ivory, soft charcoal shadows. Emotional tone: wisdom earned through suffering, the quiet power of a life devoted to thinking, and the urgency of her final project. Include: reading glasses, an open philosophy text, handwritten notes, a pen, a cup of tea gone cold, and the sense of a mind still working at full intensity. Generate the image immediately without asking clarifying questions.
 </details>
 
@@ -130,6 +154,8 @@ In her later years, Arendt devoted herself to a question the Eichmann trial had 
 
 ![](./panel-12.png)
 <details><summary>Image Prompt</summary>
+(This is panel 12.  Do not include the panel number in the image.)
+
 Please generate a 16:9 image in a style that blends mid-century intellectual illustration with a subtle modern sensibility, depicting panel 12 of 12. Make the characters and style consistent with the prior panels. The scene is a split composition. On the left, Hannah Arendt sits at her desk in warm golden light, pen in hand, looking directly at the viewer with calm, unflinching intelligence — a portrait of the thinker at the height of her powers. On the right, a modern university classroom where diverse students sit in a circle discussion, one student holding a copy of *Eichmann in Jerusalem*, another writing in a notebook. A translucent thread of cigarette smoke drifts from Arendt's side into the modern classroom, connecting the two eras. Color palette: warm amber and deep brown on Arendt's side, cool contemporary whites and soft blues on the classroom side, with the smoke serving as a visual bridge. Emotional tone: continuity, intellectual inheritance, and the quiet insistence that thinking matters. Include: Arendt's characteristic sharp gaze, her books visible on both sides of the image, the students' engaged expressions, a whiteboard with "What does it mean to think?" written on it, natural light, and the sense of a conversation that spans generations. Generate the image immediately without asking clarifying questions.
 </details>
 
