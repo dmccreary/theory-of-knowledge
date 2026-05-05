@@ -170,3 +170,4 @@ The next time someone tells you that a question has already been settled — by 
 3. [Wikipedia: Galilean moons](https://en.wikipedia.org/wiki/Galilean_moons) — The four largest moons of Jupiter, discovered by Galileo in January 1610
 4. [Encyclopaedia Britannica: Galileo](https://www.britannica.com/biography/Galileo-Galilei) — Curated overview of Galileo's life, discoveries, and legacy
 5. [Stanford Encyclopedia of Philosophy: Galileo Galilei](https://plato.stanford.edu/entries/galileo/) — Scholarly analysis of Galileo's contributions to science and epistemology
+6. [ChatGPT Share Link Used to Generate this Story](https://chatgpt.com/share/69d3f421-fb68-83e8-afa0-64d169c2d905)
